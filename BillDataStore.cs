@@ -7,6 +7,7 @@ namespace BillingManager
 {
     public class BillDataStore
     {
+
         private Dictionary<String, BillingMemberDetails> _memberMap;
         private Dictionary<int, Bill> _billMap;
         private Dictionary<String, BillDetails> _detailsMap;

@@ -8,6 +8,8 @@ namespace PDACommunications
     public class BillingBasicRequest : CommunicationObject
     {
         public short _requestID;
+        //kartyek
+
         public string _storeId;
         public string _billNumber;
         public string _computerName;
