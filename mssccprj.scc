@@ -1,0 +1,19 @@
+SCC = This is a Source Code Control file
+
+<<<<<<< HEAD
+[CloverBillingManager.sln]
+SCC_Aux_Path = "\\WIN-BRACN8E06FE\Dev"
+SCC_Project_Name = "$/CLOVERGREENBILLING", FSRJAAAA
+
+[ICMSBilling.csproj]
+SCC_Aux_Path = "\\WIN-BRACN8E06FE\Dev"
+SCC_Project_Name = "$/CLOVERGREENBILLING", FSRJAAAA
+=======
+[AltioStarHR.sln]
+SCC_Aux_Path = "\\192.168.1.4\dev"
+SCC_Project_Name = "$/AltioStar", RQVHAAAA
+
+[Aratt.sln]
+SCC_Aux_Path = "\\WIN-BRACN8E06FE\Dev"
+SCC_Project_Name = "$/ARATTHR", QKOJAAAA
+>>>>>>> eafd441bfbeeb4bde954833ccc2fb0711b4c92b8

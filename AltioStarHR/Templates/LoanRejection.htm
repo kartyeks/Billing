@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Disapproval of Requested Loan</title>
+</head>
+<body style="background-color: transparent">
+<div class="JobProfileCreationLetter" id="JobProfileCreationLetter">
+    <table style="table-layout: fixed; width: 100%; height: 100%">
+     <tr>
+            <td >              
+                Dear Mr./Ms. <label id="lEmployeeName">{Prm!CandidateName}</label>,<br /><br/>                
+                </td>
+        </tr>
+        <tr><td>
+        This Email is to inform you that we are sorry to disapprove your loan request. The Reason for Disapproval are given below with loan details
+        </td></tr>
+        <tr><td><br />
+            Loan Name :<label id="lJobProfileCode">{Prm!LoanName}</label> <br />
+        </td></tr>        
+        <tr><td>
+            Request Date : <label id="lJobProfileName">{Prm!RequestedDate}</label> <br />         
+        </td></tr>
+        <tr><td>
+            Loan Amount : <label id="lDesignation">Rs. {Prm!LoanAmount}</label> <br />         
+        </td></tr>
+        <tr><td>
+            Rejection Reason :<label id="lSkillSet">{Prm!Reason}</label> <br />
+        </td></tr>        
+        <tr><td>
+            Rejected By Department : <label id="lLocation">{Prm!Department}</label> <br />         
+        </td></tr>       
+        
+       <tr><td>
+            <br />
+            Please do not reply to this mail. Auto-email sent by HRMS.<br/><br/>
+        </td></tr>  
+        
+          
+<tr><td><br /><br /></td></tr>
+             
+    </table>
+</div>
+</body>
+</html>
+

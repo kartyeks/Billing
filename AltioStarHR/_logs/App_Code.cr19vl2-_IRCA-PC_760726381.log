@@ -1,0 +1,1267 @@
+﻿05 February 2014
+System : IRCA-PC/fe80::9cd3:8627:fa64:418%12
+System OS : Microsoft Windows NT 6.1.7601 Service Pack 1/32bitOS-Win7
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\ravindra
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+DomainID : e3104546-1-130360830441122165
+System Windows installer : 5.0.7601.17807
+Application is Web : True
+Application : AltioStarHR
+Application ID : ALTIOSTARHR
+Application Version : 1.0.0.32
+Application Assembly : App_Code.cr19vl2-, Version=1.0.0.32, Culture=neutral, PublicKeyToken=null
+Application updated on : 05/02/2014
+Application path : f:\project\altiostar\altiostarhr\bin\
+Application Executing Env Path : C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Code.cr19vl2-.dll
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+System.Web : 2.0.0.0
+System : 2.0.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Microsoft.JScript : 8.0.0.0
+CppCodeProvider : 8.0.0.0
+System.Data : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Drawing : 2.0.0.0
+System.EnterpriseServices : 2.0.0.0
+System.Web.Mobile : 2.0.0.0
+AltioStarHR : 1.0.0.32
+ApplicationManager : 1.0.0.32
+Authentication : 1.0.0.32
+CommonManager : 1.0.0.32
+CostingManager : 1.0.0.27
+HRManager : 1.0.0.32
+ICSharpCode.SharpZipLib : 0.86.0.518
+Ionic.Zip : 1.9.1.5
+IRCAKernel : 1.0.0.32
+IS91.Services : 9.1.1.1
+Jayrock.Json : 0.9.8316.0
+NPOI : 2.0.0.0
+NPOI.OOXML : 2.0.0.0
+NPOI.OpenXml4Net : 2.0.0.0
+NPOI.OpenXmlFormats : 2.0.0.0
+System.Windows.Controls.DataVisualization.Toolkit.Design.4.0 : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.Expression.Design : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.VisualStudio.Design : 3.5.40128.1
+WPFToolkit : 3.5.40128.1
+System.Runtime.Serialization : 3.0.0.0
+System.IdentityModel : 3.0.0.0
+System.ServiceModel : 3.0.0.0
+System.ServiceModel.Web : 3.5.0.0
+System.WorkflowServices : 3.5.0.0
+System.Windows.Forms : 2.0.0.0
+System.Core : 3.5.0.0
+System.Data.DataSetExtensions : 3.5.0.0
+System.Web.Extensions : 3.5.0.0
+System.Web.Abstractions : 3.5.0.0
+System.Xml.Linq : 3.5.0.0
+Microsoft.ReportViewer.Common : 10.0.0.0
+Microsoft.ReportViewer.WebForms : 10.0.0.0
+App_Code.cr19vl2- : 1.0.0.32
+System.Web.RegularExpressions : 2.0.0.0
+App_global.asax.eeqjjuoy : 0.0.0.0
+WebDev.WebHost : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+SMDiagnostics : 3.0.0.0
+A_aa341a20_d328_4bb8_9b7f_7b639292704f : 0.0.0.0
+App_Web_0ispmntw : 0.0.0.0
+App_Web_default.aspx.cdcab7d2.tmc18qh7 : 0.0.0.0
+System.ServiceProcess : 2.0.0.0
+
+
+05 February 2014	19:40:54	ThreadID-4
+Init IS91Services - Before byte[]
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+05 February 2014	19:40:55	ThreadID-4
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+05 February 2014	19:40:55	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:40:55	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:40:55	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:40:55	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:02	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:02	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:02	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:02	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:02	ThreadID-8
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:41:02	ThreadID-8
+GET - http://localhost:53968/Resources/images/hrbanner1.png
+http://localhost:53968/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45
+Host: localhost:53968
+Referer: http://localhost:53968/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:05	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:07	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:07	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:41:09	ThreadID-4
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:41:09	ThreadID-4
+GET - http://localhost:53968/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_COOKIE:ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45
+HTTP_HOST:localhost:53968
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Cookie: ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45
+Host: localhost:53968
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_COOKIE=ASP.NET_SessionId=nogdzv55ww00qtnyal3chz45&HTTP_HOST=localhost:53968&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-4
+Init IS91Services - Before byte[]
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+05 February 2014	19:43:06	ThreadID-4
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+05 February 2014	19:43:06	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-8
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-8
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-8
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-8
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:06	ThreadID-8
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:06	ThreadID-8
+GET - http://localhost:53968/Resources/images/hrbanner1.png
+http://localhost:53968/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:07	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+05 February 2014	19:43:08	ThreadID-8
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:08	ThreadID-8
+GET - http://localhost:53968/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:19	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:19	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:19	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:19	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:23	ThreadID-4
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:23	ThreadID-4
+GET - http://localhost:53968/Common/Resources/css/hrStyle.css
+http://localhost:53968/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Common\Resources\css\hrStyle.css
+/Common/Resources/css/hrStyle.css
+/Common/Resources/css/hrStyle.css
+~/Common/Resources/css/hrStyle.css
+/Common/Resources/css/hrStyle.css
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/css, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/css, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/hrStyle.css&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Common\Resources\css\hrStyle.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/hrStyle.css&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/hrStyle.css&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/css, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-8
+GET - http://localhost:53968/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css
+http://localhost:53968/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Common\Resources\css\dialog\smoothness\jquery-ui-1.8.16.custom.css
+/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css
+/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css
+~/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css
+/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/css, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/css, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Common\Resources\css\dialog\smoothness\jquery-ui-1.8.16.custom.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/dialog/smoothness/jquery-ui-1.8.16.custom.css&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/css, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-4
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:23	ThreadID-4
+GET - http://localhost:53968/Common/Resources/css/menu_style.css
+http://localhost:53968/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css
+/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+~/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/css, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/css, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/menu_style.css&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/menu_style.css&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/menu_style.css&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/css, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:23	ThreadID-4
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+05 February 2014	19:43:23	ThreadID-4
+GET - http://localhost:53968/APPRES.ashx/_blank.htm
+http://localhost:53968/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm
+/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+~/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+
+Params - Start
+ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/APPRES.ashx/_blank.htm&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/APPRES.ashx/_blank.htm&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/APPRES.ashx/_blank.htm&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:36	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:36	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:36	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:43:36	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:02	ThreadID-4
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+05 February 2014	19:44:02	ThreadID-4
+GET - http://localhost:53968/default.aspx?serve=temp
+http://localhost:53968/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\default.aspx
+/default.aspx
+/default.aspx
+~/default.aspx
+/default.aspx
+
+Params - Start
+serve=temp&ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/default.aspx&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\default.aspx&QUERY_STRING=serve=temp&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/default.aspx&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/default.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:06	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:06	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:06	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:06	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:33	ThreadID-9
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+05 February 2014	19:44:33	ThreadID-9
+GET - http://localhost:53968/default.aspx?serve=temp
+http://localhost:53968/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\default.aspx
+/default.aspx
+/default.aspx
+~/default.aspx
+/default.aspx
+
+Params - Start
+serve=temp&ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/default.aspx&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\default.aspx&QUERY_STRING=serve=temp&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/default.aspx&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/default.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:39	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:39	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:39	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:39	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+05 February 2014	19:44:42	ThreadID-9
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Web_default.aspx.cdcab7d2.tmc18qh7.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+System.Web.HttpException: Error executing child request for temp.aspx. ---> System.Web.HttpException: The file '/temp.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   --- End of inner exception stack trace ---
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at _Default.Page_Load(Object sender, EventArgs e) in F:\Project\AltioStar\AltioStarHR\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+05 February 2014	19:44:42	ThreadID-9
+GET - http://localhost:53968/default.aspx?serve=temp
+http://localhost:53968/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\default.aspx
+/default.aspx
+/default.aspx
+~/default.aspx
+/default.aspx
+
+Params - Start
+serve=temp&ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+HTTP_HOST:localhost:53968
+HTTP_REFERER:http://localhost:53968/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj
+Host: localhost:53968
+Referer: http://localhost:53968/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/default.aspx&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\default.aspx&QUERY_STRING=serve=temp&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/default.aspx&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/default.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=0xn1xt55ssdakfvclsw40qyj&HTTP_HOST=localhost:53968&HTTP_REFERER=http://localhost:53968/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+

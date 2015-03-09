@@ -1,0 +1,1400 @@
+
+12/02/2015 1:15:46 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 1:15:47 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 1:16:28 AM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 1:16:33 AM
+Invalid column name 'CandidateID'.
+Invalid column name 'CandidateID'.
+Message
+
+
+12/02/2015 10:23:45 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:23:45 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:33:46 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:33:46 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:36:42 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:36:42 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:40:46 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 10:40:46 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:22:24 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:22:24 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:23:33 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:23:33 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:24:36 AM
+Invalid column name 'Initator'.
+Message
+
+
+12/02/2015 11:25:52 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:25:52 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:26:20 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:26:20 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:27:33 AM
+Invalid column name 'Initator'.
+Message
+
+
+12/02/2015 11:28:05 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:28:06 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:35:40 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:35:41 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:49:41 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:49:41 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:58:49 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:58:49 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:59:42 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 11:59:43 AM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:00:01 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:00:01 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:01:46 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:01:46 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:06:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:06:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:12:07 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:12:07 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:12:29 PM
+Invalid Role
+   at HRManager.Entity.RoleMaster..ctor(Int32 ID) in D:\kk\Projects\AltioStar\HRManager\Entity\RoleMaster.cs:line 116
+   at HRManager.Entity.LoanActivity.GetProcessedLoan(Int32 EmpID) in D:\kk\Projects\AltioStar\HRManager\Entity\LoanActivity.cs:line 444
+   at HRManager.HRLoanManager.GetProcessedLoan(Int32 EmpID) in D:\kk\Projects\AltioStar\HRManager\HRManager\HRLoanManager.cs:line 47
+   at HRManager.HRLoanRequestHandler.GetProcessedLoan(CommunicationObject RequestDataObject) in D:\kk\Projects\AltioStar\HRManager\HRRequestHandler\HRLoanRequestHandler.cs:line 1000
+   at HRManager.HRLoanRequestHandler.ProcessRequest(String RequestCommand, String RequestData) in D:\kk\Projects\AltioStar\HRManager\HRRequestHandler\HRLoanRequestHandler.cs:line 149
+
+12/02/2015 12:14:32 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:14:33 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:17:48 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 12:19:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:19:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:25:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:25:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:26:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:27:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:27:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:27:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:28:42 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:28:42 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:33:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:33:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:37:27 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:37:27 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:38:22 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:38:22 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:38:30 PM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 12:41:40 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 12:41:40 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 1:12:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 1:12:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:15:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:15:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:16:16 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 2:22:01 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 2:23:30 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:23:30 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:26:29 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:26:29 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:30:39 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 2:49:44 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 2:52:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:53:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:53:08 PM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 2:53:37 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:53:38 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:54:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:54:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:55:18 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:55:18 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:56:06 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:56:06 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:57:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:57:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 2:58:00 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 3:00:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:00:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:00:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:00:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:01:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:01:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:22:32 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:22:32 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:26:49 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:26:49 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:32:35 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:32:35 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:34:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:34:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:35:37 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:35:37 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:35:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:35:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:37:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:37:01 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:37:25 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:37:26 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:47:38 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:47:38 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:49:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:49:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:51:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:51:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:53:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:53:23 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:53:30 PM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 3:53:31 PM
+Invalid column name 'CandidateID'.
+Invalid column name 'CandidateID'.
+Message
+
+
+12/02/2015 3:53:42 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:53:42 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:54:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:54:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:55:27 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:55:28 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:57:02 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 3:57:02 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:33:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:33:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:34:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:34:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:35:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:35:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:39:03 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:39:04 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:39:50 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:39:50 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:40:26 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:40:26 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:42:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:42:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:44:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 4:44:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:08:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:08:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:09:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:09:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:10:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:10:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:10:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:10:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:11:12 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 5:11:12 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:04:03 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:04:03 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:04:51 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:04:51 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:06:17 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:08:25 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:13:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:13:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:14:22 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:14:22 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:15:14 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:16:56 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:19:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:19:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:20:27 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:20:27 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:21:24 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:23:11 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:23:11 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:24:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:24:00 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:26:22 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:28:30 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:28:30 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:29:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:29:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:31:31 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:38:07 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:38:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:38:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:39:18 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:39:18 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:40:37 PM
+Object reference not set to an instance of an object.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 6:46:45 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:46:45 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 6:48:31 PM
+Index was outside the bounds of the array.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 7:04:52 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:04:53 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:05:38 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:05:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:06:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:06:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:09:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:09:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:11:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:11:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:21:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:21:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:22:03 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:22:03 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:23:02 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:23:02 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:27:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:27:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:27:48 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:27:48 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:49:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:49:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:50:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:50:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:56:56 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 7:57:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:57:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:48 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:48 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:58 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:58:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:59:58 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 7:59:58 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:01:07 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:01:07 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:06:32 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:06:32 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:19:08 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:19:08 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:24:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:24:24 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:25:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:25:20 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:35:30 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 8:36:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:36:54 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:37:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:37:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:38:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:38:34 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:40:43 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:40:43 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:53:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:53:14 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:53:57 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:53:58 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:54:05 PM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 8:54:46 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:54:46 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:55:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 8:55:59 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:01:50 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:01:50 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:12:54 PM
+Input string was not in a correct format.
+Message
+
+
+12/02/2015 9:14:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:14:15 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:14:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:14:39 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:14:53 PM
+Index was outside the bounds of the array.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 9:15:09 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:15:10 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:17:58 PM
+Index was outside the bounds of the array.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 9:21:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:21:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:21:51 PM
+Incorrect syntax near ')'.
+Message
+
+
+12/02/2015 9:23:48 PM
+Index was outside the bounds of the array.
+Error on rejecting the Loan Request info
+
+
+12/02/2015 9:24:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:24:16 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:25:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:25:47 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:26:19 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:26:19 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:26:56 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:26:57 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:28:04 PM
+Specified cast is not valid.
+Message
+
+
+12/02/2015 9:28:04 PM
+Specified cast is not valid.
+Message
+

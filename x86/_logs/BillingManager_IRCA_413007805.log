@@ -1,0 +1,756 @@
+﻿12 January 2015
+System : IRCA/fe80::f137:2051:b817:d662%3
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\archana
+IS91.Services : 9.1.1.1 ( 9.3.1.91 )
+System Windows installer : 5.0.9600.16384
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 10-01-2015
+Application path : d:\projects\kscabilling\x86\
+Application Executing Env Path : D:\Projects\KSCABILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities : 9.0.0.0
+System.Windows.Forms : 2.0.0.0
+System : 2.0.0.0
+System.Drawing : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities.Sync : 9.0.0.0
+Microsoft.VisualStudio.Debugger.Runtime : 9.0.0.0
+vshost32 : 9.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.ReportViewer.Common : 9.0.0.0
+Microsoft.ReportViewer.ProcessingObjectModel : 9.0.0.0
+Microsoft.ReportViewer.WinForms : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+Microsoft.VisualBasic.PowerPacks.Vs : 9.0.0.0
+System.Data : 2.0.0.0
+System.Deployment : 2.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Xml : 2.0.0.0
+BillingManager : 1.0.0.0
+IRCAKernel : 1.1.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Configuration : 2.0.0.0
+
+
+12 January 2015	17:23:40	ThreadID-9
+System.InvalidOperationException: Operation is not valid because it results in a reentrant call to the SetCurrentCellAddressCore function.
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1210
+
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1210
+
+12 January 2015	18:08:01	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:06	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:10	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:11	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:17	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:18	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:40	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:41	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:42	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:42	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:42	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:08:49	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:04	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:05	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:05	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:05	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:05	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:09:05	ThreadID-9
+System.DllNotFoundException: Unable to load DLL 'ACR120U.DLL': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+   at ACR120U.ACR120_Open(Int32 ReaderPort)
+   at BillingManager.SmartCardReaderNew.Connect2Card()
+   at BillingManager.SmartCardReaderNew.IsCardConnected()
+   at BillingManager.Forms.ICMSBill.GetCardDetails()
+   at BillingManager.Forms.ICMSBill.tblReadcard_Click(Object sender, EventArgs e)
+
+12 January 2015	18:12:17	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:12:17	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:18:32	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:20:26	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:20:33	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:20:37	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:20:48	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:21:08	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:04	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:22:04	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:22:05	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:22:05	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:05	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:05	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:05	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:22:34	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:23:49	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:25:36	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:27:55	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:09	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:10	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:36:34	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+12 January 2015	18:41:06	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+

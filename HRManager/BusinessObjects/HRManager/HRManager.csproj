@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRManager</RootNamespace>
+    <AssemblyName>HRManager</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Libs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1|AnyCPU' ">
+    <OutputPath>bin\Debug1\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IS91.Services, Version=9.1.1.1, Culture=neutral, PublicKeyToken=28113440a278558d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\IS91.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Appraisal\Appraisal_EmployeeBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Appraisal\Appraisal_IntimationBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Asset_OutgoingDevicesBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Assign_AssetesBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Assign_EmpRole_DashboardReportsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\DashBoardReportsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\EmployeeAttendanceBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_CareerBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_DocumentsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_Education_DetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_OccupationDetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_SalaryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Employee_Uploaded_AttandanceBusinessObject.cs" />
+    <Compile Include="BusinessObjects\ExitManagement\HTMLEditorDetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\ExitManagement\Exit_ManagementBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Leave_RequestBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Leave_Status_HistoryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Manage_AssetsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_AssetCategoryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_AssetSubCategoryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_ConsultantBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_CountryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_Employee_HistoryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_HolidaysBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_Interview_TypeBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_LeaveBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_LocationBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_ManufacturerBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_MaritalStatusBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_TeamBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Assign_Emp_AllowanceBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Assign_Emp_DeductionBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\EmployeeAttendance_LeaveDetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Employee_LOPDetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Employee_PayrollBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Employee_Payroll_AnualbenifitsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Employee_Payroll_DeductionsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Employee_Payroll_EarningsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Master_Salary_AllowanceBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Master_Salary_DeductionsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Payroll\Payroll_AnnualConfigurationBusinessObject.cs" />
+    <Compile Include="BusinessObjects\PermissionsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Hr_DepartmentBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Hr_DesignationBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_EmployeesBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_EmployeeTypeBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_RelationBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Master_RoleBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_Education_DetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_Hired_SalaryBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_HTMLEditorDetailsBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_Interview_ResultBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_Interview_StatusBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Candidate_Technical_PanelBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Master_CandidateBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Recruitment\Master_Candidate_CompetencyBusinessObject.cs" />
+    <Compile Include="BusinessObjects\Setting_ConfigurationBusinessObject.cs" />
+    <Compile Include="Communication\ActiveDeactiveDesignation.cs" />
+    <Compile Include="Communication\HRAppCommands\AppraisalAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\AttendanceAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\DashboardAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\EmployeeAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\HRAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\InventoryAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\LeaveAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\PayrollAppCommands.cs" />
+    <Compile Include="Communication\HRAppCommands\RecruitmentAppCommands.cs" />
+    <Compile Include="Communication\Request\ActivateDesignationRequest.cs" />
+    <Compile Include="Communication\Request\ActivateLocationRequest.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveAssetcategory.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveAssetSubcategory.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveConsultant.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveCountry.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveHoliday.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveInterViewType.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveManufacturer.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveMaritalStatus.cs" />
+    <Compile Include="Communication\Request\ActiveDeactiveTeam.cs" />
+    <Compile Include="Communication\Request\AppraisalListRequest.cs" />
+    <Compile Include="Communication\Request\ExitManagementRequest.cs" />
+    <Compile Include="Communication\Request\EmployeeGridRequest.cs" />
+    <Compile Include="Communication\Request\Inventory\AssignAssetRequest.cs" />
+    <Compile Include="Communication\Request\Inventory\ManageAssetRequest.cs" />
+    <Compile Include="Communication\Request\Inventory\OutgoingAssetRequest.cs" />
+    <Compile Include="Communication\Request\Recruitment\AllUpdateRequests.cs" />
+    <Compile Include="Communication\Request\Recruitment\RecruitmentNotificationReq.cs" />
+    <Compile Include="Communication\Request\Recruitment\UpdateAssetCandidateCompetencyRequest.cs" />
+    <Compile Include="Communication\Request\Recruitment\UpdateCandidateSalaryReq.cs" />
+    <Compile Include="Communication\Request\Recruitment\UpdateInterviewResult.cs" />
+    <Compile Include="Communication\Request\Recruitment\UpdateInterviewStatus.cs" />
+    <Compile Include="Communication\Request\UpdateAnnualAdditionsRequest.cs" />
+    <Compile Include="Communication\Request\UpdateAssetCategoryRequest.cs" />
+    <Compile Include="Communication\Request\UpdateAssetSubCategoryRequest.cs" />
+    <Compile Include="Communication\Request\UpdateConfigurationRequest.cs" />
+    <Compile Include="Communication\Request\UpdateHolidayRequest.cs" />
+    <Compile Include="Communication\Request\UpdateInterviewTypeRequest.cs" />
+    <Compile Include="Communication\Request\UpdateLeaveMasterRequest.cs" />
+    <Compile Include="Communication\Request\UpdateLocationRequest.cs" />
+    <Compile Include="Communication\Request\UpdateLeave.cs" />
+    <Compile Include="Communication\Request\UpdateManufacturerRequest.cs" />
+    <Compile Include="Communication\Request\UpdateMaritalStatusRequest.cs" />
+    <Compile Include="Communication\Request\UpdatePayrollRequest.cs" />
+    <Compile Include="Communication\Request\UpdatePermissionRequest.cs" />
+    <Compile Include="Communication\Request\EmployeeRequest.cs" />
+    <Compile Include="Communication\Request\UpdateCountryRequest.cs" />
+    <Compile Include="Communication\Request\UpdateDepartmentRequest.cs" />
+    <Compile Include="Communication\Request\UpdateDesignationRequest.cs" />
+    <Compile Include="Communication\Request\UpdateEmployeeTypeRequest.cs.cs" />
+    <Compile Include="Communication\Request\UpdateRelationRequest.cs" />
+    <Compile Include="Communication\Request\UpdateRoleRequest.cs" />
+    <Compile Include="Communication\Request\UpdateSalaryDedctionRequest.cs" />
+    <Compile Include="Communication\Request\UpdateTeamRequest.cs" />
+    <Compile Include="Communication\Response\RelationComboResponse.cs" />
+    <Compile Include="DTOEXT\Employees\Master_Employee.cs" />
+    <Compile Include="DTOEXT\Employee_Uploaded_AttandanceEXT.cs" />
+    <Compile Include="DTOEXT\ExitManagement\Exit_Management.cs" />
+    <Compile Include="DTOEXT\Inventory\Asset_OutgoingDevices.cs" />
+    <Compile Include="DTOEXT\Inventory\Assign_Assetes.cs" />
+    <Compile Include="DTOEXT\Inventory\Manage_Assets.cs" />
+    <Compile Include="DTOEXT\Leave_Request.cs" />
+    <Compile Include="DTOEXT\Master_DesignationEXT.cs" />
+    <Compile Include="DTOEXT\Master_TeamEXT.cs" />
+    <Compile Include="DTOEXT\Recruitment\Candidate_Education_DetailsEXT.cs" />
+    <Compile Include="DTOEXT\Recruitment\Candidate_Hired_SalaryEXT.cs" />
+    <Compile Include="DTOEXT\Recruitment\Candidate_Interview_ResultEXT.cs" />
+    <Compile Include="DTOEXT\Recruitment\Candidate_Interview_StatusEXT.cs" />
+    <Compile Include="DTOEXT\Recruitment\Master_CandidateEXT.cs" />
+    <Compile Include="DTO\Asset_OutgoingDevices.cs" />
+    <Compile Include="DTO\Assign_Assetes.cs" />
+    <Compile Include="DTO\EmployeeAttendance.cs" />
+    <Compile Include="DTO\Employee_Uploaded_Attandance.cs" />
+    <Compile Include="DTO\ExitManagement\HTMLEditorDetails.cs" />
+    <Compile Include="DTO\Manage_Assets.cs" />
+    <Compile Include="DTO\Payroll\Assign_Emp_Allowance.cs" />
+    <Compile Include="DTO\Payroll\Assign_Emp_Deduction.cs" />
+    <Compile Include="DTO\Payroll\EmployeeAttendance_LeaveDetails.cs" />
+    <Compile Include="DTO\Payroll\Employee_LOPDetails.cs" />
+    <Compile Include="DTO\Payroll\Employee_Payroll.cs" />
+    <Compile Include="DTO\Payroll\Employee_Payroll_Anualbenifits.cs" />
+    <Compile Include="DTO\Payroll\Employee_Payroll_Deductions.cs" />
+    <Compile Include="DTO\Payroll\Employee_Payroll_Earnings.cs" />
+    <Compile Include="DTO\Payroll\Master_Salary_Allowance.cs" />
+    <Compile Include="DTO\Payroll\Master_Salary_Deductions.cs" />
+    <Compile Include="DTO\Payroll\Payroll_AnnualConfiguration.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_Hired_Salary.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_HTMLEditorDetails.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_Interview_Result.cs" />
+    <Compile Include="Entity\Attendance.cs" />
+    <Compile Include="Entity\DashBoardDetails.cs" />
+    <Compile Include="Entity\EmployeeMonthAttendance.cs" />
+    <Compile Include="Entity\EmployeeUploadedAttandance.cs" />
+    <Compile Include="Entity\ExitManagement\ExitManagementNotification.cs" />
+    <Compile Include="Entity\Inventory\AssignAsset.cs" />
+    <Compile Include="Entity\Inventory\ManageAsset.cs" />
+    <Compile Include="Entity\Inventory\OutgoingAsset.cs" />
+    <Compile Include="Entity\Payroll\AnualBenifits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\EmployeeLOPDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\EmployeePayroll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\EmployeePayrollManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\ESI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\IncomeTax.cs" />
+    <Compile Include="Entity\Payroll\Loan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\LoanAdvance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\PayrollAnnualCongiguration.cs" />
+    <Compile Include="Entity\Payroll\PayrollDeductions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\PayrollEarnings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\PayrollSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\PayrollTax.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\PF.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Payroll\SalaryAllowances.cs" />
+    <Compile Include="Entity\Payroll\SalaryDeductions.cs" />
+    <Compile Include="Entity\Recruitment\CandidateHiredSalary.cs" />
+    <Compile Include="Entity\Recruitment\CandidateHTMLEditorDetails.cs" />
+    <Compile Include="Entity\Recruitment\CandidateInterviewResult.cs" />
+    <Compile Include="Entity\Recruitment\RecruitmentNotification.cs" />
+    <Compile Include="ExtendedBusinessObjects\Dashboard_Display_DetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\EmployeeAttendanceBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employee_Uploaded_AttandanceBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\ExitManagement\HTMLEditorDetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Inventory\Asset_OutgoingDevicesBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Inventory\Assign_AssetesBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Inventory\Manage_AssetsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Employee_LOPDetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Employee_PayrollBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Employee_Payroll_DeductionsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Employee_Payroll_EarningsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Master_Salary_AllowanceBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Master_Salary_DeductionsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Payroll\Payroll_AnnualConfigurationBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_Hired_SalaryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_HTMLEditorDetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_Interview_ResultBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_Technical_PanelBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Master_Candidate_CompetencyBusinessObject.cs" />
+    <Compile Include="DTO\Appraisal\Appraisal_Employee.cs" />
+    <Compile Include="DTO\Appraisal\Appraisal_Intimation.cs" />
+    <Compile Include="DTO\Assign_EmpRole_DashboardReports.cs" />
+    <Compile Include="DTO\DashBoardReports.cs" />
+    <Compile Include="DTO\Employee_Career.cs" />
+    <Compile Include="DTO\Employee_Documents.cs" />
+    <Compile Include="DTO\Employee_Education_Details.cs" />
+    <Compile Include="DTO\Employee_OccupationDetails.cs" />
+    <Compile Include="DTO\Employee_Salary.cs" />
+    <Compile Include="DTO\ExitManagement\Exit_Management.cs" />
+    <Compile Include="DTO\Leave_Request.cs" />
+    <Compile Include="DTO\Leave_Status_History.cs" />
+    <Compile Include="DTO\Master_AssetCategory.cs" />
+    <Compile Include="DTO\Master_AssetSubCategory.cs" />
+    <Compile Include="DTO\Master_Consultant.cs" />
+    <Compile Include="DTO\Master_Country.cs" />
+    <Compile Include="DTO\Master_Employee_History.cs" />
+    <Compile Include="DTO\Master_Holidays.cs" />
+    <Compile Include="DTO\Master_Interview_Type.cs" />
+    <Compile Include="DTO\Master_Leave.cs" />
+    <Compile Include="DTO\Master_Location.cs" />
+    <Compile Include="DTO\Master_Manufacturer.cs" />
+    <Compile Include="DTO\Master_Marital_Status.cs" />
+    <Compile Include="DTO\Master_Team.cs" />
+    <Compile Include="DTO\Permissions.cs" />
+    <Compile Include="DTO\Hr_Department.cs" />
+    <Compile Include="DTO\Hr_Designation.cs" />
+    <Compile Include="DTO\Master_Employees.cs" />
+    <Compile Include="DTO\Master_EmployeeType.cs" />
+    <Compile Include="DTO\Master_Relation.cs" />
+    <Compile Include="DTO\Master_Role.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_Education_Details.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_Interview_Status.cs" />
+    <Compile Include="DTO\Recruitment\Candidate_Technical_Panel.cs" />
+    <Compile Include="DTO\Recruitment\Master_Candidate.cs" />
+    <Compile Include="DTO\Recruitment\Master_Candidate_Competency.cs" />
+    <Compile Include="DTO\Setting_Configurations.cs" />
+    <Compile Include="Entity\Appraisal\AppraisalEntity.cs" />
+    <Compile Include="Entity\Appraisal\IntimationAppraisalEntity.cs" />
+    <Compile Include="Entity\Appraisal\IntimationEntity.cs" />
+    <Compile Include="Entity\AssetCategory.cs" />
+    <Compile Include="Entity\AssetSubCategory.cs" />
+    <Compile Include="Entity\ConsultantEntity.cs" />
+    <Compile Include="Entity\EmployeeLeaveDetails.cs" />
+    <Compile Include="Entity\Appraisal\AppraisalNotification.cs" />
+    <Compile Include="Entity\EmployeeLeave\LeaveRequestNotification.cs" />
+    <Compile Include="Entity\EmployeeLeave\LeaveStatusHistry.cs" />
+    <Compile Include="Entity\EmployeeLeave\LeaveRequest.cs" />
+    <Compile Include="Entity\EmployeesInfo\Employee.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeCareerDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeDocumentDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeEducationDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeGateWay.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeInfo.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeOccupationDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeePersonalDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeSalaryDetails.cs" />
+    <Compile Include="Entity\EmployeesInfo\EmployeeSubInfo.cs" />
+    <Compile Include="Entity\ExitManagement\EmployeeExitMangement.cs" />
+    <Compile Include="Entity\Leave\EmployeeLeave.cs" />
+    <Compile Include="Entity\Leave\LeaveApplication.cs" />
+    <Compile Include="Entity\Manufacturer.cs" />
+    <Compile Include="Entity\Recruitment\CandidateEducationDetails.cs" />
+    <Compile Include="Entity\Recruitment\CandidateInterviewStatus.cs" />
+    <Compile Include="Entity\Recruitment\CandidateStatusDescription.cs" />
+    <Compile Include="Entity\Recruitment\CandidateTechnicalPanel.cs" />
+    <Compile Include="Entity\Recruitment\Candidate_Competency.cs" />
+    <Compile Include="Entity\Recruitment\MasterCandidate.cs" />
+    <Compile Include="Entity\TeamDetail.cs" />
+    <Compile Include="Entity\TeamMaster.cs" />
+    <Compile Include="ExtendedBusinessObjects\Appraisal\Appraisal_EmployeeBusinessObject.cs" />
+    <Compile Include="Entity\ExitManagement\ExitMangement.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Employee_SalaryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\ExitManagement\Exit_ManagementBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Leave_Status_HistoryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Employee_CareerBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Employee_DocumentsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Employee_Education_DetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Employee_OccupationDetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Employees\Master_EmployeesBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Leave_RequestBusinessObject.cs" />
+    <Compile Include="Entity\Holidays.cs" />
+    <Compile Include="Entity\InterView_Type.cs" />
+    <Compile Include="Entity\EmployeeLeave\LeaveOverview.cs" />
+    <Compile Include="Entity\Location.cs" />
+    <Compile Include="Entity\DashBoardReport.cs" />
+    <Compile Include="Entity\EmpRoleDashboardReports.cs" />
+    <Compile Include="Entity\Leave.cs" />
+    <Compile Include="Entity\Master_MaritialStatus.cs" />
+    <Compile Include="Entity\Permission.cs" />
+    <Compile Include="Entity\Country.cs" />
+    <Compile Include="Entity\Department.cs" />
+    <Compile Include="Entity\Designation.cs" />
+    <Compile Include="Entity\Employees1.cs" />
+    <Compile Include="Entity\EmployeeType.cs" />
+    <Compile Include="Entity\HRMenu.cs" />
+    <Compile Include="Entity\Relation.cs" />
+    <Compile Include="Entity\RoleMaster.cs" />
+    <Compile Include="Entity\Setting_Configuration.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_AssetCategoryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_AssetSubCategoryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_ConsultantBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_Interview_TypeBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_LocationBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_CountryBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_LeaveBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_ManufacturerBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_MaritalStatusBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_RoleBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Hr_DepartmentBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Hr_DesignationBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_EmployeeTypeBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_RelationBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_TeamBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_Education_DetailsBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Candidate_Interview_StatusBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Recruitment\Master_CandidateBusinessObject.cs" />
+    <Compile Include="ExtendedBusinessObjects\Setting_ConfigurationBusinessObject.cs" />
+    <Compile Include="HRManagerDefs\HREmployeeManagerDefs.cs" />
+    <Compile Include="HRManagerDefs\HRLeaveManagerDefs.cs" />
+    <Compile Include="HRManagerDefs\HRManagerDefs.cs" />
+    <Compile Include="HRManagerDefs\HRPayrollManagerDefs.cs" />
+    <Compile Include="HRManagerDefs\HRRecruitmentManagerDefs.cs" />
+    <Compile Include="HRManager\HREmployeeManager.cs" />
+    <Compile Include="HRManager\HRInventoryManager.cs" />
+    <Compile Include="HRManager\HRLeaveManager.cs" />
+    <Compile Include="HRManager\HRManager.cs" />
+    <Compile Include="HRManager\HRPayrollManager.cs" />
+    <Compile Include="HRManager\HRRecruitmentManager.cs" />
+    <Compile Include="Communication\Request\Recruitment\ActiveDeactiveCandidateCompetency.cs" />
+    <Compile Include="HRRequestHandler\HRDashboardRequestHandler.cs" />
+    <Compile Include="HRRequestHandler\HREmployeeRequestHandler.cs" />
+    <Compile Include="HRRequestHandler\HRInventoryRequestHandler.cs" />
+    <Compile Include="HRRequestHandler\HRLeaveRequestHandler.cs" />
+    <Compile Include="HRRequestHandler\HRPayrollRequestHandler.cs" />
+    <Compile Include="HRRequestHandler\HRRecruitmentRequestHandler.cs" />
+    <Compile Include="ExtendedBusinessObjects\Master_HolidaysBusinessObject.cs" />
+    <Compile Include="Communication\Request\UpdateLeaveRequest.cs" />
+    <Compile Include="HRRequestHandler\HRRequestHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportBusinessObjects\AppraisalBusinessObject.cs" />
+    <Compile Include="ReportBusinessObjects\CandiateBusinessObject.cs" />
+    <Compile Include="ReportBusinessObjects\PayrollDetailsBusinessObject.cs" />
+    <Compile Include="ReportBusinessObjects\TeamWiseBusinessObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonManager\CommonManager.csproj">
+      <Project>{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}</Project>
+      <Name>CommonManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRCAKernel\IRCAKernel.csproj">
+      <Project>{2022ABFA-8CD5-49F2-ACEF-8098937E5949}</Project>
+      <Name>IRCAKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

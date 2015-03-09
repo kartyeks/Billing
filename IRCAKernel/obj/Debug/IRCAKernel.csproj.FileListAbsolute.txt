@@ -1,0 +1,12 @@
+F:\Project\AltioStar\IRCAKernel\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.dll
+F:\Project\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.pdb
+F:\Project\AltioStar\IRCAKernel\obj\Debug\Jayrock.Json.dll
+D:\Projects\AltioStar\IRCAKernel\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.dll
+D:\Projects\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.pdb
+D:\Projects\AltioStar\IRCAKernel\obj\Debug\Jayrock.Json.dll
+D:\kk\Projects\AltioStar\IRCAKernel\obj\Debug\ResolveAssemblyReference.cache
+D:\kk\Projects\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.dll
+D:\kk\Projects\AltioStar\IRCAKernel\obj\Debug\IRCAKernel.pdb
+D:\kk\Projects\AltioStar\IRCAKernel\obj\Debug\Jayrock.Json.dll

@@ -1,0 +1,12 @@
+D:\TEST\TallySynchronizer\bin\Release\TallySynchronizer.exe
+D:\TEST\TallySynchronizer\bin\Release\TallySynchronizer.pdb
+D:\TEST\TallySynchronizer\bin\Release\IRCAKernel.dll
+D:\TEST\TallySynchronizer\bin\Release\Newtonsoft.Json.dll
+D:\TEST\TallySynchronizer\bin\Release\MySql.Data.dll
+D:\TEST\TallySynchronizer\bin\Release\IRCAKernel.pdb
+D:\TEST\TallySynchronizer\obj\Release\ResolveAssemblyReference.cache
+D:\TEST\TallySynchronizer\obj\Release\TallySynchronizer.Form1.resources
+D:\TEST\TallySynchronizer\obj\Release\TallySynchronizer.Properties.Resources.resources
+D:\TEST\TallySynchronizer\obj\Release\TallySynchronizer.csproj.GenerateResource.Cache
+D:\TEST\TallySynchronizer\obj\Release\TallySynchronizer.exe
+D:\TEST\TallySynchronizer\obj\Release\TallySynchronizer.pdb

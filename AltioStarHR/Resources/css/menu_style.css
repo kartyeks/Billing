@@ -1,0 +1,137 @@
+/* links */
+/*
+a {color:#ff9900; text-decoration:none;}
+a:hover{color:#fa9b0e; text-decoration:underline;}
+*/
+a {color:Black; text-decoration:none;}
+a:hover{color:Black; text-decoration:underline;}
+a img{border:none}
+#topnavigation{
+	/*background-image:url(../images/bg_navigation.gif);*/
+	padding-top:6px;
+	background-repeat:no-repeat;
+	position:relative;
+	width: 100%;
+	float: left;
+	height: 28px;
+}
+#navigation{float:left; width:94%;}
+#nav{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	z-index:0;
+	position:relative;
+	height: 30px;
+	
+}
+#nav ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	z-index:0;
+	position:relative
+	-webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    border-radius:0 0 5px 5px; 
+}
+#nav li{
+	list-style-type:none;
+	padding:0px;
+	
+	margin:0px;
+	float:left;
+	/*background-image:url(../images/menu_separator.png);*/
+	background-repeat:no-repeat;
+	background-position:right;
+	/*border-right:1px solid #0942b6;
+	opacity:0.85;*/
+	position:relative;
+	height: 30px;
+	
+}
+#nav li a{
+/*	color:#fff; FOR MAIN MENU*/
+
+    color:Black;
+	text-transform:uppercase;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12px;
+	height:28px;
+	display:block;
+	float:left;
+	margin-right:2px;
+	position:static;
+	z-index:1;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	
+}
+      * html #nav li a{margin-right:1px;} /* ie6 only */
+#nav li a:hover{
+	/*color:#FFF;*/
+	color:Black;
+	text-decoration:none;
+}
+ #nav li a.active{background-image:url(../images/active_menu.gif); background-repeat:repeat-x;   z-index:1}
+
+#nav li li{
+	margin-top:0;
+	background-image:none;
+	padding:0px;
+	border-bottom:solid 1px #fff;
+    background-color:#08D7F7;
+    width:200px;
+	background-image:none;
+	position:relative;
+	z-index:0;	/*opacity:0.80;#5E9ECE*/
+}
+/* list item gap*/
+#nav ul {
+display:none;
+left:-5px;
+position:absolute;
+top:33px;
+width:180px;
+z-index:10;
+}
+/* list item gap SUB MENU*/
+#nav li ul a{
+
+	width:158px;
+	height:32px;
+	float:left;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	line-height:33px;
+	z-index:10;
+	padding-top: 0;
+	padding-right: 21px;
+	padding-bottom: 0;
+	padding-left: 21px;
+	
+}
+#nav li ul a:hover{background-color:#ACFA58}
+#nav ul ul{top:auto;border-top:none;}	
+#nav li ul ul {left:200px; top:0px;}
+
+#nav li ul ul a{
+background-color:#ACFA58;
+	width:258px;
+}
+
+#nav li ul ul a:hover{background-color:#E1F5A9;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{display:none;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{display:block;}
+#nav li ul a{border-top:none;}
+.radious{
+	-webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    border-radius:0 0 5px 5px; 
+}

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExitManagementDataSet" targetNamespace="http://tempuri.org/ExitManagementDataSet.xsd" xmlns:mstns="http://tempuri.org/ExitManagementDataSet.xsd" xmlns="http://tempuri.org/ExitManagementDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExitManagementDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExitManagementDataSet" msprop:Generator_DataSetName="ExitManagementDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExitManagementResignation" msprop:Generator_UserTableName="ExitManagementResignation" msprop:Generator_RowDeletedName="ExitManagementResignationRowDeleted" msprop:Generator_RowChangedName="ExitManagementResignationRowChanged" msprop:Generator_RowClassName="ExitManagementResignationRow" msprop:Generator_RowChangingName="ExitManagementResignationRowChanging" msprop:Generator_RowEvArgName="ExitManagementResignationRowChangeEvent" msprop:Generator_RowEvHandlerName="ExitManagementResignationRowChangeEventHandler" msprop:Generator_TableClassName="ExitManagementResignationDataTable" msprop:Generator_TableVarName="tableExitManagementResignation" msprop:Generator_RowDeletingName="ExitManagementResignationRowDeleting" msprop:Generator_TablePropName="ExitManagementResignation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeementType" msprop:Generator_UserColumnName="EmployeementType" msprop:Generator_ColumnPropNameInRow="EmployeementType" msprop:Generator_ColumnVarNameInTable="columnEmployeementType" msprop:Generator_ColumnPropNameInTable="EmployeementTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpCode" msprop:Generator_UserColumnName="EmpCode" msprop:Generator_ColumnPropNameInRow="EmpCode" msprop:Generator_ColumnVarNameInTable="columnEmpCode" msprop:Generator_ColumnPropNameInTable="EmpCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpName" msprop:Generator_UserColumnName="EmpName" msprop:Generator_ColumnPropNameInRow="EmpName" msprop:Generator_ColumnVarNameInTable="columnEmpName" msprop:Generator_ColumnPropNameInTable="EmpNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Designation" msprop:Generator_UserColumnName="Designation" msprop:Generator_ColumnPropNameInRow="Designation" msprop:Generator_ColumnVarNameInTable="columnDesignation" msprop:Generator_ColumnPropNameInTable="DesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamName" msprop:Generator_UserColumnName="TeamName" msprop:Generator_ColumnPropNameInRow="TeamName" msprop:Generator_ColumnVarNameInTable="columnTeamName" msprop:Generator_ColumnPropNameInTable="TeamNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ManagerName" msprop:Generator_UserColumnName="ManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JoiningDate" msprop:Generator_UserColumnName="JoiningDate" msprop:Generator_ColumnPropNameInRow="JoiningDate" msprop:Generator_ColumnVarNameInTable="columnJoiningDate" msprop:Generator_ColumnPropNameInTable="JoiningDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EMExitDate" msprop:Generator_UserColumnName="EMExitDate" msprop:Generator_ColumnPropNameInRow="EMExitDate" msprop:Generator_ColumnVarNameInTable="columnEMExitDate" msprop:Generator_ColumnPropNameInTable="EMExitDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExitManagementTerminarion" msprop:Generator_UserTableName="ExitManagementTerminarion" msprop:Generator_RowDeletedName="ExitManagementTerminarionRowDeleted" msprop:Generator_RowChangedName="ExitManagementTerminarionRowChanged" msprop:Generator_RowClassName="ExitManagementTerminarionRow" msprop:Generator_RowChangingName="ExitManagementTerminarionRowChanging" msprop:Generator_RowEvArgName="ExitManagementTerminarionRowChangeEvent" msprop:Generator_RowEvHandlerName="ExitManagementTerminarionRowChangeEventHandler" msprop:Generator_TableClassName="ExitManagementTerminarionDataTable" msprop:Generator_TableVarName="tableExitManagementTerminarion" msprop:Generator_RowDeletingName="ExitManagementTerminarionRowDeleting" msprop:Generator_TablePropName="ExitManagementTerminarion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeementType" msprop:Generator_UserColumnName="EmployeementType" msprop:Generator_ColumnVarNameInTable="columnEmployeementType" msprop:Generator_ColumnPropNameInRow="EmployeementType" msprop:Generator_ColumnPropNameInTable="EmployeementTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpCode" msprop:Generator_UserColumnName="EmpCode" msprop:Generator_ColumnVarNameInTable="columnEmpCode" msprop:Generator_ColumnPropNameInRow="EmpCode" msprop:Generator_ColumnPropNameInTable="EmpCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpName" msprop:Generator_UserColumnName="EmpName" msprop:Generator_ColumnVarNameInTable="columnEmpName" msprop:Generator_ColumnPropNameInRow="EmpName" msprop:Generator_ColumnPropNameInTable="EmpNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Designation" msprop:Generator_UserColumnName="Designation" msprop:Generator_ColumnVarNameInTable="columnDesignation" msprop:Generator_ColumnPropNameInRow="Designation" msprop:Generator_ColumnPropNameInTable="DesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamName" msprop:Generator_UserColumnName="TeamName" msprop:Generator_ColumnVarNameInTable="columnTeamName" msprop:Generator_ColumnPropNameInRow="TeamName" msprop:Generator_ColumnPropNameInTable="TeamNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ManagerName" msprop:Generator_UserColumnName="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JoiningDate" msprop:Generator_UserColumnName="JoiningDate" msprop:Generator_ColumnVarNameInTable="columnJoiningDate" msprop:Generator_ColumnPropNameInRow="JoiningDate" msprop:Generator_ColumnPropNameInTable="JoiningDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EMExitDate" msprop:Generator_UserColumnName="EMExitDate" msprop:Generator_ColumnVarNameInTable="columnEMExitDate" msprop:Generator_ColumnPropNameInRow="EMExitDate" msprop:Generator_ColumnPropNameInTable="EMExitDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExitManagementTeam" msprop:Generator_UserTableName="ExitManagementTeam" msprop:Generator_RowDeletedName="ExitManagementTeamRowDeleted" msprop:Generator_RowChangedName="ExitManagementTeamRowChanged" msprop:Generator_RowClassName="ExitManagementTeamRow" msprop:Generator_RowChangingName="ExitManagementTeamRowChanging" msprop:Generator_RowEvArgName="ExitManagementTeamRowChangeEvent" msprop:Generator_RowEvHandlerName="ExitManagementTeamRowChangeEventHandler" msprop:Generator_TableClassName="ExitManagementTeamDataTable" msprop:Generator_TableVarName="tableExitManagementTeam" msprop:Generator_RowDeletingName="ExitManagementTeamRowDeleting" msprop:Generator_TablePropName="ExitManagementTeam">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeementType" msprop:Generator_UserColumnName="EmployeementType" msprop:Generator_ColumnVarNameInTable="columnEmployeementType" msprop:Generator_ColumnPropNameInRow="EmployeementType" msprop:Generator_ColumnPropNameInTable="EmployeementTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpCode" msprop:Generator_UserColumnName="EmpCode" msprop:Generator_ColumnVarNameInTable="columnEmpCode" msprop:Generator_ColumnPropNameInRow="EmpCode" msprop:Generator_ColumnPropNameInTable="EmpCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpName" msprop:Generator_UserColumnName="EmpName" msprop:Generator_ColumnVarNameInTable="columnEmpName" msprop:Generator_ColumnPropNameInRow="EmpName" msprop:Generator_ColumnPropNameInTable="EmpNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Designation" msprop:Generator_UserColumnName="Designation" msprop:Generator_ColumnVarNameInTable="columnDesignation" msprop:Generator_ColumnPropNameInRow="Designation" msprop:Generator_ColumnPropNameInTable="DesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamName" msprop:Generator_UserColumnName="TeamName" msprop:Generator_ColumnVarNameInTable="columnTeamName" msprop:Generator_ColumnPropNameInRow="TeamName" msprop:Generator_ColumnPropNameInTable="TeamNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ManagerName" msprop:Generator_UserColumnName="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JoiningDate" msprop:Generator_UserColumnName="JoiningDate" msprop:Generator_ColumnVarNameInTable="columnJoiningDate" msprop:Generator_ColumnPropNameInRow="JoiningDate" msprop:Generator_ColumnPropNameInTable="JoiningDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EMExitDate" msprop:Generator_UserColumnName="EMExitDate" msprop:Generator_ColumnVarNameInTable="columnEMExitDate" msprop:Generator_ColumnPropNameInRow="EMExitDate" msprop:Generator_ColumnPropNameInTable="EMExitDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Typeofexit" msprop:Generator_UserColumnName="Typeofexit" msprop:Generator_ColumnPropNameInRow="Typeofexit" msprop:Generator_ColumnVarNameInTable="columnTypeofexit" msprop:Generator_ColumnPropNameInTable="TypeofexitColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RelievingLetter" msprop:Generator_UserTableName="RelievingLetter" msprop:Generator_RowDeletedName="RelievingLetterRowDeleted" msprop:Generator_RowChangedName="RelievingLetterRowChanged" msprop:Generator_RowClassName="RelievingLetterRow" msprop:Generator_RowChangingName="RelievingLetterRowChanging" msprop:Generator_RowEvArgName="RelievingLetterRowChangeEvent" msprop:Generator_RowEvHandlerName="RelievingLetterRowChangeEventHandler" msprop:Generator_TableClassName="RelievingLetterDataTable" msprop:Generator_TableVarName="tableRelievingLetter" msprop:Generator_RowDeletingName="RelievingLetterRowDeleting" msprop:Generator_TablePropName="RelievingLetter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HTMLRelievingLetter" msprop:Generator_UserColumnName="HTMLRelievingLetter" msprop:Generator_ColumnVarNameInTable="columnHTMLRelievingLetter" msprop:Generator_ColumnPropNameInRow="HTMLRelievingLetter" msprop:Generator_ColumnPropNameInTable="HTMLRelievingLetterColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExperienceLetter" msprop:Generator_UserTableName="ExperienceLetter" msprop:Generator_RowDeletedName="ExperienceLetterRowDeleted" msprop:Generator_RowChangedName="ExperienceLetterRowChanged" msprop:Generator_RowClassName="ExperienceLetterRow" msprop:Generator_RowChangingName="ExperienceLetterRowChanging" msprop:Generator_RowEvArgName="ExperienceLetterRowChangeEvent" msprop:Generator_RowEvHandlerName="ExperienceLetterRowChangeEventHandler" msprop:Generator_TableClassName="ExperienceLetterDataTable" msprop:Generator_TableVarName="tableExperienceLetter" msprop:Generator_RowDeletingName="ExperienceLetterRowDeleting" msprop:Generator_TablePropName="ExperienceLetter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HTMLExperienceLetter" msprop:Generator_UserColumnName="HTMLExperienceLetter" msprop:Generator_ColumnVarNameInTable="columnHTMLExperienceLetter" msprop:Generator_ColumnPropNameInRow="HTMLExperienceLetter" msprop:Generator_ColumnPropNameInTable="HTMLExperienceLetterColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

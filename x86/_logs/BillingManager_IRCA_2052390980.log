@@ -1,0 +1,140 @@
+﻿13 January 2015
+System : IRCA/fe80::bd8b:6ef4:f605:bb2%4
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\archana
+IS91.Services : 9.1.1.1 ( 9.3.1.91 )
+System Windows installer : 5.0.9600.16384
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 12-01-2015
+Application path : d:\projects\kscabilling\x86\
+Application Executing Env Path : D:\Projects\KSCABILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities : 9.0.0.0
+System.Windows.Forms : 2.0.0.0
+System : 2.0.0.0
+System.Drawing : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities.Sync : 9.0.0.0
+Microsoft.VisualStudio.Debugger.Runtime : 9.0.0.0
+vshost32 : 9.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.ReportViewer.Common : 9.0.0.0
+Microsoft.ReportViewer.ProcessingObjectModel : 9.0.0.0
+Microsoft.ReportViewer.WinForms : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+Microsoft.VisualBasic.PowerPacks.Vs : 9.0.0.0
+System.Data : 2.0.0.0
+System.Deployment : 2.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Xml : 2.0.0.0
+BillingManager : 1.0.0.0
+IRCAKernel : 1.1.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Configuration : 2.0.0.0
+
+
+13 January 2015	13:22:57	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:22:57	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:23:58	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:24:02	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:24:12	ThreadID-9
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:24:12	ThreadID-9
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+13 January 2015	13:24:13	ThreadID-9
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+13 January 2015	13:24:13	ThreadID-9
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:24:13	ThreadID-9
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:24:13	ThreadID-9
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+13 January 2015	13:24:13	ThreadID-9
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+

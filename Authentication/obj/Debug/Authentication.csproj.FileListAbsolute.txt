@@ -1,0 +1,16 @@
+F:\Project\AltioStar\Authentication\bin\Authentication.dll
+F:\Project\AltioStar\Authentication\bin\Authentication.pdb
+F:\Project\AltioStar\Authentication\bin\Jayrock.Json.dll
+F:\Project\AltioStar\Authentication\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\AltioStar\Authentication\obj\Debug\Authentication.dll
+F:\Project\AltioStar\Authentication\obj\Debug\Authentication.pdb
+D:\Projects\AltioStar\Authentication\bin\Authentication.dll
+D:\Projects\AltioStar\Authentication\bin\Authentication.pdb
+D:\Projects\AltioStar\Authentication\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AltioStar\Authentication\obj\Debug\Authentication.dll
+D:\Projects\AltioStar\Authentication\obj\Debug\Authentication.pdb
+D:\kk\Projects\AltioStar\Authentication\bin\Authentication.dll
+D:\kk\Projects\AltioStar\Authentication\bin\Authentication.pdb
+D:\kk\Projects\AltioStar\Authentication\obj\Debug\ResolveAssemblyReference.cache
+D:\kk\Projects\AltioStar\Authentication\obj\Debug\Authentication.dll
+D:\kk\Projects\AltioStar\Authentication\obj\Debug\Authentication.pdb

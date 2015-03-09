@@ -1,0 +1,1540 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC614AFC-88C2-4986-8108-3DA530EB76E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ARATT</RootNamespace>
+    <AssemblyName>ARATT</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\yogesh\Desktop\dlls to add\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IS91.Services, Version=9.1.1.1, Culture=neutral, PublicKeyToken=28113440a278558d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\IS91.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock.Json, Version=0.9.8316.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Jayrock.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\yogesh\Desktop\dlls to add\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\AssemblyInfo.cs" />
+    <Compile Include="AppCommandHandler.ashx.cs">
+      <DependentUpon>AppCommandHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRating.aspx.cs">
+      <DependentUpon>AppraisalRating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRating.aspx.designer.cs">
+      <DependentUpon>AppraisalRating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRatingOld.aspx.cs">
+      <DependentUpon>AppraisalRatingOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRatingOld.aspx.designer.cs">
+      <DependentUpon>AppraisalRatingOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRatingMailView.aspx.cs">
+      <DependentUpon>AppraisalRatingMailView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\AppraisalRatingMailView.aspx.designer.cs">
+      <DependentUpon>AppraisalRatingMailView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\UpdateGoalUpload.aspx.cs">
+      <DependentUpon>UpdateGoalUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\UpdateGoalUpload.aspx.designer.cs">
+      <DependentUpon>UpdateGoalUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\OldViewAppraisal.aspx.cs">
+      <DependentUpon>OldViewAppraisal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\OldViewAppraisal.aspx.designer.cs">
+      <DependentUpon>OldViewAppraisal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\ViewAppraisal.aspx.cs">
+      <DependentUpon>ViewAppraisal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\ViewAppraisal.aspx.designer.cs">
+      <DependentUpon>ViewAppraisal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeRatingOld.aspx.cs">
+      <DependentUpon>EmployeeRatingOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeRatingOld.aspx.designer.cs">
+      <DependentUpon>EmployeeRatingOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeRating.aspx.cs">
+      <DependentUpon>EmployeeRating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeRating.aspx.designer.cs">
+      <DependentUpon>EmployeeRating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeGradeUpload.aspx.cs">
+      <DependentUpon>EmployeeGradeUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeGradeUpload.aspx.designer.cs">
+      <DependentUpon>EmployeeGradeUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeGoalUpload.aspx.cs">
+      <DependentUpon>EmployeeGoalUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\EmployeeGoalUpload.aspx.designer.cs">
+      <DependentUpon>EmployeeGoalUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\Intimation.aspx.cs">
+      <DependentUpon>Intimation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\Intimation.aspx.designer.cs">
+      <DependentUpon>Intimation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appraisal\GoalUpload.aspx.cs">
+      <DependentUpon>GoalUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appraisal\GoalUpload.aspx.designer.cs">
+      <DependentUpon>GoalUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\EmployeeAttendance.aspx.cs">
+      <DependentUpon>EmployeeAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attendance\EmployeeAttendance.aspx.designer.cs">
+      <DependentUpon>EmployeeAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\UploadEmployeeAttendance.aspx.cs">
+      <DependentUpon>UploadEmployeeAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attendance\UploadEmployeeAttendance.aspx.designer.cs">
+      <DependentUpon>UploadEmployeeAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\LoginHR.aspx.cs">
+      <DependentUpon>LoginHR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\LoginHR.aspx.designer.cs">
+      <DependentUpon>LoginHR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\XModule.cs" />
+    <Compile Include="ExitManagement\UploadNDForm.aspx.cs">
+      <DependentUpon>UploadNDForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExitManagement\UploadNDForm.aspx.designer.cs">
+      <DependentUpon>UploadNDForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\SessionManager.cs" />
+    <Compile Include="Common\DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ExtendedUserInfo.cs" />
+    <Compile Include="Common\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadFileHandler.ashx.cs">
+      <DependentUpon>DownloadFileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExitManagement\EmployeeExitManagement.aspx.cs">
+      <DependentUpon>EmployeeExitManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExitManagement\EmployeeExitManagement.aspx.designer.cs">
+      <DependentUpon>EmployeeExitManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExitManagement\ExitManagement.aspx.cs">
+      <DependentUpon>ExitManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExitManagement\ExitManagement.aspx.designer.cs">
+      <DependentUpon>ExitManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Help.aspx.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Help.aspx.designer.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AssetOutgoingDetails.aspx.cs">
+      <DependentUpon>AssetOutgoingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\AssetOutgoingDetails.aspx.designer.cs">
+      <DependentUpon>AssetOutgoingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AssetOutgoingSummary.aspx.cs">
+      <DependentUpon>AssetOutgoingSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\AssetOutgoingSummary.aspx.designer.cs">
+      <DependentUpon>AssetOutgoingSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AssignAssetDetails.aspx.cs">
+      <DependentUpon>AssignAssetDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\AssignAssetDetails.aspx.designer.cs">
+      <DependentUpon>AssignAssetDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AssignAssetSummary.aspx.cs">
+      <DependentUpon>AssignAssetSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\AssignAssetSummary.aspx.designer.cs">
+      <DependentUpon>AssignAssetSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leave\LeaveManagement.aspx.cs">
+      <DependentUpon>LeaveManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leave\LeaveManagement.aspx.designer.cs">
+      <DependentUpon>LeaveManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoanManagement\AdvanceType.aspx.cs">
+      <DependentUpon>AdvanceType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanManagement\Loan.aspx.cs">
+      <DependentUpon>Loan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanManagement\LoanManagement.aspx.cs">
+      <DependentUpon>LoanManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanManagement\LoanManagement.aspx.designer.cs">
+      <DependentUpon>LoanManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoanManagement\LoanProcess.aspx.cs">
+      <DependentUpon>LoanProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanManagement\LoanProcess.aspx.designer.cs">
+      <DependentUpon>LoanProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\BulkDataUpload.aspx.cs">
+      <DependentUpon>BulkDataUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\BulkDataUpload.aspx.designer.cs">
+      <DependentUpon>BulkDataUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\CompanyMaster.aspx.cs">
+      <DependentUpon>CompanyMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\CompanyMaster.aspx.designer.cs">
+      <DependentUpon>CompanyMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\InvestmentGroup.aspx.cs">
+      <DependentUpon>InvestmentGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\ProjectInfo.aspx.cs">
+      <DependentUpon>ProjectInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\ProjectInfo.aspx.designer.cs">
+      <DependentUpon>ProjectInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\rdlcReportViewer.aspx.cs">
+      <DependentUpon>rdlcReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\rdlcReportViewer.aspx.designer.cs">
+      <DependentUpon>rdlcReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationHandler.ashx.cs">
+      <DependentUpon>NotificationHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\ManageAssetDetails.aspx.cs">
+      <DependentUpon>ManageAssetDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\ManageAssetDetails.aspx.designer.cs">
+      <DependentUpon>ManageAssetDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\ManageAssetSummary.aspx.cs">
+      <DependentUpon>ManageAssetSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\ManageAssetSummary.aspx.designer.cs">
+      <DependentUpon>ManageAssetSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leave\LeaveRequestApproval.aspx.cs">
+      <DependentUpon>LeaveRequestApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leave\LeaveRequestApproval.aspx.designer.cs">
+      <DependentUpon>LeaveRequestApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leave\Leaves.aspx.cs">
+      <DependentUpon>Leaves.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leave\Leaves.aspx.designer.cs">
+      <DependentUpon>Leaves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leave\LeaveRequest.aspx.cs">
+      <DependentUpon>LeaveRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leave\LeaveRequest.aspx.designer.cs">
+      <DependentUpon>LeaveRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AssetCategory.aspx.cs">
+      <DependentUpon>AssetCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\AssetCategory.aspx.designer.cs">
+      <DependentUpon>AssetCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AssetSubCategory.aspx.cs">
+      <DependentUpon>AssetSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\AssetSubCategory.aspx.designer.cs">
+      <DependentUpon>AssetSubCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ConsultantMaster.aspx.cs">
+      <DependentUpon>ConsultantMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\ConsultantMaster.aspx.designer.cs">
+      <DependentUpon>ConsultantMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Department.aspx.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Department.aspx.designer.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Designation.aspx.cs">
+      <DependentUpon>Designation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Designation.aspx.designer.cs">
+      <DependentUpon>Designation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Designation1.aspx.cs">
+      <DependentUpon>Designation1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Designation1.aspx.designer.cs">
+      <DependentUpon>Designation1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\EmployeeType.aspx.cs">
+      <DependentUpon>EmployeeType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\EmployeeType.aspx.designer.cs">
+      <DependentUpon>EmployeeType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\LocationMaster.aspx.cs">
+      <DependentUpon>LocationMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\LocationMaster.aspx.designer.cs">
+      <DependentUpon>LocationMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Manufacturer.aspx.cs">
+      <DependentUpon>Manufacturer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Manufacturer.aspx.designer.cs">
+      <DependentUpon>Manufacturer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Master_Country.aspx.cs">
+      <DependentUpon>Master_Country.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master_Country.aspx.designer.cs">
+      <DependentUpon>Master_Country.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Master_Employee.aspx.cs">
+      <DependentUpon>Master_Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master_Employee.aspx.designer.cs">
+      <DependentUpon>Master_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Master_EmployeeSummary.aspx.cs">
+      <DependentUpon>Master_EmployeeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master_EmployeeSummary.aspx.designer.cs">
+      <DependentUpon>Master_EmployeeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Master_Holidays.aspx.cs">
+      <DependentUpon>Master_Holidays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master_Holidays.aspx.designer.cs">
+      <DependentUpon>Master_Holidays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Master_Maritial_Status.aspx.cs">
+      <DependentUpon>Master_Maritial_Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Master_Maritial_Status.aspx.designer.cs">
+      <DependentUpon>Master_Maritial_Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Relation.aspx.cs">
+      <DependentUpon>Relation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Relation.aspx.designer.cs">
+      <DependentUpon>Relation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\InterviewType.aspx.cs">
+      <DependentUpon>InterviewType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\InterviewType.aspx.designer.cs">
+      <DependentUpon>InterviewType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Setting_Configuration.aspx.cs">
+      <DependentUpon>Setting_Configuration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Setting_Configuration.aspx.designer.cs">
+      <DependentUpon>Setting_Configuration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UploadDocument.aspx.cs">
+      <DependentUpon>UploadDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\UploadDocument.aspx.designer.cs">
+      <DependentUpon>UploadDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenFile.ashx.cs">
+      <DependentUpon>OpenFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll\Payroll.aspx.cs">
+      <DependentUpon>Payroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payroll\Payroll.aspx.designer.cs">
+      <DependentUpon>Payroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll\SalaryAllowancesOld.aspx.cs">
+      <DependentUpon>SalaryAllowancesOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payroll\SalaryAllowancesOld.aspx.designer.cs">
+      <DependentUpon>SalaryAllowancesOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll\SalaryAllowances.aspx.cs">
+      <DependentUpon>SalaryAllowances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payroll\SalaryAllowances.aspx.designer.cs">
+      <DependentUpon>SalaryAllowances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll\SalaryDeductions.aspx.cs">
+      <DependentUpon>SalaryDeductions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payroll\SalaryDeductions.aspx.designer.cs">
+      <DependentUpon>SalaryDeductions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\RoleMaster.aspx.cs">
+      <DependentUpon>RoleMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\RoleMaster.aspx.designer.cs">
+      <DependentUpon>RoleMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\CandidateApplication.aspx.cs">
+      <DependentUpon>CandidateApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\CandidateApplication.aspx.designer.cs">
+      <DependentUpon>CandidateApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\CandidateDashboard.aspx.cs">
+      <DependentUpon>CandidateDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\CandidateDashboard.aspx.designer.cs">
+      <DependentUpon>CandidateDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\CandidateInterviewForm.aspx.cs">
+      <DependentUpon>CandidateInterviewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\CandidateInterviewForm.aspx.designer.cs">
+      <DependentUpon>CandidateInterviewForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\Candidate_Competency.aspx.cs">
+      <DependentUpon>Candidate_Competency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\Candidate_Competency.aspx.designer.cs">
+      <DependentUpon>Candidate_Competency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\InterviewSchedule.aspx.cs">
+      <DependentUpon>InterviewSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\InterviewSchedule.aspx.designer.cs">
+      <DependentUpon>InterviewSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruitment\IssueOfferLetter.aspx.cs">
+      <DependentUpon>IssueOfferLetter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruitment\IssueOfferLetter.aspx.designer.cs">
+      <DependentUpon>IssueOfferLetter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Appraisal\xsdAppraisal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xsdAppraisal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AssetAssigned.Designer.cs" />
+    <Compile Include="Reports\AssetAssigned3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssetAssigned.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ExitManagement\ExitManagementDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExitManagementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Leave\LeaveDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeaveDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Payroll\Payroll.Designer.cs" />
+    <Compile Include="Reports\Payroll\Payroll1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payroll.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Recruitment\RecruitmentDataSet.Designer.cs" />
+    <Compile Include="Reports\Recruitment\RecruitmentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecruitmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SaveFile.ashx.cs">
+      <DependentUpon>SaveFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFileHandler.ashx.cs">
+      <DependentUpon>UploadFileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EmployeeFilter.ascx.cs">
+      <DependentUpon>EmployeeFilter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EmployeeFilter.ascx.designer.cs">
+      <DependentUpon>EmployeeFilter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\WebScriptUtils.ascx.cs">
+      <DependentUpon>WebScriptUtils.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppCommandHandler.ashx" />
+    <Content Include="Common\DashBoard.aspx" />
+    <Content Include="Common\Login.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Resources\js\ajaxfileupload.js" />
+    <Content Include="Resources\js\auxilary.js" />
+    <Content Include="Resources\js\ddsmoothmenu.js" />
+    <Content Include="Resources\js\ddsmoothmenu1.js" />
+    <Content Include="Resources\js\fullcalendar.js" />
+    <Content Include="Resources\js\fullcalendar.min.js" />
+    <Content Include="Resources\js\gcal.js" />
+    <Content Include="Resources\js\grid.addons.js" />
+    <Content Include="Resources\js\grid.grouping.js" />
+    <Content Include="Resources\js\grid.locale-en.js" />
+    <Content Include="Resources\js\grid.postext.js" />
+    <Content Include="Resources\js\grid.setcolumns.js" />
+    <Content Include="Resources\js\Gridutility.js" />
+    <Content Include="Resources\js\i18n\grid.locale-ar.js" />
+    <Content Include="Resources\js\i18n\grid.locale-bg.js" />
+    <Content Include="Resources\js\i18n\grid.locale-bg1251.js" />
+    <Content Include="Resources\js\i18n\grid.locale-cat.js" />
+    <Content Include="Resources\js\i18n\grid.locale-cn.js" />
+    <Content Include="Resources\js\i18n\grid.locale-cs.js" />
+    <Content Include="Resources\js\i18n\grid.locale-da.js" />
+    <Content Include="Resources\js\i18n\grid.locale-de.js" />
+    <Content Include="Resources\js\i18n\grid.locale-el.js" />
+    <Content Include="Resources\js\i18n\grid.locale-en.js" />
+    <Content Include="Resources\js\i18n\grid.locale-es.js" />
+    <Content Include="Resources\js\i18n\grid.locale-fa.js" />
+    <Content Include="Resources\js\i18n\grid.locale-fi.js" />
+    <Content Include="Resources\js\i18n\grid.locale-fr.js" />
+    <Content Include="Resources\js\i18n\grid.locale-gl.js" />
+    <Content Include="Resources\js\i18n\grid.locale-he.js" />
+    <Content Include="Resources\js\i18n\grid.locale-hu.js" />
+    <Content Include="Resources\js\i18n\grid.locale-is.js" />
+    <Content Include="Resources\js\i18n\grid.locale-it.js" />
+    <Content Include="Resources\js\i18n\grid.locale-ja.js" />
+    <Content Include="Resources\js\i18n\grid.locale-lt.js" />
+    <Content Include="Resources\js\i18n\grid.locale-mne.js" />
+    <Content Include="Resources\js\i18n\grid.locale-nl.js" />
+    <Content Include="Resources\js\i18n\grid.locale-no.js" />
+    <Content Include="Resources\js\i18n\grid.locale-pl.js" />
+    <Content Include="Resources\js\i18n\grid.locale-pt-br.js" />
+    <Content Include="Resources\js\i18n\grid.locale-pt.js" />
+    <Content Include="Resources\js\i18n\grid.locale-ro.js" />
+    <Content Include="Resources\js\i18n\grid.locale-ru.js" />
+    <Content Include="Resources\js\i18n\grid.locale-sk.js" />
+    <Content Include="Resources\js\i18n\grid.locale-sr.js" />
+    <Content Include="Resources\js\i18n\grid.locale-sv.js" />
+    <Content Include="Resources\js\i18n\grid.locale-th.js" />
+    <Content Include="Resources\js\i18n\grid.locale-tr.js" />
+    <Content Include="Resources\js\i18n\grid.locale-ua.js" />
+    <Content Include="Resources\js\ircaobjs.js" />
+    <Content Include="Resources\js\ircaobjs1.js" />
+    <Content Include="Resources\js\ircaobjs2.js" />
+    <Content Include="Resources\js\jquery-1.3.2-vsdoc2.js" />
+    <Content Include="Resources\js\jquery-1.3.2.js" />
+    <Content Include="Resources\js\jquery-1.5.2.min.js" />
+    <Content Include="Resources\js\jquery-1.6.2.min.js" />
+    <Content Include="Resources\js\jquery-ui-1.8.15.custom.js" />
+    <Content Include="Resources\js\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="Resources\js\jquery-ui-1.8.custom.min.js" />
+    <Content Include="Resources\js\jquery-ui-timepicker-addon.js" />
+    <Content Include="Resources\js\jquery.alerts.js" />
+    <Content Include="Resources\js\jquery.contextmenu.js" />
+    <Content Include="Resources\js\jquery.datePicker.js" />
+    <Content Include="Resources\js\jquery.easy-confirm-dialog.js" />
+    <Content Include="Resources\js\jquery.jqGrid.min.js" />
+    <Content Include="Resources\js\jquery.jqGrid.src.js" />
+    <Content Include="Resources\js\jquery.mtz.monthpicker.js" />
+    <Content Include="Resources\js\jquery.MultiFile.js" />
+    <Content Include="Resources\js\jquery.searchFilter.js" />
+    <Content Include="Resources\js\jquery.tablednd.js" />
+    <Content Include="Resources\js\jquery.ui.button.js" />
+    <Content Include="Resources\js\jquery.ui.core.js" />
+    <Content Include="Resources\js\jquery.ui.dialog.js" />
+    <Content Include="Resources\js\jquery.ui.widget.js" />
+    <Content Include="Resources\js\jquery.validate.js" />
+    <Content Include="Resources\js\js2rw1.js" />
+    <Content Include="Resources\js\js2rw2.js" />
+    <Content Include="Resources\js\ListItems.js" />
+    <Content Include="Resources\js\ows.js" />
+    <Content Include="Resources\js\popup.js" />
+    <Content Include="Resources\js\SelectList.js" />
+    <Content Include="Resources\js\toolbar.js" />
+    <Content Include="Resources\js\ui.multiselect.js" />
+    <Content Include="Resources\js\ui.selectmenu.js" />
+    <Content Include="Resources\js\Validation.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Leave\LeaveRequestApproval.aspx" />
+    <Content Include="Leave\Leaves.aspx" />
+    <Content Include="Leave\LeaveRequest.aspx" />
+    <Content Include="Masters\AssetCategory.aspx" />
+    <Content Include="Masters\AssetSubCategory.aspx" />
+    <Content Include="Masters\ConsultantMaster.aspx" />
+    <Content Include="Masters\Department.aspx" />
+    <Content Include="Masters\Designation1.aspx" />
+    <Content Include="Masters\EmployeeType.aspx" />
+    <Content Include="Masters\LocationMaster.aspx" />
+    <Content Include="Masters\Manufacturer.aspx" />
+    <Content Include="Masters\Master_Country.aspx" />
+    <Content Include="Masters\Master_Employee.aspx" />
+    <Content Include="Masters\Master_Holidays.aspx" />
+    <Content Include="Masters\Master_Maritial_Status.aspx" />
+    <Content Include="Masters\Relation.aspx" />
+    <Content Include="Masters\InterviewType.aspx" />
+    <Content Include="Masters\Setting_Configuration.aspx" />
+    <Content Include="Masters\Team.aspx" />
+    <Content Include="Masters\UploadFile.aspx" />
+    <Content Include="Recruitment\CandidateApplication.aspx" />
+    <Content Include="Recruitment\CandidateDashboard.aspx" />
+    <Content Include="Resources\css\ajaxfileupload.css" />
+    <Content Include="Resources\css\chili.css" />
+    <Content Include="Resources\css\datePicker.css" />
+    <Content Include="Resources\css\ddsmoothmenu-v.css" />
+    <Content Include="Resources\css\ddsmoothmenu.css" />
+    <Content Include="Resources\css\ddsmoothmenu1.css" />
+    <Content Include="Resources\css\demos.css" />
+    <Content Include="Resources\css\dialog\demos.css" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Resources\css\dialog\redmond\jquery-ui-1.8.16.custom.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.accordion.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.all.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.autocomplete.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.base.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.button.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.core.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.datepicker.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.dialog.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.progressbar.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.resizable.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.selectable.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.slider.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.tabs.css" />
+    <Content Include="Resources\css\dialog\redmond\jquery.ui.theme.css" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Resources\css\dialog\smoothness\jquery-ui-1.8.16.custom.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.accordion.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.all.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.autocomplete.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.base.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.button.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.core.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.datepicker.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.dialog.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.progressbar.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.resizable.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.selectable.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.slider.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.tabs.css" />
+    <Content Include="Resources\css\dialog\smoothness\jquery.ui.theme.css" />
+    <Content Include="Resources\css\fullcalendar.css" />
+    <Content Include="Resources\css\fullcalendar.print.css" />
+    <Content Include="Resources\css\hrStyle.css" />
+    <Content Include="Resources\css\images\active_menu.gif" />
+    <Content Include="Resources\css\images\checked.gif" />
+    <Content Include="Resources\css\images\down.gif" />
+    <Content Include="Resources\css\images\menu_separator.png" />
+    <Content Include="Resources\css\images\right.gif" />
+    <Content Include="Resources\css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Resources\css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Resources\css\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Resources\css\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Resources\css\images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Resources\css\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Resources\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-soft_15_cc0000_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Resources\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Resources\css\images\ui-icons_004276_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_222222_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Resources\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Resources\css\images\unchecked.gif" />
+    <Content Include="Resources\css\InsidePage.css" />
+    <Content Include="Resources\css\jquery-ui-1.7.1.custom.css" />
+    <Content Include="Resources\css\jquery-ui-1.8.15.custom.css" />
+    <Content Include="Resources\css\jquery-ui-1.8.16.custom.css" />
+    <Content Include="Resources\css\jquery-ui.css" />
+    <Content Include="Resources\css\jquery.alerts.css" />
+    <Content Include="Resources\css\login_style.css" />
+    <Content Include="Resources\css\main.css" />
+    <Content Include="Resources\css\menu_style.css" />
+    <Content Include="Resources\css\milk.css" />
+    <Content Include="Resources\css\mycss\jquery-autocomplete.css" />
+    <Content Include="Resources\css\mycss\jquery-ui-1.8.21.custom.css" />
+    <Content Include="Resources\css\mycss\orangehrm.datepicker.css" />
+    <Content Include="Resources\css\mycss\tipTip.css" />
+    <Content Include="Resources\css\style.css" />
+    <Content Include="Resources\css\theme.css" />
+    <Content Include="Resources\css\ui.jqgrid.css" />
+    <Content Include="Resources\css\ui.multiselect.css" />
+    <Content Include="Resources\css\ui.selectmenu.css" />
+    <Content Include="Resources\cupertino\fullcalendar.css" />
+    <Content Include="Resources\cupertino\fullcalendar.print.css" />
+    <Content Include="Resources\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Resources\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Resources\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Resources\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Resources\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Resources\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Resources\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Resources\cupertino\theme.css" />
+    <Content Include="Resources\Images\active_menu.gif" />
+    <Content Include="Resources\Images\active_tab.gif" />
+    <Content Include="Resources\Images\addIcon.png" />
+    <Content Include="Resources\Images\add_icon_small.png" />
+    <Content Include="Resources\Images\apprisalrating.png" />
+    <Content Include="Resources\Images\bg_container.gif" />
+    <Content Include="Resources\Images\bg_navigation.gif" />
+    <Content Include="Resources\Images\big_resume_icon.png" />
+    <Content Include="Resources\Images\bona.PNG" />
+    <Content Include="Resources\Images\calendar.gif" />
+    <Content Include="Resources\Images\delete.png" />
+    <Content Include="Resources\Images\mycalendar.png" />
+    <Content Include="Resources\Images\Cross.JPG" />
+    <Content Include="Resources\Images\cross.png" />
+    <Content Include="Resources\Images\Deleteicon.png" />
+    <Content Include="Resources\Images\dot.PNG" />
+    <Content Include="Resources\Images\emp\active_menu.gif" />
+    <Content Include="Resources\Images\emp\active_tab.gif" />
+    <Content Include="Resources\Images\emp\bg_container.gif" />
+    <Content Include="Resources\Images\emp\bg_navigation.gif" />
+    <Content Include="Resources\Images\emp\chart.png" />
+    <Content Include="Resources\Images\emp\glyph_en_dash_2013_177.png" />
+    <Content Include="Resources\Images\emp\glyph_plus_sign_002B_14.png" />
+    <Content Include="Resources\Images\emp\Home-icon-grey.png" />
+    <Content Include="Resources\Images\emp\Home-icon.png" />
+    <Content Include="Resources\Images\emp\hr-management[1].jpg" />
+    <Content Include="Resources\Images\emp\hrbanner.gif" />
+    <Content Include="Resources\Images\emp\menu_separator.gif" />
+    <Content Include="Resources\Images\emp\menu_separator.png" />
+    <Content Include="Resources\Images\emp\no-pre.png" />
+    <Content Include="Resources\Images\emp\rec_chart.png" />
+    <Content Include="Resources\Images\emp\training_chart.png" />
+    <Content Include="Resources\Images\emp\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\Images\emp\upload.gif" />
+    <Content Include="Resources\Images\glyph_en_dash_2013_177.png" />
+    <Content Include="Resources\Images\glyph_plus_sign_002B_14.png" />
+    <Content Include="Resources\Images\grey\active_menu.gif" />
+    <Content Include="Resources\Images\grey\active_tab.gif" />
+    <Content Include="Resources\Images\grey\bg_container.gif" />
+    <Content Include="Resources\Images\grey\bg_navigation.gif" />
+    <Content Include="Resources\Images\grey\chart.png" />
+    <Content Include="Resources\Images\grey\glyph_en_dash_2013_177.png" />
+    <Content Include="Resources\Images\grey\glyph_plus_sign_002B_14.png" />
+    <Content Include="Resources\Images\grey\Home-icon-grey.png" />
+    <Content Include="Resources\Images\grey\Home-icon.png" />
+    <Content Include="Resources\Images\grey\hrbanner.gif" />
+    <Content Include="Resources\Images\grey\menu_separator.gif" />
+    <Content Include="Resources\Images\grey\menu_separator.png" />
+    <Content Include="Resources\Images\grey\no-pre.png" />
+    <Content Include="Resources\Images\grey\rec_chart.png" />
+    <Content Include="Resources\Images\grey\training_chart.png" />
+    <Content Include="Resources\Images\grey\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\Images\grey\upload.gif" />
+    <Content Include="Resources\Images\Home-icon-grey.png" />
+    <Content Include="Resources\Images\Home-icon.png" />
+    <Content Include="Resources\Images\hr-management[1].jpg" />
+    <Content Include="Resources\Images\hrbanner.gif" />
+    <Content Include="Resources\Images\hrbanner.png" />
+    <Content Include="Resources\Images\KulonLogo.JPG" />
+    <Content Include="Resources\Images\logo_kurlon.gif" />
+    <Content Include="Resources\Images\no-pre.png" />
+    <Content Include="Resources\Images\notifyImage\arrow.gif" />
+    <Content Include="Resources\Images\notifyImage\boxBottom.gif" />
+    <Content Include="Resources\Images\notifyImage\boxBottom.png" />
+    <Content Include="Resources\Images\notifyImage\boxTop.gif" />
+    <Content Include="Resources\Images\notifyImage\boxTop.png" />
+    <Content Include="Resources\Images\notifyImage\tabComment.gif" />
+    <Content Include="Resources\Images\notifyImage\tabComment.png" />
+    <Content Include="Resources\Images\notifyImage\tabFolder.gif" />
+    <Content Include="Resources\Images\notifyImage\tabFolder.png" />
+    <Content Include="Resources\Images\notifyImage\tabHeart.gif" />
+    <Content Include="Resources\Images\notifyImage\tabHeart.png" />
+    <Content Include="Resources\Images\notifyImage\tabRandom.gif" />
+    <Content Include="Resources\Images\notifyImage\tabRandom.png" />
+    <Content Include="Resources\Images\notifyImage\tabStar.gif" />
+    <Content Include="Resources\Images\notifyImage\tabStar.png" />
+    <Content Include="Resources\Images\Policy.jpg" />
+    <Content Include="Resources\Images\ratingstar.png" />
+    <Content Include="Resources\Images\redline.gif" />
+    <Content Include="Resources\Images\SelfRating.png" />
+    <Content Include="Resources\Images\spinner.gif" />
+    <Content Include="Resources\Images\Tick.JPG" />
+    <Content Include="Resources\Images\tick.png" />
+    <Content Include="Resources\Images\upload.gif" />
+    <Content Include="Resources\Images\ViewResume.jpg" />
+    <Content Include="Resources\js\jquery.validate.min.js" />
+    <Content Include="Resources\js\myjs\archive.js" />
+    <Content Include="Resources\js\myjs\bootstrap-modal.js" />
+    <Content Include="Resources\js\myjs\javascript.js" />
+    <Content Include="Resources\js\myjs\jquery-1.7.2.min.js" />
+    <Content Include="Resources\js\myjs\jquery.autocomplete.js" />
+    <Content Include="Resources\js\myjs\Parsley.js-1.2.2\parsley.extend.js" />
+    <Content Include="Resources\js\myjs\Parsley.js-1.2.2\parsley.js" />
+    <Content Include="Resources\js\Webutility.js" />
+    <Content Include="Masters\RoleMaster.aspx" />
+    <Content Include="wAppSettings.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AltioHRNotfy.vbs" />
+    <Content Include="Appraisal\AppraisalRatingOld.aspx" />
+    <Content Include="Appraisal\AppraisalRatingMailView.aspx" />
+    <Content Include="Appraisal\UpdateGoalUpload.aspx" />
+    <Content Include="Appraisal\OldViewAppraisal.aspx" />
+    <Content Include="Appraisal\ViewAppraisal.aspx" />
+    <Content Include="Appraisal\EmployeeRatingOld.aspx" />
+    <Content Include="Appraisal\EmployeeRating.aspx" />
+    <Content Include="Appraisal\EmployeeGradeUpload.aspx" />
+    <Content Include="Appraisal\EmployeeGoalUpload.aspx" />
+    <Content Include="Appraisal\GoalUpload.aspx" />
+    <Content Include="Attendance\EmployeeAttendance.aspx" />
+    <Content Include="Attendance\UploadEmployeeAttendance.aspx" />
+    <Content Include="Common\ChangePassword.aspx" />
+    <Content Include="Common\LoginHR.aspx" />
+    <Content Include="ExitManagement\UploadNDForm.aspx" />
+    <Content Include="DownloadFileHandler.ashx" />
+    <Content Include="Help.aspx" />
+    <Content Include="HTMLEditor\html-editor.htm" />
+    <Content Include="Inventory\AssetOutgoingDetails.aspx" />
+    <Content Include="Inventory\AssetOutgoingSummary.aspx" />
+    <Content Include="Inventory\AssignAssetDetails.aspx" />
+    <Content Include="Inventory\AssignAssetSummary.aspx" />
+    <Content Include="Inventory\ManageAssetDetails.aspx" />
+    <Content Include="Inventory\ManageAssetSummary.aspx" />
+    <Content Include="Leave\LeaveManagement.aspx" />
+    <Content Include="LoanManagement\AdvanceType.aspx" />
+    <Content Include="LoanManagement\Loan.aspx" />
+    <Content Include="LoanManagement\LoanManagement.aspx" />
+    <Content Include="LoanManagement\LoanProcess.aspx" />
+    <Content Include="Masters\BulkDataUpload.aspx" />
+    <Content Include="Masters\CompanyMaster.aspx" />
+    <Content Include="Masters\InvestmentGroup.aspx" />
+    <Content Include="Masters\ProjectInfo.aspx" />
+    <Content Include="Masters\rdlcReportViewer.aspx" />
+    <Content Include="Masters\Reports.aspx" />
+    <Content Include="OpenFile.ashx" />
+    <Content Include="NotificationHandler.ashx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Appraisal\xsdAppraisal.xsc">
+      <DependentUpon>xsdAppraisal.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Appraisal\xsdAppraisal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>xsdAppraisal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Appraisal\xsdAppraisal.xss">
+      <DependentUpon>xsdAppraisal.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\AssetAssigned.xsc">
+      <DependentUpon>AssetAssigned.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\AssetAssigned.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AssetAssigned3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\AssetAssigned.xss">
+      <DependentUpon>AssetAssigned.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ExitManagement\ExitManagementDataSet.xsc">
+      <DependentUpon>ExitManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ExitManagement\ExitManagementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExitManagementDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\ExitManagement\ExitManagementDataSet.xss">
+      <DependentUpon>ExitManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Leave\LeaveDataSet.xsc">
+      <DependentUpon>LeaveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Leave\LeaveDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LeaveDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Leave\LeaveDataSet.xss">
+      <DependentUpon>LeaveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Payroll\Payroll.xsc">
+      <DependentUpon>Payroll.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Payroll\Payroll.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Payroll1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Payroll\Payroll.xss">
+      <DependentUpon>Payroll.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Recruitment\RecruitmentDataSet.xsc">
+      <DependentUpon>RecruitmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Recruitment\RecruitmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecruitmentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Recruitment\RecruitmentDataSet.xss">
+      <DependentUpon>RecruitmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ClearanceForm\Clearance Form.doc" />
+    <None Include="Resources\cupertino\images\Thumbs.db" />
+    <None Include="Resources\ExcelUpload\AltioHREmployeeTemplate.xlsx" />
+    <None Include="Resources\Images\emp\hrbanner.psd" />
+    <None Include="Resources\Images\emp\Thumbs.db" />
+    <None Include="Resources\Images\grey\Thumbs.db" />
+    <None Include="Resources\Images\notifyImage\Thumbs.db" />
+    <None Include="Resources\Images\Policy.doc" />
+    <None Include="Resources\ManualDocuments\Admin.pdf" />
+    <None Include="Resources\ManualDocuments\Employee.pdf" />
+    <None Include="Resources\ManualDocuments\Manager.pdf" />
+    <Content Include="Payroll\Payroll.aspx" />
+    <Content Include="Payroll\SalaryAllowancesOld.aspx" />
+    <Content Include="Payroll\SalaryAllowances.aspx" />
+    <Content Include="Payroll\SalaryDeductions.aspx" />
+    <Content Include="Recruitment\shortlist.jpg" />
+    <Content Include="Recruitment\Templates\AssignTEchpanel_toTechpanel,HR.htm" />
+    <Content Include="Recruitment\Templates\CandidateAvailable.htm" />
+    <Content Include="Recruitment\Templates\CandidateNotavailable.htm" />
+    <Content Include="Recruitment\Templates\Candidaterejected_toHR,consultant.htm" />
+    <Content Include="Recruitment\Templates\Candidateshotlisted_toHR,consultant.htm" />
+    <Content Include="Recruitment\Templates\AssignTEchpanel_toHR.htm" />
+    <Content Include="Recruitment\Templates\NotifyHRPriorJoining.htm" />
+    <Content Include="Recruitment\Templates\InterviewResultUpdate.htm" />
+    <Content Include="Recruitment\Templates\MailtoCOnsultantManagerHR_byTechPanel.htm" />
+    <Content Include="Recruitment\Templates\To manager,HR_Candidate details.htm" />
+    <Content Include="Recruitment\Templates\To_Consultant_login_creation.htm" />
+    <Content Include="Resources\css\bootsrapcss\bootstrap-responsive.css" />
+    <Content Include="Resources\css\bootsrapcss\bootstrap-responsive.min.css" />
+    <Content Include="Resources\css\bootsrapcss\bootstrap.css" />
+    <Content Include="Resources\css\bootsrapcss\bootstrap.min.css" />
+    <Content Include="Resources\css\pro_dropdown_2.css" />
+    <Content Include="Resources\Images\arrow.gif" />
+    <Content Include="Resources\Images\arrow_over.gif" />
+    <Content Include="Resources\Images\bootstrap\glyphicons-halflings-white.png" />
+    <Content Include="Resources\Images\bootstrap\glyphicons-halflings.png" />
+    <Content Include="Resources\Images\clock.jpg" />
+    <Content Include="Resources\Images\down_over.gif" />
+    <Content Include="Resources\css\NewCss\jquery-ui-1.10.3.custom.css" />
+    <Content Include="Resources\css\NewCss\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="Resources\css\NewCss\jquery-ui-1.10.3.custom2.css" />
+    <Content Include="Resources\css\NewCss\Stylesheet2.css" />
+    <Content Include="Resources\Images\icon_userguide.gif" />
+    <Content Include="Resources\Images\NewImages\appraisal_intimation.png" />
+    <Content Include="Resources\Images\NewImages\approve.png" />
+    <Content Include="Resources\Images\NewImages\candidate_awaiting.png" />
+    <Content Include="Resources\Images\NewImages\create_users.png" />
+    <Content Include="Resources\Images\NewImages\Delete_Icon.png" />
+    <Content Include="Resources\Images\NewImages\delete_intimation.png" />
+    <Content Include="Resources\Images\NewImages\download-form.png" />
+    <Content Include="Resources\Images\NewImages\fix_salary.png" />
+    <Content Include="Resources\Images\NewImages\goals_intimation.png" />
+    <Content Include="Resources\Images\NewImages\issue_experience_letter.png" />
+    <Content Include="Resources\Images\NewImages\issue_offer_letter.png" />
+    <Content Include="Resources\Images\NewImages\issue_relieving_letter.png" />
+    <Content Include="Resources\Images\NewImages\leave_modify.png" />
+    <Content Include="Resources\Images\NewImages\login.png" />
+    <Content Include="Resources\Images\NewImages\login_pg_img.png" />
+    <Content Include="Resources\Images\NewImages\new_login_img.jpg" />
+    <Content Include="Resources\Images\NewImages\post.png" />
+    <Content Include="Resources\Images\NewImages\promote_employee.png" />
+    <Content Include="Resources\Images\NewImages\refer_candidate.png" />
+    <Content Include="Resources\Images\NewImages\reset_password.png" />
+    <Content Include="Resources\Images\NewImages\salary_hike.png" />
+    <Content Include="Resources\Images\NewImages\schedule_interview.png" />
+    <Content Include="Resources\Images\NewImages\test1.png" />
+    <Content Include="Resources\Images\NewImages\test2.png" />
+    <Content Include="Resources\Images\NewImages\update_intimation.png" />
+    <Content Include="Resources\Images\NewImages\update_results.png" />
+    <Content Include="Resources\Images\NewImages\Upload-file.png" />
+    <Content Include="Resources\Images\NewImages\upload_clearance_form.png" />
+    <Content Include="Resources\Images\NewImages\upload_employee_data.png" />
+    <Content Include="Resources\Images\NewImages\view_appraisal.png" />
+    <Content Include="Resources\Images\NewImages\view_attendence.png" />
+    <Content Include="Resources\Images\NewImages\view_btn.png" />
+    <Content Include="Resources\Images\NewImages\view_candidate.png" />
+    <Content Include="Resources\Images\NewImages\view_form.png" />
+    <Content Include="Resources\Images\NewImages\view_result.png" />
+    <Content Include="Resources\Images\NewImages\view_salary_details.png" />
+    <Content Include="Resources\Images\NewImages\view_salary_register.png" />
+    <Content Include="Resources\Images\right.gif" />
+    <Content Include="Resources\Images\emp\ui-bg_gloss-wave_55_5c9ccc_500x100_old.png" />
+    <Content Include="Resources\Images\googleballs.gif" />
+    <Content Include="Resources\Images\grey\ui-bg_gloss-wave_55_5c9ccc_500x100_old.png" />
+    <Content Include="Resources\Images\login_dialog.jpg" />
+    <Content Include="Resources\Images\login_pg_bg.jpg" />
+    <Content Include="Resources\Images\login_pg_bg1.jpg" />
+    <Content Include="Resources\Images\menu_separator.png" />
+    <Content Include="Resources\Images\menu_separator1.png" />
+    <Content Include="Resources\Images\NewImages\Activate.jpg" />
+    <Content Include="Resources\Images\NewImages\Active.jpg" />
+    <Content Include="Resources\Images\NewImages\add employee.jpg" />
+    <Content Include="Resources\Images\NewImages\createusers.png" />
+    <Content Include="Resources\Images\NewImages\Deactive.jpg" />
+    <Content Include="Resources\Images\NewImages\delete.jpg" />
+    <Content Include="Resources\Images\NewImages\leavemodify.jpg" />
+    <Content Include="Resources\Images\NewImages\shortlist.jpg" />
+    <Content Include="Resources\Images\NewImages\view.jpg" />
+    <Content Include="Resources\Images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Resources\Images\ui-bg_gloss-wave_55_5c9ccc_500x1001.png" />
+    <Content Include="Resources\Images\ui-bg_gloss-wave_55_5c9ccc_500x100_old.png" />
+    <Content Include="Resources\js\Bootstrapjs\bootstrap.js" />
+    <Content Include="Resources\js\Bootstrapjs\bootstrap.min.js" />
+    <Content Include="Resources\js\jquery-ui-1.8.17.custom.min.js" />
+    <Content Include="Resources\js\Newjs\jquery-1.9.1.js" />
+    <Content Include="Resources\js\Newjs\jquery-ui-1.10.3.custom.js" />
+    <Content Include="Resources\js\Newjs\jquery-ui-1.10.3.custom.min.js" />
+    <Content Include="Resources\js\progress.js" />
+    <Content Include="Resources\js\stuHover.js" />
+    <Content Include="SaveFile.ashx" />
+    <Content Include="Appraisal\AppraisalRating.aspx" />
+    <Content Include="Appraisal\Intimation.aspx" />
+    <Content Include="ExitManagement\EmployeeExitManagement.aspx" />
+    <Content Include="ExitManagement\ExitManagement.aspx" />
+    <Content Include="HTMLEditor\color.js" />
+    <Content Include="HTMLEditor\color_picker.js" />
+    <Content Include="HTMLEditor\HTMLForm\Experience.htm" />
+    <Content Include="HTMLEditor\HTMLForm\OfferLetter.htm" />
+    <Content Include="HTMLEditor\HTMLForm\Relieving.htm" />
+    <Content Include="HTMLEditor\icons\bg.gif" />
+    <Content Include="HTMLEditor\icons\blank.gif" />
+    <Content Include="HTMLEditor\icons\border_bottom.gif" />
+    <Content Include="HTMLEditor\icons\border_left.gif" />
+    <Content Include="HTMLEditor\icons\border_none.gif" />
+    <Content Include="HTMLEditor\icons\border_outside.gif" />
+    <Content Include="HTMLEditor\icons\border_right.gif" />
+    <Content Include="HTMLEditor\icons\border_top.gif" />
+    <Content Include="HTMLEditor\icons\bottom.gif" />
+    <Content Include="HTMLEditor\icons\bottomleft.gif" />
+    <Content Include="HTMLEditor\icons\bottomright.gif" />
+    <Content Include="HTMLEditor\icons\brkspace.gif" />
+    <Content Include="HTMLEditor\icons\btnBackColor.gif" />
+    <Content Include="HTMLEditor\icons\btnBold.gif" />
+    <Content Include="HTMLEditor\icons\btnBookmark.gif" />
+    <Content Include="HTMLEditor\icons\btnBoxFormatting.gif" />
+    <Content Include="HTMLEditor\icons\btnCenter.gif" />
+    <Content Include="HTMLEditor\icons\btnCopy.gif" />
+    <Content Include="HTMLEditor\icons\btnCustomCss.gif" />
+    <Content Include="HTMLEditor\icons\btnCut.gif" />
+    <Content Include="HTMLEditor\icons\btnEditCell.gif" />
+    <Content Include="HTMLEditor\icons\btnEditTable.gif" />
+    <Content Include="HTMLEditor\icons\btnFlash.gif" />
+    <Content Include="HTMLEditor\icons\btnFontName.gif" />
+    <Content Include="HTMLEditor\icons\btnFontSize.gif" />
+    <Content Include="HTMLEditor\icons\btnForeColor.gif" />
+    <Content Include="HTMLEditor\icons\btnFull.gif" />
+    <Content Include="HTMLEditor\icons\btnGuideline.gif" />
+    <Content Include="HTMLEditor\icons\btnHyperlink.gif" />
+    <Content Include="HTMLEditor\icons\btnImage.gif" />
+    <Content Include="HTMLEditor\icons\btnIndent.gif" />
+    <Content Include="HTMLEditor\icons\btnItalic.gif" />
+    <Content Include="HTMLEditor\icons\btnLeft.gif" />
+    <Content Include="HTMLEditor\icons\btnLine.gif" />
+    <Content Include="HTMLEditor\icons\btnList.gif" />
+    <Content Include="HTMLEditor\icons\btnListFormatting.gif" />
+    <Content Include="HTMLEditor\icons\btnMedia.gif" />
+    <Content Include="HTMLEditor\icons\btnNumber.gif" />
+    <Content Include="HTMLEditor\icons\btnOutdent.gif" />
+    <Content Include="HTMLEditor\icons\btnParagraph.gif" />
+    <Content Include="HTMLEditor\icons\btnParagraphFormatting.gif" />
+    <Content Include="HTMLEditor\icons\btnPaste.gif" />
+    <Content Include="HTMLEditor\icons\btnPasteClip.gif" />
+    <Content Include="HTMLEditor\icons\btnPasteText.gif" />
+    <Content Include="HTMLEditor\icons\btnPasteWord.gif" />
+    <Content Include="HTMLEditor\icons\btnRedo.gif" />
+    <Content Include="HTMLEditor\icons\btnRemoveFormat.gif" />
+    <Content Include="HTMLEditor\icons\btnRight.gif" />
+    <Content Include="HTMLEditor\icons\btnSearch.gif" />
+    <Content Include="HTMLEditor\icons\btnSource.gif" />
+    <Content Include="HTMLEditor\icons\btnStrikethrough.gif" />
+    <Content Include="HTMLEditor\icons\btnStyle.gif" />
+    <Content Include="HTMLEditor\icons\btnStyleSelect.gif" />
+    <Content Include="HTMLEditor\icons\btnSuperscript.gif" />
+    <Content Include="HTMLEditor\icons\btnSymbol.gif" />
+    <Content Include="HTMLEditor\icons\btnTable.gif" />
+    <Content Include="HTMLEditor\icons\btnTableEdit.gif" />
+    <Content Include="HTMLEditor\icons\btnTableSize.gif" />
+    <Content Include="HTMLEditor\icons\btnTextFormatting.gif" />
+    <Content Include="HTMLEditor\icons\btnUnderline.gif" />
+    <Content Include="HTMLEditor\icons\btnUndo.gif" />
+    <Content Include="HTMLEditor\icons\decrease.gif" />
+    <Content Include="HTMLEditor\icons\img.gif" />
+    <Content Include="HTMLEditor\icons\img_reset.gif" />
+    <Content Include="HTMLEditor\icons\increase.gif" />
+    <Content Include="HTMLEditor\icons\left.gif" />
+    <Content Include="HTMLEditor\icons\openAsset.gif" />
+    <Content Include="HTMLEditor\icons\right.gif" />
+    <Content Include="HTMLEditor\icons\top.gif" />
+    <Content Include="HTMLEditor\icons\topleft.gif" />
+    <Content Include="HTMLEditor\icons\topright.gif" />
+    <Content Include="HTMLEditor\list.js" />
+    <Content Include="HTMLEditor\scripts\bookmark.htm" />
+    <Content Include="HTMLEditor\scripts\border.htm" />
+    <Content Include="HTMLEditor\scripts\box.htm" />
+    <Content Include="HTMLEditor\scripts\characters.htm" />
+    <Content Include="HTMLEditor\scripts\color_picker.htm" />
+    <Content Include="HTMLEditor\scripts\color_picker_bg.htm" />
+    <Content Include="HTMLEditor\scripts\color_picker_fg.htm" />
+    <Content Include="HTMLEditor\scripts\editor.js" />
+    <Content Include="HTMLEditor\scripts\editor_lang.js" />
+    <Content Include="HTMLEditor\scripts\flash.htm" />
+    <Content Include="HTMLEditor\scripts\FWActivate.js" />
+    <Content Include="HTMLEditor\scripts\hyperlink.htm" />
+    <Content Include="HTMLEditor\scripts\image.htm" />
+    <Content Include="HTMLEditor\scripts\innovaeditor.js" />
+    <Content Include="HTMLEditor\scripts\istoolbar.js" />
+    <Content Include="HTMLEditor\scripts\list.htm" />
+    <Content Include="HTMLEditor\scripts\media.htm" />
+    <Content Include="HTMLEditor\scripts\moz\editor.js" />
+    <Content Include="HTMLEditor\scripts\paragraph.htm" />
+    <Content Include="HTMLEditor\scripts\saf\editor.js" />
+    <Content Include="HTMLEditor\scripts\source_xhtml.htm" />
+    <Content Include="HTMLEditor\scripts\styles_cssText.htm" />
+    <Content Include="HTMLEditor\scripts\table_edit.htm" />
+    <Content Include="HTMLEditor\scripts\table_editCell.htm" />
+    <Content Include="HTMLEditor\scripts\table_insert.htm" />
+    <Content Include="HTMLEditor\scripts\table_size.htm" />
+    <Content Include="HTMLEditor\scripts\text1.htm" />
+    <Content Include="HTMLEditor\undefinedicons\btnFontName.gif" />
+    <Content Include="HTMLEditor\undefinedicons\btnFontSize.gif" />
+    <Content Include="HTMLEditor\undefinedicons\btnParagraph.gif" />
+    <Content Include="Masters\Designation.aspx" />
+    <Content Include="Masters\Master_EmployeeSummary.aspx" />
+    <Content Include="Masters\UploadDocument.aspx" />
+    <Content Include="Masters\Users.aspx" />
+    <Content Include="Recruitment\CandidateInterviewForm.aspx" />
+    <Content Include="Recruitment\Candidate_Competency.aspx" />
+    <Content Include="Recruitment\InterviewSchedule.aspx" />
+    <Content Include="Recruitment\IssueOfferLetter.aspx" />
+    <Content Include="Resources\css\NewCss\Stylesheet1.css" />
+    <Content Include="Resources\Images\altiostar.png" />
+    <Content Include="Resources\Images\attachment.png" />
+    <Content Include="Resources\Images\inside_pg_bg.jpg" />
+    <Content Include="Resources\Images\NewImages\1.png" />
+    <Content Include="Resources\Images\NewImages\add_icon.png" />
+    <Content Include="Resources\Images\NewImages\dashboard_bg.gif" />
+    <Content Include="Resources\Images\NewImages\dashboard_bg1.gif" />
+    <Content Include="Resources\Images\NewImages\dashboard_bg_transparent.png" />
+    <Content Include="Resources\Images\NewImages\deactivate_icon.png" />
+    <Content Include="Resources\Images\NewImages\deactivatescr_icon_sml.png" />
+    <Content Include="Resources\Images\NewImages\designation_heading.png" />
+    <Content Include="Resources\Images\NewImages\edit_icon.png" />
+    <Content Include="Resources\Images\NewImages\inside_pg_bg.jpg" />
+    <Content Include="Resources\Images\NewImages\inside_pg_header.jpg" />
+    <Content Include="Resources\Images\NewImages\leaves_icon_sml.png" />
+    <Content Include="Resources\Images\NewImages\login_pg_bg.jpg" />
+    <Content Include="Resources\Images\NewImages\login_pg_bg1.jpg" />
+    <Content Include="Resources\Images\NewImages\logout_bigdashboard_icon.png" />
+    <Content Include="Resources\Images\NewImages\logout_icon_sml.png" />
+    <Content Include="Resources\Images\NewImages\recruitment_icon_sml.png" />
+    <Content Include="Resources\Images\NewImages\refresh_icon.png" />
+    <Content Include="Resources\Images\NewImages\setup_icon_sml.png" />
+    <Content Include="Resources\Images\THG.jpg" />
+    <Content Include="Resources\Images\UpdateResume.jpg" />
+    <Content Include="Templates\IRCAEmailTemplate.htm" />
+    <Content Include="Templates\LoanAppRejEmail.htm" />
+    <Content Include="Templates\LoanNotification.htm" />
+    <Content Include="Templates\LoanNotify.htm" />
+    <Content Include="Templates\LoanRejection.htm" />
+    <Content Include="Templates\LoanRequest.htm" />
+    <Content Include="UploadFileHandler.ashx" />
+    <Content Include="UserControls\EmployeeFilter.ascx" />
+    <Content Include="Utils\WebScriptUtils.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationManager\ApplicationManager.csproj">
+      <Project>{AEFD0F4F-524F-480C-9B80-F895DEAC1244}</Project>
+      <Name>ApplicationManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Authentication\Authentication.csproj">
+      <Project>{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}</Project>
+      <Name>Authentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonManager\CommonManager.csproj">
+      <Project>{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}</Project>
+      <Name>CommonManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRManager\HRManager.csproj">
+      <Project>{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}</Project>
+      <Name>HRManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRCAKernel\IRCAKernel.csproj">
+      <Project>{2022ABFA-8CD5-49F2-ACEF-8098937E5949}</Project>
+      <Name>IRCAKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\Appraisal\rdlcPromotionReport.rdlc" />
+    <EmbeddedResource Include="Reports\Appraisal\rdlcSalaryHikeReport.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcAllEmployeeDetails.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcEducationDetails.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcEmployeeDetails.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcEmployeeType.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcExitEmployment.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcJoiningType.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcTeamwiseEmployee.rdlc" />
+    <EmbeddedResource Include="Reports\Employee\rdlcCareerSummary.rdlc" />
+    <EmbeddedResource Include="Reports\ExitManagement\rdlcResignationExitManagementReport.rdlc" />
+    <EmbeddedResource Include="Reports\ExitManagement\rdlcTerminationExitManagementReport.rdlc" />
+    <EmbeddedResource Include="Reports\ExitManagement\rdlcTeamWiseExitManagementReport.rdlc" />
+    <EmbeddedResource Include="Reports\Leave\rdlcEmpActivityLeave.rdlc" />
+    <EmbeddedResource Include="Reports\Leave\rdlcLeaveBalance.rdlc" />
+    <EmbeddedResource Include="Reports\Leave\rdlcLeaveRequest.rdlc" />
+    <EmbeddedResource Include="Reports\Leave\rdlcWorkFromHome.rdlc" />
+    <EmbeddedResource Include="Reports\Payroll\rdlcPayslip.rdlc" />
+    <EmbeddedResource Include="Reports\Payroll\rdlcSalaryDetails.rdlc" />
+    <EmbeddedResource Include="Reports\Payroll\rdlcSalaryRegister.rdlc" />
+    <EmbeddedResource Include="Reports\rdlcAssetAssignTeamWise.rdlc" />
+    <EmbeddedResource Include="Reports\rdlcAssetAssignUserWise.rdlc" />
+    <EmbeddedResource Include="Reports\rdlcAssetCategory.rdlc" />
+    <EmbeddedResource Include="Reports\rdlcNoData.rdlc" />
+    <EmbeddedResource Include="Reports\rdlcOutgoingAssets.rdlc" />
+    <EmbeddedResource Include="Reports\Recruitment\rdlcCandidateDetailsbyConsultant.rdlc" />
+    <EmbeddedResource Include="Reports\Recruitment\rdlcCandidateDetailsbyReferral.rdlc" />
+    <EmbeddedResource Include="Reports\Recruitment\rdlcCandidateInterviewDetailsReport.rdlc" />
+    <EmbeddedResource Include="Reports\Recruitment\rdlcOfferLetterIssuedReport.rdlc" />
+    <EmbeddedResource Include="Reports\Recruitment\rdlcShortlistedCandidateApplicationDetails.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Resources\EmployeeDocuments\" />
+    <Folder Include="Resources\ExitManagement\" />
+    <Folder Include="Resources\GoalDocuments\" />
+    <Folder Include="Resources\ResumeDownloads\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54000</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

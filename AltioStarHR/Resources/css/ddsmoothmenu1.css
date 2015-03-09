@@ -1,0 +1,189 @@
+
+.ddsmoothmenu
+{
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+}
+
+.ddsmoothmenu ul
+{
+    z-index: 600;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    list-style-type: none;
+    float: right;
+}
+
+
+.ddsmoothmenu ul li
+{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 0px 5px;
+    z-index: 600;
+}
+
+
+.ddsmoothmenu ul li a
+{
+    display: block;
+    background: #fff; 
+    color: #3D3D3D;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+* html .ddsmoothmenu ul li a
+{
+    display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited
+{
+    color: #3D3D3D;
+}
+
+.ddsmoothmenu ul li a.selected
+{
+    color: #ef0000;
+}
+
+.ddsmoothmenu ul li a:hover
+{
+   
+    color: #ef0000;
+}
+
+.ddsmoothmenu li.textBox
+{
+    width: 165px;
+}
+
+.ddsmoothmenu li.searchText
+{
+    width: 65px;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.ddsmoothmenu li.textBox input[type=text]
+{
+    display: inline;
+    border: 1px solid #9c9c9c;
+    width: 160px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.ddsmoothmenu ul li ul
+{
+    padding: 0px;
+}
+.ddsmoothmenu ul li ul li
+{
+    padding: 0px;
+}
+
+.ddsmoothmenu ul li ul li a
+{
+    display: block;
+    background: #EF0000; 
+    color: white;
+    padding: 10px 10px;
+    border-right: 1px solid #778;
+    color: #fff;
+    text-decoration: none;
+}
+* html .ddsmoothmenu ul li ul li a
+{
+    display: inline-block;
+}
+
+.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited
+{
+    color: white;
+}
+
+.ddsmoothmenu ul li ul li a.selected
+{
+    background: #d6d6d6;
+    color: #ef0000;
+}
+
+.ddsmoothmenu ul li ul li a:hover
+{
+    background: #d6d6d6; 
+    color: #ef0000;
+}
+
+
+.ddsmoothmenu ul li ul
+{
+    position: absolute;
+    left: 0;
+    display: none; 
+    visibility: hidden;
+}
+
+.ddsmoothmenu ul li ul li
+{
+    display: list-item;
+    float: none;
+}
+
+.ddsmoothmenu ul li ul li ul
+{
+    top: 0;
+}
+
+.ddsmoothmenu ul li ul li a
+{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    width: 160px; 
+    padding: 10px 10px;
+    margin: 0;
+    border-top-width: 0;
+    border-bottom: 1px solid gray;
+}
+
+* html .ddsmoothmenu
+{
+    height: 1%;
+}
+
+.downarrowclass
+{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    display:none;
+}
+
+.rightarrowclass
+{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    display:none;
+}
+
+.ddshadow
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+}
+
+.toplevelshadow
+{    
+    opacity: 0.8;
+}

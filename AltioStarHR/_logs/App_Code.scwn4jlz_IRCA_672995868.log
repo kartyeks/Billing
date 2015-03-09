@@ -1,0 +1,2213 @@
+﻿19 September 2014
+System : IRCA/fe80::bd8b:6ef4:f605:bb2%4
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\archana
+IS91.Services : 9.1.1.1 ( 9.3.1.91 )
+DomainID : 442fedb-1-130555763251504528
+System Windows installer : 5.0.9600.16384
+Application is Web : True
+Application : AltioStarHR
+Application ID : ALTIOSTARHR
+Application Version : 1.0.0.0
+Application Assembly : App_Code.scwn4jlz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 19/09/2014
+Application path : d:\projects\altiostar\altiostarhr\bin\
+Application Executing Env Path : C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\3d990c1e\3618b82a\App_Code.scwn4jlz.dll
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+System.Web : 2.0.0.0
+System : 2.0.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Microsoft.JScript : 8.0.0.0
+CppCodeProvider : 8.0.0.0
+System.Data : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Drawing : 2.0.0.0
+System.EnterpriseServices : 2.0.0.0
+System.Web.Mobile : 2.0.0.0
+AltioStarHR : 1.0.0.0
+ApplicationManager : 1.0.0.0
+Authentication : 1.0.0.0
+CommonManager : 1.0.0.0
+HRManager : 1.0.0.0
+ICSharpCode.SharpZipLib : 0.86.0.518
+Ionic.Zip : 1.9.1.5
+IRCAKernel : 1.0.0.0
+IS91.Services : 9.1.1.1
+Jayrock.Json : 0.9.8316.0
+NPOI : 2.0.0.0
+NPOI.OOXML : 2.0.0.0
+NPOI.OpenXml4Net : 2.0.0.0
+NPOI.OpenXmlFormats : 2.0.0.0
+System.Windows.Controls.DataVisualization.Toolkit.Design.4.0 : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.Expression.Design : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.VisualStudio.Design : 3.5.40128.1
+WPFToolkit : 3.5.40128.1
+System.ServiceModel.Web : 3.5.0.0
+System.WorkflowServices : 3.5.0.0
+System.Runtime.Serialization : 3.0.0.0
+System.IdentityModel : 3.0.0.0
+System.ServiceModel : 3.0.0.0
+System.Windows.Forms : 2.0.0.0
+System.Core : 3.5.0.0
+System.Data.DataSetExtensions : 3.5.0.0
+System.Web.Extensions : 3.5.0.0
+System.Xml.Linq : 3.5.0.0
+Microsoft.ReportViewer.Common : 10.0.0.0
+Microsoft.ReportViewer.WebForms : 10.0.0.0
+App_Code.scwn4jlz : 1.0.0.0
+System.Web.RegularExpressions : 2.0.0.0
+App_global.asax.9k0f3nql : 0.0.0.0
+WebDev.WebHost : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+SMDiagnostics : 3.0.0.0
+A_9d8958f7_d151_4199_90f2_7df3e04c9f57 : 0.0.0.0
+App_Web_ss1xoeph : 0.0.0.0
+App_Web_default.aspx.cdcab7d2.cfobfrxf : 0.0.0.0
+System.ServiceProcess : 2.0.0.0
+IS91Zip : 9.1.1.1
+
+
+19 September 2014	10:28:49	ThreadID-4
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+19 September 2014	10:28:49	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:49	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:28:49	ThreadID-12
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Default.aspx
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-IN
+HTTP_COOKIE:ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+Cookie: ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+Host: localhost:56630
+Referer: http://localhost:56630/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-IN&HTTP_COOKIE=ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:51	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:28:55	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:28:55	ThreadID-12
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_COOKIE:ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Cookie: ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_COOKIE=ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:59	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:59	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:59	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:28:59	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:10	ThreadID-10
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:10	ThreadID-10
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:10	ThreadID-10
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:10	ThreadID-10
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-10
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-10
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-10
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-10
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-6
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:29:11	ThreadID-6
+GET - http://localhost:56630/Common/Resources/css/menu_style.css
+http://localhost:56630/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css
+/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+~/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+
+Params - Start
+ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/css, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-IN
+HTTP_COOKIE:ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/css, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+Cookie: ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+Host: localhost:56630
+Referer: http://localhost:56630/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/menu_style.css&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/menu_style.css&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/menu_style.css&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/css, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-IN&HTTP_COOKIE=ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:11	ThreadID-11
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:29:11	ThreadID-11
+GET - http://localhost:56630/APPRES.ashx/_blank.htm
+http://localhost:56630/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm
+/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+~/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+
+Params - Start
+ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-IN
+HTTP_COOKIE:ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+Cookie: ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze
+Host: localhost:56630
+Referer: http://localhost:56630/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/APPRES.ashx/_blank.htm&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/APPRES.ashx/_blank.htm&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/APPRES.ashx/_blank.htm&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-IN&HTTP_COOKIE=ASP.NET_SessionId=aatiq4qt0i4van4500cse3ze&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:16	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:16	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:16	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:16	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:21	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:21	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:21	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:21	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-5
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-5
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-5
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-5
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:24	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-11
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-11
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-11
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-11
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:25	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:26	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:27	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:27	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:27	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:27	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:30	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:30	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:30	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:30	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:36	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:36	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:36	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:36	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:40	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:40	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:40	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:40	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:42	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:42	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:42	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:42	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:46	ThreadID-5
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:46	ThreadID-5
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:46	ThreadID-5
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:46	ThreadID-5
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:49	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:49	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:49	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:49	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:50	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:50	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:50	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:29:50	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:40:51	ThreadID-12
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Default.aspx
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-IN
+HTTP_COOKIE:ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+Cookie: ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4
+Host: localhost:56630
+Referer: http://localhost:56630/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-IN&HTTP_COOKIE=ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:51	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:40:51	ThreadID-12
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_COOKIE:ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Cookie: ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_COOKIE=ASP.NET_SessionId=fs0o3engmhl3dt45behk4xz4&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:56	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:56	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:56	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:40:56	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:34	ThreadID-14
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+19 September 2014	10:45:34	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:34	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:34	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:34	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:34	ThreadID-6
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:45:34	ThreadID-6
+GET - http://localhost:56630/Common/Resources/css/login_style.css
+http://localhost:56630/Common/Login.aspx
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\login_style.css
+/Common/Resources/css/login_style.css
+/Common/Resources/css/login_style.css
+~/Common/Resources/css/login_style.css
+/Common/Resources/css/login_style.css
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/css,*/*;q=0.1
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Common/Login.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+Referer: http://localhost:56630/Common/Login.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/login_style.css&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\login_style.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/login_style.css&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/login_style.css&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/css,*/*;q=0.1&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Common/Login.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:35	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:45:35	ThreadID-12
+GET - http://localhost:56630/Common/Resources/Images/login_pg_bg.jpg
+http://localhost:56630/Common/Login.aspx
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Common\Resources\Images\login_pg_bg.jpg
+/Common/Resources/Images/login_pg_bg.jpg
+/Common/Resources/Images/login_pg_bg.jpg
+~/Common/Resources/Images/login_pg_bg.jpg
+/Common/Resources/Images/login_pg_bg.jpg
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Common/Login.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+Referer: http://localhost:56630/Common/Login.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/Images/login_pg_bg.jpg&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Common\Resources\Images\login_pg_bg.jpg&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/Images/login_pg_bg.jpg&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/Images/login_pg_bg.jpg&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Common/Login.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:36	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:45:36	ThreadID-14
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:48	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:49	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:45:49	ThreadID-14
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Resources/css/hrStyle.css
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Resources/css/hrStyle.css
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+Referer: http://localhost:56630/Resources/css/hrStyle.css
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Resources/css/hrStyle.css&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:49	ThreadID-6
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+19 September 2014	10:45:50	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:45:50	ThreadID-14
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:00	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:00	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:00	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:00	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:02	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:03	ThreadID-12
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:10	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:10	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:10	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:10	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-12
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-12
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-12
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-12
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-6
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:11	ThreadID-6
+GET - http://localhost:56630/APPRES.ashx/_blank.htm
+http://localhost:56630/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm
+/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+~/APPRES.ashx/_blank.htm
+/APPRES.ashx/_blank.htm
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+Referer: http://localhost:56630/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/APPRES.ashx/_blank.htm&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\APPRES.ashx\_blank.htm&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/APPRES.ashx/_blank.htm&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/APPRES.ashx/_blank.htm&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:11	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:11	ThreadID-14
+GET - http://localhost:56630/Common/Resources/css/menu_style.css
+http://localhost:56630/default.aspx?serve=DashBoard
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css
+/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+~/Common/Resources/css/menu_style.css
+/Common/Resources/css/menu_style.css
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/css,*/*;q=0.1
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/default.aspx?serve=DashBoard
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+Referer: http://localhost:56630/default.aspx?serve=DashBoard
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Common/Resources/css/menu_style.css&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\Common\Resources\css\menu_style.css&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Common/Resources/css/menu_style.css&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Common/Resources/css/menu_style.css&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/css,*/*;q=0.1&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/default.aspx?serve=DashBoard&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:14	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:14	ThreadID-12
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:15	ThreadID-6
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:15	ThreadID-6
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:16	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:16	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:16	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:16	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:46:18	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:46:18	ThreadID-14
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:37	ThreadID-6
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:37	ThreadID-6
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:37	ThreadID-6
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:37	ThreadID-6
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:37	ThreadID-12
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:47:37	ThreadID-12
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+19 September 2014	10:47:41	ThreadID-6
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+19 September 2014	10:47:41	ThreadID-6
+GET - http://localhost:56630/favicon.ico
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 - 127.0.0.1 - 127.0.0.1
+D:\Projects\AltioStar\AltioStarHR\favicon.ico
+/favicon.ico
+/favicon.ico
+~/favicon.ico
+/favicon.ico
+
+Params - Start
+ASP.NET_SessionId=uicq4w45cinbly55ovatov45&2112887853=0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8
+HTTP_COOKIE:ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+HTTP_HOST:localhost:56630
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0
+Host: localhost:56630
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=D:\Projects\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\archana&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/favicon.ico&PATH_TRANSLATED=D:\Projects\AltioStar\AltioStarHR\favicon.ico&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/favicon.ico&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/favicon.ico&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=*/*&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=en-US,en;q=0.8&HTTP_COOKIE=ASP.NET_SessionId=uicq4w45cinbly55ovatov45; 2112887853=0&HTTP_HOST=localhost:56630&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+

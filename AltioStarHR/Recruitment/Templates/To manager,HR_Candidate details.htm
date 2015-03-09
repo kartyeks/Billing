@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<script runat="server">
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+
+    End Sub
+</script>
+
+<html>
+<head>
+    <style type="text/css">
+        .Mailbody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            padding-left:20px;
+        }
+        .MailHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            padding-top:15px;
+        }
+        .Mailbottom
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 394px; height: 227px; background-color: #FFCC00" action="">
+        <p class="MailHeader">Dear {!ManagerORHR},</p>
+        <p class="Mailbody"> {!LoginType} <b>{!CreaterName}</b> has referred a candidate for interview. </p>
+        <p class="Mailbody"> Kindly login to view the details of the candidate.</p>
+        <p class="Mailbody">Click on <a href="192.168.1.2/altiohr">192.168.1.2/altiohr</a></p>
+        <p class="Mailbottom">Regards,</p>
+        <p class="Mailbottom">AltiostarHR</p>        
+    </form>
+</body>
+
+</html>

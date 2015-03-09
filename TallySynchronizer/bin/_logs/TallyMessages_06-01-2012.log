@@ -1,0 +1,780 @@
+
+
+06/01/2012  09:20:20 AM
+Thread 56140151 Waiting 
+		
+
+
+06/01/2012  09:20:20 AM
+Thread 56140151 Entered 
+		
+
+
+06/01/2012  09:20:20 AM
+Thread 56140151: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:20:20 AM
+Thread 56140151: Retrieved 1 Pending Transactions 
+		
+
+
+06/01/2012  09:20:20 AM
+Thread 56140151: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:20:21 AM
+Thread 56140151: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:20:21 AM
+Thread 56140151 Processing Entry 797
+		
+
+
+06/01/2012  09:20:24 AM
+Created Ledger:TEST ACCOUNT Alias:TESTACCOUNT(TST) Under Group:Direct Incomes
+		
+
+
+06/01/2012  09:20:25 AM
+Created Ledger:Service Tax@10% Alias:SRV Under Group:Direct Incomes
+		
+
+
+06/01/2012  09:20:32 AM
+Thread 56140151 Updating Tally Table 
+		
+
+
+06/01/2012  09:20:33 AM
+Thread 56140151 Updated Tally Table 
+		
+
+
+06/01/2012  09:20:33 AM
+Thread 56140151: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:20:33 AM
+Thread 56140151: Retrieved 0 Pending Transactions 
+		
+
+
+06/01/2012  09:20:33 AM
+Thread 56140151 Released 
+		
+
+
+06/01/2012  09:21:49 AM
+Thread 23324256 Waiting 
+		
+
+
+06/01/2012  09:21:50 AM
+Thread 23324256 Released 
+		
+
+
+06/01/2012  09:21:55 AM
+Thread 34250480 Waiting 
+		
+
+
+06/01/2012  09:21:55 AM
+Thread 34250480 Entered 
+		
+
+
+06/01/2012  09:21:55 AM
+Thread 34250480: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:21:55 AM
+Thread 34250480: Retrieved 1 Pending Transactions 
+		
+
+
+06/01/2012  09:21:55 AM
+Thread 34250480: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:21:56 AM
+Thread 34250480: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:21:56 AM
+Thread 34250480 Processing Entry 797
+		
+
+
+06/01/2012  09:22:06 AM
+Thread 34250480 Updating Tally Table 
+		
+
+
+06/01/2012  09:22:06 AM
+Thread 34250480 Updated Tally Table 
+		
+
+
+06/01/2012  09:22:06 AM
+Thread 34250480: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:22:06 AM
+Thread 34250480: Retrieved 0 Pending Transactions 
+		
+
+
+06/01/2012  09:22:06 AM
+Thread 34250480 Released 
+		
+
+
+06/01/2012  09:22:30 AM
+Thread 37088038 Waiting 
+		
+
+
+06/01/2012  09:22:30 AM
+Thread 37088038 Entered 
+		
+
+
+06/01/2012  09:22:30 AM
+Thread 37088038: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:22:30 AM
+Thread 37088038: Retrieved 1 Pending Transactions 
+		
+
+
+06/01/2012  09:22:30 AM
+Thread 37088038: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:22:31 AM
+Thread 37088038: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:22:31 AM
+Thread 37088038 Processing Entry 797
+		
+
+
+06/01/2012  09:26:58 AM
+Thread 37088038 Updating Tally Table 
+		
+
+
+06/01/2012  09:26:58 AM
+Thread 37088038 Updated Tally Table 
+		
+
+
+06/01/2012  09:26:58 AM
+Thread 37088038: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:26:58 AM
+Thread 37088038: Retrieved 0 Pending Transactions 
+		
+
+
+06/01/2012  09:26:58 AM
+Thread 37088038 Released 
+		
+
+
+06/01/2012  09:28:44 AM
+Thread 33768781 Waiting 
+		
+
+
+06/01/2012  09:28:44 AM
+Thread 33768781 Entered 
+		
+
+
+06/01/2012  09:28:44 AM
+Thread 33768781: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:28:44 AM
+Thread 33768781: Retrieved 2 Pending Transactions 
+		
+
+
+06/01/2012  09:28:44 AM
+Thread 33768781: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:28:45 AM
+Thread 33768781: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:28:45 AM
+Thread 33768781 Processing Entry 797
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781 Processing Entry 798
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781 Updating Tally Table 
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781 Updated Tally Table 
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781: Retrieved 0 Pending Transactions 
+		
+
+
+06/01/2012  09:28:46 AM
+Thread 33768781 Released 
+		
+
+
+06/01/2012  09:48:03 AM
+Thread 61818251 Waiting 
+		
+
+
+06/01/2012  09:48:07 AM
+Thread 61818251 Entered 
+		
+
+
+06/01/2012  09:48:10 AM
+Thread 61818251: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:48:12 AM
+Thread 61818251: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  09:48:12 AM
+Thread 61818251: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:49:35 AM
+Thread 61818251: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:49:40 AM
+Thread 61818251 Processing Entry 797
+		
+
+
+06/01/2012  09:50:28 AM
+Thread 61818251 Processing Entry 798
+		
+
+
+06/01/2012  09:50:29 AM
+Thread 61818251 Processing Entry 799
+		
+
+
+06/01/2012  09:50:30 AM
+Thread 61818251 Updating Tally Table 
+		
+
+
+06/01/2012  09:50:30 AM
+Thread 61818251 Updated Tally Table 
+		
+
+
+06/01/2012  09:50:30 AM
+Thread 61818251 Released 
+		
+
+
+06/01/2012  09:50:40 AM
+Thread 24775715 Waiting 
+		
+
+
+06/01/2012  09:50:40 AM
+Thread 24775715 Entered 
+		
+
+
+06/01/2012  09:50:40 AM
+Thread 24775715: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:50:40 AM
+Thread 24775715: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  09:50:40 AM
+Thread 24775715: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:50:41 AM
+Thread 24775715: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:50:41 AM
+Thread 24775715 Processing Entry 797
+		
+
+
+06/01/2012  09:50:46 AM
+Created Ledger:Hon-Member charges Alias:CSH Under Group:Direct Incomes
+		
+
+
+06/01/2012  09:50:57 AM
+Thread 24775715 Processing Entry 798
+		
+
+
+06/01/2012  09:50:57 AM
+Thread 24775715 Processing Entry 799
+		
+
+
+06/01/2012  09:50:58 AM
+Thread 24775715 Updating Tally Table 
+		
+
+
+06/01/2012  09:50:58 AM
+Thread 24775715 Updated Tally Table 
+		
+
+
+06/01/2012  09:50:58 AM
+Thread 24775715 Released 
+		
+
+
+06/01/2012  09:51:36 AM
+Thread 1267421 Waiting 
+		
+
+
+06/01/2012  09:51:36 AM
+Thread 1267421 Entered 
+		
+
+
+06/01/2012  09:51:36 AM
+Thread 1267421: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:51:36 AM
+Thread 1267421: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  09:51:36 AM
+Thread 1267421: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:51:37 AM
+Thread 1267421: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:51:37 AM
+Thread 1267421 Processing Entry 797
+		
+
+
+06/01/2012  09:51:49 AM
+Thread 1267421 Processing Entry 798
+		
+
+
+06/01/2012  09:51:49 AM
+Thread 1267421 Processing Entry 799
+		
+
+
+06/01/2012  09:51:49 AM
+Thread 1267421 Updating Tally Table 
+		
+
+
+06/01/2012  09:51:49 AM
+Thread 1267421 Updated Tally Table 
+		
+
+
+06/01/2012  09:51:49 AM
+Thread 1267421 Released 
+		
+
+
+06/01/2012  09:52:15 AM
+Thread 9152318 Waiting 
+		
+
+
+06/01/2012  09:52:15 AM
+Thread 9152318 Entered 
+		
+
+
+06/01/2012  09:52:15 AM
+Thread 9152318: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:52:15 AM
+Thread 9152318: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  09:52:15 AM
+Thread 9152318: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:52:18 AM
+Thread 9152318: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:52:26 AM
+Thread 9152318 Processing Entry 797
+		
+
+
+06/01/2012  09:53:26 AM
+Thread 9152318 Processing Entry 798
+		
+
+
+06/01/2012  09:53:26 AM
+Thread 9152318 Processing Entry 799
+		
+
+
+06/01/2012  09:53:26 AM
+Thread 9152318 Updating Tally Table 
+		
+
+
+06/01/2012  09:53:26 AM
+Thread 9152318 Updated Tally Table 
+		
+
+
+06/01/2012  09:53:26 AM
+Thread 9152318 Released 
+		
+
+
+06/01/2012  09:53:45 AM
+Thread 47178698 Waiting 
+		
+
+
+06/01/2012  09:53:45 AM
+Thread 47178698 Entered 
+		
+
+
+06/01/2012  09:53:45 AM
+Thread 47178698: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  09:53:45 AM
+Thread 47178698: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  09:53:45 AM
+Thread 47178698: Retrieving Entry Details 
+		
+
+
+06/01/2012  09:54:10 AM
+Thread 47178698: Retrieved Entry Details 
+		
+
+
+06/01/2012  09:54:31 AM
+Thread 47178698 Processing Entry 797
+		
+
+
+06/01/2012  10:00:47 AM
+Thread 47178698 Processing Entry 798
+		
+
+
+06/01/2012  10:00:47 AM
+Thread 47178698 Updating Tally Table 
+		
+
+
+06/01/2012  10:00:47 AM
+Thread 47178698 Updated Tally Table 
+		
+
+
+06/01/2012  10:00:47 AM
+Thread 47178698 Released 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917 Waiting 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917 Entered 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917: Retrieving Entry Details 
+		
+
+
+06/01/2012  10:00:52 AM
+Thread 53144917: Retrieved Entry Details 
+		
+
+
+06/01/2012  10:00:53 AM
+Thread 53144917 Processing Entry 797
+		
+
+
+06/01/2012  10:01:02 AM
+Created Ledger:Green Fees Alias:GFEE Under Group:Direct Incomes
+		
+
+
+06/01/2012  10:01:05 AM
+Thread 53144917 Processing Entry 798
+		
+
+
+06/01/2012  10:01:06 AM
+Thread 53144917 Processing Entry 799
+		
+
+
+06/01/2012  10:01:06 AM
+Thread 53144917 Updating Tally Table 
+		
+
+
+06/01/2012  10:01:06 AM
+Thread 53144917 Updated Tally Table 
+		
+
+
+06/01/2012  10:01:06 AM
+Thread 53144917 Released 
+		
+
+
+06/01/2012  10:23:04 AM
+Thread 55198763 Waiting 
+		
+
+
+06/01/2012  10:23:04 AM
+Thread 55198763 Entered 
+		
+
+
+06/01/2012  10:23:04 AM
+Thread 55198763: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  10:23:04 AM
+Thread 55198763: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  10:23:04 AM
+Thread 55198763: Retrieving Entry Details 
+		
+
+
+06/01/2012  10:23:33 AM
+Thread 55198763: Retrieved Entry Details 
+		
+
+
+06/01/2012  10:23:40 AM
+Thread 55198763 Processing Entry 798
+		
+
+
+06/01/2012  11:00:10 AM
+Thread 55198763 Updating Tally Table 
+		
+
+
+06/01/2012  11:00:10 AM
+Thread 55198763 Updated Tally Table 
+		
+
+
+06/01/2012  11:00:10 AM
+Thread 55198763 Released 
+		
+
+
+06/01/2012  11:00:16 AM
+Thread 28106152 Waiting 
+		
+
+
+06/01/2012  11:00:16 AM
+Thread 28106152 Released 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933 Waiting 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933 Entered 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933: Retrieving Entry Details 
+		
+
+
+06/01/2012  11:00:22 AM
+Thread 4718933: Retrieved Entry Details 
+		
+
+
+06/01/2012  11:00:23 AM
+Thread 4718933 Processing Entry 798
+		
+
+
+06/01/2012  11:00:23 AM
+Thread 4718933 Processing Entry 799
+		
+
+
+06/01/2012  11:00:24 AM
+Thread 4718933 Updating Tally Table 
+		
+
+
+06/01/2012  11:00:24 AM
+Thread 4718933 Updated Tally Table 
+		
+
+
+06/01/2012  11:00:24 AM
+Thread 4718933 Released 
+		
+
+
+06/01/2012  11:00:50 AM
+Thread 17176046 Waiting 
+		
+
+
+06/01/2012  11:00:50 AM
+Thread 17176046 Entered 
+		
+
+
+06/01/2012  11:00:50 AM
+Thread 17176046: Retrieving Pending Transactions 
+		
+
+
+06/01/2012  11:00:50 AM
+Thread 17176046: Retrieved 3 Pending Transactions 
+		
+
+
+06/01/2012  11:00:50 AM
+Thread 17176046: Retrieving Entry Details 
+		
+
+
+06/01/2012  11:01:15 AM
+Thread 17176046: Retrieved Entry Details 
+		
+
+
+06/01/2012  11:01:57 AM
+Thread 17176046 Processing Entry 813
+		

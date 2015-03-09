@@ -1,0 +1,39 @@
+
+2/5/2014 12:03:32 PM
+Unable to cast object of type 'System.Int32' to type 'System.String'.
+Message
+
+
+2/5/2014 12:22:23 PM
+Unable to cast object of type 'System.Int32' to type 'System.String'.
+Message
+
+
+2/5/2014 1:14:56 PM
+There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HRManager.Entity.Recruitment.RecruitmentNotification.NotifyJoiningDatetoHR3DaysPrior() in F:\Project\AltioStar\HRManager\Entity\Recruitment\RecruitmentNotification.cs:line 592
+
+2/5/2014 1:22:58 PM
+The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at IRCAKernel.MailService.sendMail(MailContent message) in F:\Project\AltioStar\IRCAKernel\MailService.cs:line 321
+
+2/5/2014 1:26:39 PM
+There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HRManager.Entity.Recruitment.RecruitmentNotification.NotifyJoiningDatetoHR3DaysPrior() in F:\Project\AltioStar\HRManager\Entity\Recruitment\RecruitmentNotification.cs:line 592
+
+2/5/2014 4:11:44 PM
+Specified cast is not valid.
+Message
+
+
+2/5/2014 4:13:46 PM
+Specified cast is not valid.
+Message
+

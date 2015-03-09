@@ -1,0 +1,123 @@
+﻿Monday, March 2, 2015
+System : IRCA7/fe80::e826:82f8:9d01:aff%3
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCA7\irca5
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+System Windows installer : 5.0.9600.17399
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 02/03/2015
+Application path : d:\yogesh\projects\clovergreenbilling\x86\
+Application Executing Env Path : D:\Yogesh\Projects\CLOVERGREENBILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities : 9.0.0.0
+System.Windows.Forms : 2.0.0.0
+System : 2.0.0.0
+System.Drawing : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities.Sync : 9.0.0.0
+Microsoft.VisualStudio.Debugger.Runtime : 9.0.0.0
+vshost32 : 9.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.ReportViewer.Common : 9.0.0.0
+Microsoft.ReportViewer.ProcessingObjectModel : 9.0.0.0
+Microsoft.ReportViewer.WinForms : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+Microsoft.VisualBasic.PowerPacks.Vs : 9.0.0.0
+System.Data : 2.0.0.0
+System.Deployment : 2.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Xml : 2.0.0.0
+BillingManager : 1.0.0.0
+XCoolForm : 1.0.0.0
+IRCAKernel : 1.1.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Configuration : 2.0.0.0
+
+
+Monday, March 2, 2015	11:50:50 AM	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+Monday, March 2, 2015	3:09:37 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	3:09:37 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	3:09:37 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	6:13:49 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	6:13:49 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	6:13:49 PM	ThreadID-9
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\Projects\CLOVERGREENBILLING\SmartCardReaderNew.cs:line 29
+
+Monday, March 2, 2015	7:31:01 PM	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+Monday, March 2, 2015	7:44:27 PM	ThreadID-9
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+

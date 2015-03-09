@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Online-HTML-Editor.org - The free online WYSIWYG Editor!</title>
+
+    <script src="scripts/editor_lang.js"></script>
+
+    <script src="scripts/innovaeditor.js"></script>
+
+    <script src="scripts/FWActivate.js"></script>
+    <style type="text/css">
+        .Stil2
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+    var EmpID = '';
+    var file = '';
+    var LetterType = '';
+    var myWindow;
+    function init() { 
+        // Commenting this line to display the htm- on full sceen //
+//        var scrnWidth = window.screen.width - 900;
+//        document.getElementById('tabMain').style.marginLeft = scrnWidth / 2 + "px";
+        params = getParams();
+        document.getElementById("hdnEMPID").value = unescape(params["id"]);
+        document.getElementById("hdnLetterType").value = unescape(params["LetterType"]);
+        document.getElementById("hdnCandidateID").value = unescape(params["Candid"]);
+        EmpID = document.getElementById("hdnEMPID").value;
+        LetterType = document.getElementById("hdnLetterType").value;
+        file = unescape(params["file"]);
+        btnOpen_onclick(EmpID);
+
+        if (LetterType == "OfferLetter") {
+            document.getElementById('btnEmail').style.display = "none";
+            document.getElementById('mainheader').innerHTML = "OFFER LETTER EDITOR";
+            return;
+        }
+        else if (LetterType == "RelievingLetter") {
+            document.getElementById('mainheader').innerHTML = "RELIEVING LETTER EDITOR";
+        }
+        else if (LetterType == "ExperienceLetter") {
+            document.getElementById('mainheader').innerHTML = "EXPERIENCE LETTER EDITOR";
+        }
+        document.getElementById('btnEmail').style.display = "";
+    }
+
+
+    function getParams(){
+        var idx = document.URL.indexOf('?');
+        var params = new Array();
+        if (idx != -1) {
+            var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+            for (var i=0; i<pairs.length; i++){
+                nameVal = pairs[i].split('=');
+                params[nameVal[0]] = nameVal[1];
+            }
+        }
+        return params;
+    }
+
+    var isFirstTime = true;
+    var isSaved = false;
+    var fileName = '';
+    var EmpID = '';
+
+    function selectFile() {
+        if (!isFirstTime) { if (!confirm("Do you want to quit without saving the changes")) { isFirstTime = false; return; } }
+        // fileName =document.getElementById('cmbfile').value; //"PermanentAppointmentLetter.htm";
+        // btnOpen_onclick(fileName);EmpID
+        btnOpen_onclick(EmpID); 
+    }
+
+    var NewExeObjx = null;
+    
+    function btnSave_onclick() { 
+        document.getElementById('hdnContents').value = '';
+        if (confirm('Do you want to Save Changes?') == false) return;
+        NewExeObjx = getRequestObject1();
+        try {
+            if (document.getElementById("hdnLetterType").value == "OfferLetter") {
+                NewExeObjx.open("POST", "../SaveFile.ashx?CAndID=" + document.getElementById("hdnCandidateID").value + "&file=" + file + "&LetterType=" + document.getElementById("hdnLetterType").value, false);
+            }
+            else {
+                NewExeObjx.open("POST", "../SaveFile.ashx?EmpID=" + document.getElementById("hdnEMPID").value + "&file=" + file + "&LetterType=" + document.getElementById("hdnLetterType").value, false);
+            }
+            
+            NewExeObjx.setRequestHeader("&param", 'IRCA');
+            NewExeObjx.send(oEdit1.getXHTMLBody() + '');
+            if (!NewExeObjx.status == 200) { alert('UnKnown error on Server while saving contents!'); return; }
+            if ((NewExeObjx.responseText + '').length > 0) { alert(NewExeObjx.responseText + ''); return; };
+        } catch (e) { alert('UnKnown error! Please try again!'); return; };
+        alert('File Saved!');{ isFirstTime = true; isSaved = true; }
+    }
+    
+    
+    function btnOpen_onclick(EmpID) {
+         
+        NewExeObjx = getRequestObject1();
+
+        if (document.getElementById("hdnLetterType").value == "OfferLetter") {
+            NewExeObjx.open("POST", "../OpenFile.ashx?mode=fileopen&CAndID=" + document.getElementById("hdnCandidateID").value + "&file=" + file + "&LetterType=" + document.getElementById("hdnLetterType").value , false);
+        }
+        else {
+            NewExeObjx.open("POST", "../OpenFile.ashx?mode=fileopen&EmpID=" + document.getElementById("hdnEMPID").value + "&file=" + file + "&LetterType=" + document.getElementById("hdnLetterType").value , false);
+        }
+            NewExeObjx.setRequestHeader("&param", 'IRCA');
+            NewExeObjx.send();
+            if (NewExeObjx.readyState == 4 && NewExeObjx.status == 200) {
+                if (NewExeObjx.responseText != '') {
+                   // oEdit1.preloadHTML= NewExeObjx.responseText;
+                    oEdit1.loadHTML(NewExeObjx.responseText); //document.getElementById('txtContent').value = NewExeObjx.responseText;
+                    document.getElementById('btnSave').style.display = "block";
+                    isFirstTime = false;
+                    isSaved = false;
+                }
+            }
+    }
+
+    function status_change() {
+        if (NewExeObjx.readyState == 4 && NewExeObjx.status == 200) {
+            if (NewExeObjx.responseText != '') {
+                //oEdit1.preloadHTML= NewExeObjx.responseText;
+                oEdit1.loadHTML(NewExeObjx.responseText); //document.getElementById('txtContent').value = NewExeObjx.responseText;
+            }
+        }
+    }
+
+    function btnPrint_onclick() {
+        if (oEdit1 == null) { alert('Open a File to print'); }
+        else {
+            if (!isSaved) { alert('Save the details to Print'); return; }
+            var pwin = window.open('', 'print_content', 'width=900,height=650,scrollbars=1');
+            pwin.document.open();
+            //pwin.document.write('<html><body onload="window.print();">' + content + '</body></html>');
+            pwin.document.write('<html><body onload="window.print();">' + oEdit1.getXHTMLBody() + '</body></html>');
+            pwin.document.close();
+            setTimeout(function() { pwin.close(); }, 1000);
+        }
+    }
+
+    function btnEmail_onclick() {
+        NewExeObjx = getRequestObject1();
+        if (confirm('Do you want to Send Email?') == false) return;
+        if (oEdit1 == null) { alert('Open a File to send Email'); }
+        else {
+            if (!isSaved) { alert('Save the details to send Email.'); return; }
+           
+            //NewExeObjx.open("POST", "../OpenFile.ashx?mode=email&path=" + fileName + "&EmpID=" + document.getElementById("hdnEMPID").value, false);
+            NewExeObjx.open("POST", "../OpenFile.ashx?mode=email&EmpID=" +  document.getElementById("hdnEMPID").value + "&file=" + file + "&LetterType=" + document.getElementById("hdnLetterType").value, false);
+            NewExeObjx.setRequestHeader("&param", 'IRCA');
+            NewExeObjx.send();
+            if (NewExeObjx.readyState == 4 && NewExeObjx.status == 200) {
+                //if (NewExeObjx.responseText != '') {
+                    alert('Email Sent Successfully.');
+                //}
+            }
+        }
+    }
+    
+    function btnCancel_onclick() {   
+        if (confirm('Do you want to cancel?') == false) return;       
+        document.getElementById("bodyHTMLEditor").style.display = 'none';
+        if (LetterType == "RelievingLetter") {
+            window.parent.ChildWB.frameElement.src = "default.aspx?serve=ExitManagement";
+        }  
+        else if (LetterType == "ExperienceLetter") {
+            window.parent.ChildWB.frameElement.src = "default.aspx?serve=ExitManagement";
+        }
+        else if (LetterType == "OfferLetter") {
+            window.parent.ChildWB.frameElement.src = "default.aspx?serve=IssueOfferLetter";
+        }
+    }
+    
+    </script>
+
+</head>
+<body id="bodyHTMLEditor" class="body" onload="init()">
+    <div id="divHTMLEditor" class="dialog" style="width:"100%">
+        <table align="center" width="100%" id="tabMain">
+            <tr>
+                <td align="center" style="font-size: 18px; font-weight: bold;">
+                    <label id="mainheader"></label> 
+                </td>
+            </tr>
+            <tr align="center">
+                <td align="center">
+                    <table align="center" width="100px" bgcolor="#E4E3ED" border="0">
+                        <tr>
+                            <td>
+                                <input type="button" onclick="return btnSave_onclick()" style="display: none;" id="btnSave"
+                                       name="Submit" value="Save Changes" />
+                            </td>
+                            <td>
+                                <input type="button" onclick="return btnPrint_onclick()" id="btnPrint" name="Print"
+                                       value="Print Letter" />
+                            </td>
+                            <td>
+                                <input type="button" onclick="return btnEmail_onclick()" id="btnEmail" name="Email"
+                                       value="Send Email" />
+                            </td>
+                            <td class="field">
+                                <input id="Cancel" name="Cancel" onclick="return btnCancel_onclick()" type="button" value="Cancel" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%">
+            <tr>
+                <td width="100%" valign="top" align="center">
+                    <form method="post" action="save.php" id="Form1">
+                    <br />
+                    <p>
+                        <textarea id="txtContent" name="txtContent" rows="2" cols="30"></textarea>
+                        <script>
+                            var oEdit1 = new InnovaEditor("oEdit1");
+                            oEdit1.width = '900';
+                            oEdit1.height = '380';
+                            oEdit1.mode = "XHTML";
+                            oEdit1.useDIV = false;
+                            oEdit1.useBR = false;
+                            oEdit1.REPLACE("txtContent");
+                        </script>
+                    </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <input type="hidden" id="hdnFileName" runat="server" />
+    <input type="hidden" id="hdnContents" runat="server" />
+    <input type="hidden" id="hdnEMPID" runat="server" />
+    <input type="hidden" id="hdnLetterType" runat="server" />
+    <input type="hidden" id="hdnCandidateID" runat="server" />
+</body>
+</html>

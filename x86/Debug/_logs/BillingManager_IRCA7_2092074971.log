@@ -1,0 +1,95 @@
+﻿Thursday, February 19, 2015
+System : IRCA7/fe80::e826:82f8:9d01:aff%3
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCA7\irca5
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+System Windows installer : 5.0.9600.17399
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 19/02/2015
+Application path : D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\bin\x86\Debug\
+Application Executing Env Path : D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+BillingManager : 1.0.0.0
+System : 2.0.0.0
+System.Windows.Forms : 2.0.0.0
+System.Drawing : 2.0.0.0
+IRCAKernel : 1.1.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Data : 2.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.VisualBasic : 8.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+
+
+Thursday, February 19, 2015	2:32:43 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+Thursday, February 19, 2015	2:32:43 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+Thursday, February 19, 2015	2:32:43 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+Thursday, February 19, 2015	3:52:40 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+Thursday, February 19, 2015	3:52:40 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+Thursday, February 19, 2015	3:52:40 PM	ThreadID-1
+System.FormatException: Invalid character in a Base-64 string.
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+
+   at System.Convert.FromBase64String(String s)
+   at IS91.Services.Common.Deserialize(String serializedItems)
+   at BillingManager.SmartCardReaderNew.CustomPrintDocument(String printContentBase64String, String PrinterName) in D:\Yogesh\YOGESH_KSCABILLING_KOTBOT\KSCABILLING\SmartCardReaderNew.cs:line 29
+

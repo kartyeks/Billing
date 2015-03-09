@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<script runat="server">
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+
+    End Sub
+</script>
+
+<html>
+<head>
+    <style type="text/css">
+        .style2
+        {
+            font-family: Calibri;
+            font-size: medium;
+            color: #FFFFFF;
+        }
+        .style5
+        {
+            color: #FFFFFF;
+        }
+        .style6
+        {
+            font-family: Calibri;
+            font-size: medium;
+            color: #000000;
+        }
+    </style>
+</head>
+<form style="width: 394px; height: 337px; background-color: #FFCC00">
+<body>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
+    <h4><span class="style5">&nbsp;&nbsp;&nbsp; </span> <span class="style2">&nbsp; </span> 
+        <span class="style6">Dear Consultant/ HR,</span></h4>
+<p class="style6"> &nbsp;&nbsp;&nbsp; We are happy to inform that the following 
+    candidate has been shortlisted .The interview details will be sent across at the 
+    earliest .Please find the resume attached.<p class="style6"> &nbsp;&nbsp;&nbsp;&nbsp; 
+        Candidate Name : Varsha Manohar&nbsp;<p> <br 
+        class="style6">
+    <span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Regards,</span><br 
+        class="style6">
+    <span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Altiostar HR</span></body></form>
+</html>

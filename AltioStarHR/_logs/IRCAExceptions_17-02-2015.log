@@ -1,0 +1,153 @@
+
+17/02/2015 10:12:49 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:12:49 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:13:31 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:13:32 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:28:08 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:28:09 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:31:25 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:31:25 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:35:13 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 10:35:13 AM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:01:12 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:01:13 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:12:05 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:12:05 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:17:37 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 12:17:37 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 1:04:58 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 1:04:59 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 1:51:13 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 1:51:13 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 2:32:00 PM
+Input string was not in a correct format.
+Message
+
+
+17/02/2015 2:35:17 PM
+There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HRManager.Entity.ExitManagement.ExitManagementNotification.ExitNotification(Int32 EmployeeID, DateTime ExitDate) in D:\kk\Projects\AltioStar\HRManager\Entity\ExitManagement\ExitManagementNotification.cs:line 189
+   at HRManager.Entity.EmployeesInfo.EmployeeOccupationDetails.Save() in D:\kk\Projects\AltioStar\HRManager\Entity\EmployeesInfo\EmployeeOccupationDetails.cs:line 183
+
+17/02/2015 2:48:48 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 2:48:48 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 3:05:03 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 3:05:04 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 3:35:59 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 3:36:00 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 5:14:48 PM
+Specified cast is not valid.
+Message
+
+
+17/02/2015 5:14:48 PM
+Specified cast is not valid.
+Message
+

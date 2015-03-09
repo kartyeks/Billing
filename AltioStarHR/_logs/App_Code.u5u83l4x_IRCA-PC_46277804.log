@@ -1,0 +1,1317 @@
+﻿26 August 2014
+System : IRCA-PC/fe80::9cd3:8627:fa64:418%12
+System OS : Microsoft Windows NT 6.1.7601 Service Pack 1/32bitOS-Win7
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\ravindra
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+DomainID : e3104546-1-130535074711280410
+System Windows installer : 5.0.7601.17807
+Application is Web : True
+Application : AltioStarHR
+Application ID : ALTIOSTARHR
+Application Version : 1.0.0.0
+Application Assembly : App_Code.u5u83l4x, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 26/08/2014
+Application path : f:\project\altiostar\altiostarhr\bin\
+Application Executing Env Path : C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Code.u5u83l4x.dll
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+System.Web : 2.0.0.0
+System : 2.0.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Microsoft.JScript : 8.0.0.0
+CppCodeProvider : 8.0.0.0
+System.Data : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Drawing : 2.0.0.0
+System.EnterpriseServices : 2.0.0.0
+System.Web.Mobile : 2.0.0.0
+AltioStarHR : 1.0.0.0
+ApplicationManager : 1.0.0.0
+Authentication : 1.0.0.0
+CommonManager : 1.0.0.0
+HRManager : 1.0.0.0
+ICSharpCode.SharpZipLib : 0.86.0.518
+Ionic.Zip : 1.9.1.5
+IRCAKernel : 1.0.0.0
+IS91.Services : 9.1.1.1
+Jayrock.Json : 0.9.8316.0
+NPOI : 2.0.0.0
+NPOI.OOXML : 2.0.0.0
+NPOI.OpenXml4Net : 2.0.0.0
+NPOI.OpenXmlFormats : 2.0.0.0
+System.Windows.Controls.DataVisualization.Toolkit.Design.4.0 : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.Expression.Design : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.VisualStudio.Design : 3.5.40128.1
+WPFToolkit : 3.5.40128.1
+System.Runtime.Serialization : 3.0.0.0
+System.IdentityModel : 3.0.0.0
+System.ServiceModel : 3.0.0.0
+System.ServiceModel.Web : 3.5.0.0
+System.WorkflowServices : 3.5.0.0
+System.Windows.Forms : 2.0.0.0
+System.Core : 3.5.0.0
+System.Data.DataSetExtensions : 3.5.0.0
+System.Web.Extensions : 3.5.0.0
+System.Web.Abstractions : 3.5.0.0
+System.Xml.Linq : 3.5.0.0
+Microsoft.ReportViewer.Common : 10.0.0.0
+Microsoft.ReportViewer.WebForms : 10.0.0.0
+App_Code.u5u83l4x : 1.0.0.0
+System.Web.RegularExpressions : 2.0.0.0
+App_global.asax.3lrjcuof : 0.0.0.0
+WebDev.WebHost : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+SMDiagnostics : 3.0.0.0
+A_2b5f6d97_a9c4_4f13_889c_b5ad3c43e4a6 : 0.0.0.0
+App_Web_rhpqaqlb : 0.0.0.0
+App_Web_default.aspx.cdcab7d2.in4jtsdw : 0.0.0.0
+System.ServiceProcess : 2.0.0.0
+
+
+26 August 2014	11:48:09	ThreadID-4
+Init IS91Services - Before byte[]
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:48:10	ThreadID-4
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:48:10	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:10	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:10	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:10	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:15	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:15	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:15	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:15	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:15	ThreadID-4
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+26 August 2014	11:48:15	ThreadID-4
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=lbwgex55jahzuov2h4tpuw55&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=lbwgex55jahzuov2h4tpuw55
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+HTTP_DNT:1
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=lbwgex55jahzuov2h4tpuw55
+Host: localhost:56630
+Referer: http://localhost:56630/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+DNT: 1
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=lbwgex55jahzuov2h4tpuw55&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko&HTTP_DNT=1
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:23	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:24	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:24	ThreadID-4
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:48:51	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:51	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:51	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:48:51	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:22	ThreadID-9
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:49:22	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:22	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:22	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:22	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:24	ThreadID-14
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:49:25	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:25	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:25	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:25	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:26	ThreadID-9
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:49:27	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:27	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:27	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:27	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:44	ThreadID-14
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:49:44	ThreadID-9
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:44	ThreadID-9
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:44	ThreadID-9
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:49:44	ThreadID-9
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:50:31	ThreadID-9
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:50:32	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:50:32	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:50:32	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:50:32	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:19	ThreadID-4
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:53:19	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:19	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:19	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:19	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:39	ThreadID-14
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:53:53	ThreadID-4
+Init IS91Services - Before byte[]
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:53:53	ThreadID-4
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:53:53	ThreadID-4
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:53	ThreadID-4
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:53	ThreadID-4
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:53	ThreadID-4
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:54	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:54	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:54	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:54	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:54	ThreadID-13
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+26 August 2014	11:53:54	ThreadID-13
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=52qdl12qkmumq4mf230n0n45&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=52qdl12qkmumq4mf230n0n45
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+HTTP_DNT:1
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=52qdl12qkmumq4mf230n0n45
+Host: localhost:56630
+Referer: http://localhost:56630/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+DNT: 1
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=52qdl12qkmumq4mf230n0n45&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko&HTTP_DNT=1
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:53:55	ThreadID-14
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:55:26	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:55:26	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:55:26	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:55:26	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:55:54	ThreadID-14
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The requested name is valid, but no data of the requested type was found.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+26 August 2014	11:56:16	ThreadID-8
+Init IS91Services - Before byte[]
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:56:16	ThreadID-8
+Init IS91Services - done
+at IS91.Services.Common.InitIS91Services(InitAgruments Args)
+
+
+26 August 2014	11:56:16	ThreadID-8
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:16	ThreadID-8
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:16	ThreadID-8
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:16	ThreadID-8
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:17	ThreadID-14
+System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+26 August 2014	11:56:17	ThreadID-14
+GET - http://localhost:56630/Resources/images/hrbanner1.png
+http://localhost:56630/Default.aspx
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png
+/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+~/Resources/images/hrbanner1.png
+/Resources/images/hrbanner1.png
+
+Params - Start
+ASP.NET_SessionId=lhnbit45jsezlwujxsgpqpzk&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_COOKIE:ASP.NET_SessionId=lhnbit45jsezlwujxsgpqpzk
+HTTP_HOST:localhost:56630
+HTTP_REFERER:http://localhost:56630/Default.aspx
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+HTTP_DNT:1
+&ALL_RAW=Connection: Keep-Alive
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ASP.NET_SessionId=lhnbit45jsezlwujxsgpqpzk
+Host: localhost:56630
+Referer: http://localhost:56630/Default.aspx
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+DNT: 1
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Resources/images/hrbanner1.png&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Resources\images\hrbanner1.png&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Resources/images/hrbanner1.png&SERVER_NAME=localhost&SERVER_PORT=56630&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Resources/images/hrbanner1.png&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_COOKIE=ASP.NET_SessionId=lhnbit45jsezlwujxsgpqpzk&HTTP_HOST=localhost:56630&HTTP_REFERER=http://localhost:56630/Default.aspx&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko&HTTP_DNT=1
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:18	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:18	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:18	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:18	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Interaction, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:18	ThreadID-8
+Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+at IS91.Services.Common.AsmblyResolveEventHandler(Object sender, ResolveEventArgs args)
+
+
+26 August 2014	11:56:45	ThreadID-14
+Before ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:45	ThreadID-14
+After ASPNET StateServer Check
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:45	ThreadID-14
+HttpSession Available:True
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:56:45	ThreadID-14
+is91 auth enabled:False
+at IS91.Services.Web.ApplicationModule.Application_PostAcquireRequestState(Object sender, EventArgs e)
+
+
+26 August 2014	11:57:11	ThreadID-14
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at IS91.Services.DataBlock.ExecutionEngine.CreateNewExecutionEngine(DatabaseServer database, String connectionString)
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUser(String Filter) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 308
+   at CommonManager.BusinessObjects.Common_UserBusinessObject.GetUserByLogin(String LoginName) in F:\Project\AltioStar\CommonManager\ExtendedBusinessObjects\Common_UserBusinessObject.cs:line 257
+   at AltioStarHR.Common.LoginHR.OnLogin() in F:\Project\AltioStar\AltioStarHR\Common\LoginHR.aspx.cs:line 105
+

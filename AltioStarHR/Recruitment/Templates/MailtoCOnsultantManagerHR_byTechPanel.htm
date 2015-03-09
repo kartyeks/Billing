@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .Mailbody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            padding-left:20px;
+        }
+        .MailHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            padding-top:15px;
+        }
+        .Mailbottom
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+        }
+        .TableHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            text-align:center
+        }
+        .TableBody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            text-align:justify
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 574px; height: 371px; background-color: #FFCC00;" action="">
+
+        <p class="MailHeader">Dear {!CreaterANDHR},</p>
+        <p class="Mailbody">The preferred date and time of the interview for the below candidate are given below</p>
+        <p class="Mailbody">Technical Panel name : {!TechpanelName}</p>
+        <p class="Mailbody">InterviewType : {!InterviewType}</p>
+        
+        <table border="1" cellspacing="0" >
+            <tr>
+              <th class="TableHeader">Candidate Name</th>
+              <th class="TableHeader">Preferred Date1</th>
+              <th class="TableHeader">Preferred Time1 </th>
+              <th class="TableHeader">Preferred Date2</th>
+              <th class="TableHeader"> Preferred Time2</th>
+            </tr>
+            <tr>
+              <td class="TableBody">{!CandidateName}</td>
+              <td class="TableBody">{!Date1}</td>
+              <td class="TableBody">{!Time1}</td>
+              <td class="TableBody">{!Date2}</td>
+              <td class="TableBody">{!Time2}</td>
+            </tr>
+        </table>
+        <p class="Mailbody"> Kindly login to view the details of the candidate.</p>
+        <p class="Mailbody">Click on <a href="192.168.1.2/altiohr">192.168.1.2/altiohr</a></p>
+        <p class="Mailbottom">Regards,</p>
+        <p class="Mailbottom">AltiostarHR</p>
+    </form>
+</body>
+
+</html>
+

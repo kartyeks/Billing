@@ -1,0 +1,15 @@
+F:\Project\AltioStar\Libs\CommonManager.dll
+F:\Project\AltioStar\Libs\CommonManager.pdb
+F:\Project\AltioStar\CommonManager\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\AltioStar\CommonManager\obj\Debug\CommonManager.dll
+F:\Project\AltioStar\CommonManager\obj\Debug\CommonManager.pdb
+D:\Projects\AltioStar\Libs\CommonManager.dll
+D:\Projects\AltioStar\Libs\CommonManager.pdb
+D:\Projects\AltioStar\CommonManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AltioStar\CommonManager\obj\Debug\CommonManager.dll
+D:\Projects\AltioStar\CommonManager\obj\Debug\CommonManager.pdb
+D:\kk\Projects\AltioStar\Libs\CommonManager.dll
+D:\kk\Projects\AltioStar\Libs\CommonManager.pdb
+D:\kk\Projects\AltioStar\CommonManager\obj\Debug\ResolveAssemblyReference.cache
+D:\kk\Projects\AltioStar\CommonManager\obj\Debug\CommonManager.dll
+D:\kk\Projects\AltioStar\CommonManager\obj\Debug\CommonManager.pdb

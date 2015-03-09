@@ -1,0 +1,41 @@
+﻿Monday, February 10, 2014 
+System : GURUSOFT/fe80::a4ee:e68c:a72a:c64%10
+System OS : Microsoft Windows NT 6.1.7601 Service Pack 1/32bitOS-Win7
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\guru
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+System Windows installer : 5.0.7601.17807
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 10/02/2014
+Application path : D:\TEST\ICMSPOS\bin\Debug\
+Application Executing Env Path : D:\TEST\ICMSPOS\bin\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+BillingManager : 1.0.0.0
+System : 2.0.0.0
+System.Windows.Forms : 2.0.0.0
+System.Drawing : 2.0.0.0
+IRCAKernel : 1.1.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Data : 2.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.VisualBasic : 8.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+
+
+Monday, February 10, 2014 	12:23:04 PM	ThreadID-1
+GURUSOFT
+
+at BillingManager.Forms.ICMSBill.ICMSBill_Load(Object sender, EventArgs e)
+
+

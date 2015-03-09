@@ -1,0 +1,15 @@
+F:\Project\AltioStar\Libs\ApplicationManager.dll
+F:\Project\AltioStar\Libs\ApplicationManager.pdb
+F:\Project\AltioStar\ApplicationManager\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.dll
+F:\Project\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.pdb
+D:\Projects\AltioStar\Libs\ApplicationManager.dll
+D:\Projects\AltioStar\Libs\ApplicationManager.pdb
+D:\Projects\AltioStar\ApplicationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.dll
+D:\Projects\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.pdb
+D:\kk\Projects\AltioStar\Libs\ApplicationManager.dll
+D:\kk\Projects\AltioStar\Libs\ApplicationManager.pdb
+D:\kk\Projects\AltioStar\ApplicationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\kk\Projects\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.dll
+D:\kk\Projects\AltioStar\ApplicationManager\obj\Debug\ApplicationManager.pdb

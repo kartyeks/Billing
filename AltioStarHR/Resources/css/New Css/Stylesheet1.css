@@ -1,0 +1,68 @@
+﻿body
+{
+ /*   margin:1% 10% 1% 10%;*/
+    border:1px solid black;
+    height:100%;
+}
+.cssmenu {float:left;width:auto}
+.cssmenu > ul > li {display:inline-block;position: relative;text-align:center;left:-40px;
+    
+    height: 57px;
+    top: 0px;
+    width: 88px;
+}
+.cssmenu > ul > li  img {vertical-align: middle; }
+.cssmenu > ul > li  span{font-size:13px}
+.cssmenu > ul > li > a {
+	font-weight:bold;
+	color: #555555;
+	display: block;
+	font-size: 8px;
+	line-height: 1.8em;
+    padding: 0px 14px;   
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	outline:none;
+}
+.cssmenu > ul > li > a:hover {background-color:white;color:red;}
+/*.cssmenu1 {float:right;width:auto;margin-right:2%}*/
+.cssmenu1 {float:left;width:auto;}
+.cssmenu1 > ul > li {display:inline-block;position: relative;text-align:center;}
+.cssmenu1 > ul > li span img {vertical-align: middle; }
+.cssmenu1 > ul > li > a {
+	font-weight:bold;
+	color: #555555;
+	display: block;
+	font-size: 8px;
+	line-height: 1.8em;
+    padding: 0px 14px;   
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	
+}
+
+.cssmenu1 > ul > li > a:hover {background-color:white;color:red;}
+.ui-jqgrid { border-right-width: 0px; border-left-width: 0px; }
+.ui-jqgrid { border-width: 0px; }
+.ui-jqgrid tr.ui-row-ltr td { border-right-color: transparent; }
+.ui-jqgrid-labels .ui-th-column { border-right-color: transparent }
+@media screen and (max-width: 800px) 
+{
+    .cssmenu
+    {
+        height:100%;
+        width:100%;
+    }
+}
+.ui-jqgrid .ui-userdata {
+    height: 50px; 
+}
+
+.display
+{
+ border:1px solid blue;
+}

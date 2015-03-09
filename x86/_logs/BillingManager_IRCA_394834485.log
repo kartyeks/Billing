@@ -1,0 +1,64 @@
+﻿05 December 2014
+System : IRCA/fe80::f137:2051:b817:d662%3
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\archana
+IS91.Services : 9.1.1.1 ( 9.3.1.91 )
+System Windows installer : 5.0.9600.16384
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 05-12-2014
+Application path : d:\projects\kscabilling\x86\
+Application Executing Env Path : D:\Projects\KSCABILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities : 9.0.0.0
+System.Windows.Forms : 2.0.0.0
+System : 2.0.0.0
+System.Drawing : 2.0.0.0
+Microsoft.VisualStudio.HostingProcess.Utilities.Sync : 9.0.0.0
+Microsoft.VisualStudio.Debugger.Runtime : 9.0.0.0
+vshost32 : 9.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.ReportViewer.Common : 9.0.0.0
+Microsoft.ReportViewer.ProcessingObjectModel : 9.0.0.0
+Microsoft.ReportViewer.WinForms : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+Microsoft.VisualBasic.PowerPacks.Vs : 9.0.0.0
+System.Data : 2.0.0.0
+System.Deployment : 2.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Xml : 2.0.0.0
+BillingManager : 1.0.0.0
+IRCAKernel : 1.1.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Configuration : 2.0.0.0
+
+
+05 December 2014	14:07:12	ThreadID-9
+System.InvalidOperationException: Operation is not valid because it results in a reentrant call to the SetCurrentCellAddressCore function.
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1165
+
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1165
+
+05 December 2014	14:07:12	ThreadID-9
+System.InvalidOperationException: Operation is not valid because it results in a reentrant call to the SetCurrentCellAddressCore function.
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1165
+
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   at BillingManager.Forms.ICMSBill.grdBilling_CellEndEdit(Object sender, DataGridViewCellEventArgs e) in D:\Projects\KSCABILLING\Forms\ICMSBill.cs:line 1165
+

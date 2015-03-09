@@ -1,0 +1,449 @@
+﻿14 January 2015
+System : IRCA/fe80::f137:2051:b817:d662%3
+System OS : Microsoft Windows NT 6.2.9200.0/64bitOS-UnKnown
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\archana
+IS91.Services : 9.1.1.1 ( 9.3.1.91 )
+System Windows installer : 5.0.9600.16384
+Application is Web : False
+Application : ICMSBilling
+Application ID : ICMSBILLING
+Application Version : 1.0.0.0
+Application Assembly : BillingManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Application updated on : 13-01-2015
+Application path : D:\Projects\KSCABILLING\bin\x86\Debug\
+Application Executing Env Path : D:\Projects\KSCABILLING\bin\x86\Debug\BillingManager.exe
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+BillingManager : 1.0.0.0
+System : 2.0.0.0
+System.Windows.Forms : 2.0.0.0
+System.Drawing : 2.0.0.0
+IRCAKernel : 1.1.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+Newtonsoft.Json : 3.0.0.0
+System.Core : 3.5.0.0
+System.Data : 2.0.0.0
+IS91.Services : 9.1.1.1
+Microsoft.VisualBasic : 8.0.0.0
+System.Web : 2.0.0.0
+System.Web.Services : 2.0.0.0
+
+
+14 January 2015	10:52:30	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:35	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:36	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:42	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	10:52:54	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:10	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:19	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:04:27	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:11:45	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:03	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:04	ThreadID-1
+[X] Invalid Port : -2000
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:12	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:12:32	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:23:37	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:23:37	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:23:38	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:23:38	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:23:38	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:23:38	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:23:38	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:24:06	ThreadID-1
+Connected to USB1
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:24:06	ThreadID-1
+Device is already connected.
+
+at BillingManager.SmartCardReaderNew.Connect2Card()
+
+
+14 January 2015	11:24:07	ThreadID-1
+Select Success
+
+at BillingManager.SmartCardReaderNew.SelectCard()
+
+
+14 January 2015	11:24:07	ThreadID-1
+Login Success
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:24:07	ThreadID-1
+Log at Logical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:24:07	ThreadID-1
+Log at Physical Sector: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+
+14 January 2015	11:24:07	ThreadID-1
+Login Type index: 1
+
+at BillingManager.SmartCardReaderNew.Authenticate()
+
+

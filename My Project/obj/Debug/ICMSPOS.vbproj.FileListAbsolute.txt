@@ -1,0 +1,10 @@
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.Resources.resources
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.POSControl.resources
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.vbproj.GenerateResource.Cache
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.dll.licenses
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.dll
+C:\Inetpub\wwwroot\icms2010\ICMSPOS\obj\Debug\ICMSPOS.pdb
+C:\Inetpub\wwwroot\icms2010\ICMSPOS.dll
+C:\Inetpub\wwwroot\icms2010\ICMSPOS.pdb
+C:\Inetpub\wwwroot\icms2010\ICMSPOS.tlb

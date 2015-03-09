@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    <style type="text/css">
+        .Mailbody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            padding-left:20px;
+        }
+        .MailHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            padding-top:15px;
+        }
+        .Mailbottom
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 394px; height: 337px; background-color: #FFCC00" action="">
+
+        <p class="MailHeader">Dear {!ToName},</p>
+        <p class="Mailbody">The Following candidate <b>{!CandidateName}</b>  referred by 
+            <b>{!CreatorName}</b> has been interviewed by <b>{!TechPanel}</b>.
+        </p> 
+        <p class="Mailbody"> InterviewType :{!InterviewType}</p>
+        <p class="Mailbody"> Interview result :{!Status}</p>
+        <p class="Mailbody"> Kindly login to view the details of the candidate.</p>
+        <p class="Mailbody">Click on <a href="192.168.1.2/altiohr">192.168.1.2/altiohr</a></p>
+        <p class="Mailbottom">Regards,</p>
+        <p class="Mailbottom">AltiostarHR</p>
+    </form>
+</body>
+
+</html>

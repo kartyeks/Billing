@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .Mailbody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            padding-left:20px;
+        }
+        .MailHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            padding-top:15px;
+        }
+        .Mailbottom
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+        }
+        .TableHeader
+        {
+        	font-family: Arial;
+            font-size: 14px;
+            font-weight:bold;
+            text-align:center
+        }
+        .TableBody
+        {
+        	font-family: Arial;
+            font-size: 12px;
+            text-align:justify
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 481px; height: 259px; background-color: #00D2D2" action="">
+
+        <p class="MailHeader">Dear {!ToName},</p>
+        <p class="Mailbody"> This notification is to inform that the following candidates are joining on <b>{!JDate}</b>.</p>
+        <table border="1" cellspacing="0" >
+            <th class="TableHeader">Candidate Name</th>
+            <th class="TableHeader">Designation</th>
+            <th class="TableHeader">Interview Date</th>
+            {!LoadContent}
+        </table>
+    </form>   
+</body>
+</html>
+

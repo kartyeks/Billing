@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RecruitmentDataSet" targetNamespace="http://tempuri.org/RecruitmentDataSet.xsd" xmlns:mstns="http://tempuri.org/RecruitmentDataSet.xsd" xmlns="http://tempuri.org/RecruitmentDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RecruitmentDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RecruitmentDataSet" msprop:Generator_DataSetName="RecruitmentDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConsultantDetails" msprop:Generator_UserTableName="ConsultantDetails" msprop:Generator_RowDeletedName="ConsultantDetailsRowDeleted" msprop:Generator_RowChangedName="ConsultantDetailsRowChanged" msprop:Generator_RowClassName="ConsultantDetailsRow" msprop:Generator_RowChangingName="ConsultantDetailsRowChanging" msprop:Generator_RowEvArgName="ConsultantDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="ConsultantDetailsRowChangeEventHandler" msprop:Generator_TableClassName="ConsultantDetailsDataTable" msprop:Generator_TableVarName="tableConsultantDetails" msprop:Generator_RowDeletingName="ConsultantDetailsRowDeleting" msprop:Generator_TablePropName="ConsultantDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConsultantName" msprop:Generator_UserColumnName="ConsultantName" msprop:Generator_ColumnVarNameInTable="columnConsultantName" msprop:Generator_ColumnPropNameInRow="ConsultantName" msprop:Generator_ColumnPropNameInTable="ConsultantNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CandidateName" msprop:Generator_UserColumnName="CandidateName" msprop:Generator_ColumnVarNameInTable="columnCandidateName" msprop:Generator_ColumnPropNameInRow="CandidateName" msprop:Generator_ColumnPropNameInTable="CandidateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ManagerName" msprop:Generator_UserColumnName="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamName" msprop:Generator_UserColumnName="TeamName" msprop:Generator_ColumnVarNameInTable="columnTeamName" msprop:Generator_ColumnPropNameInRow="TeamName" msprop:Generator_ColumnPropNameInTable="TeamNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReferredDate" msprop:Generator_UserColumnName="ReferredDate" msprop:Generator_ColumnVarNameInTable="columnReferredDate" msprop:Generator_ColumnPropNameInRow="ReferredDate" msprop:Generator_ColumnPropNameInTable="ReferredDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InterviewDetails" msprop:Generator_UserTableName="InterviewDetails" msprop:Generator_RowDeletedName="InterviewDetailsRowDeleted" msprop:Generator_RowChangedName="InterviewDetailsRowChanged" msprop:Generator_RowClassName="InterviewDetailsRow" msprop:Generator_RowChangingName="InterviewDetailsRowChanging" msprop:Generator_RowEvArgName="InterviewDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="InterviewDetailsRowChangeEventHandler" msprop:Generator_TableClassName="InterviewDetailsDataTable" msprop:Generator_TableVarName="tableInterviewDetails" msprop:Generator_RowDeletingName="InterviewDetailsRowDeleting" msprop:Generator_TablePropName="InterviewDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Source" msdata:Caption="ConsultantName" msprop:Generator_UserColumnName="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnPropNameInTable="SourceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CandidateName" msprop:Generator_UserColumnName="CandidateName" msprop:Generator_ColumnVarNameInTable="columnCandidateName" msprop:Generator_ColumnPropNameInRow="CandidateName" msprop:Generator_ColumnPropNameInTable="CandidateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ExactInterviewDate" msdata:Caption="ManagerName" msprop:Generator_UserColumnName="ExactInterviewDate" msprop:Generator_ColumnVarNameInTable="columnExactInterviewDate" msprop:Generator_ColumnPropNameInRow="ExactInterviewDate" msprop:Generator_ColumnPropNameInTable="ExactInterviewDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledDate1" msdata:Caption="TeamName" msprop:Generator_UserColumnName="ScheduledDate1" msprop:Generator_ColumnVarNameInTable="columnScheduledDate1" msprop:Generator_ColumnPropNameInRow="ScheduledDate1" msprop:Generator_ColumnPropNameInTable="ScheduledDate1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msdata:Caption="Type" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InterviewType" msdata:Caption="ReferredDate" msprop:Generator_UserColumnName="InterviewType" msprop:Generator_ColumnVarNameInTable="columnInterviewType" msprop:Generator_ColumnPropNameInRow="InterviewType" msprop:Generator_ColumnPropNameInTable="InterviewTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledDate2" msprop:Generator_UserColumnName="ScheduledDate2" msprop:Generator_ColumnVarNameInTable="columnScheduledDate2" msprop:Generator_ColumnPropNameInRow="ScheduledDate2" msprop:Generator_ColumnPropNameInTable="ScheduledDate2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledTime1" msprop:Generator_UserColumnName="ScheduledTime1" msprop:Generator_ColumnVarNameInTable="columnScheduledTime1" msprop:Generator_ColumnPropNameInRow="ScheduledTime1" msprop:Generator_ColumnPropNameInTable="ScheduledTime1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledTime2" msprop:Generator_UserColumnName="ScheduledTime2" msprop:Generator_ColumnVarNameInTable="columnScheduledTime2" msprop:Generator_ColumnPropNameInRow="ScheduledTime2" msprop:Generator_ColumnPropNameInTable="ScheduledTime2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CandidateReferrelDetails" msprop:Generator_UserTableName="CandidateReferrelDetails" msprop:Generator_RowDeletedName="CandidateReferrelDetailsRowDeleted" msprop:Generator_RowChangedName="CandidateReferrelDetailsRowChanged" msprop:Generator_RowClassName="CandidateReferrelDetailsRow" msprop:Generator_RowChangingName="CandidateReferrelDetailsRowChanging" msprop:Generator_RowEvArgName="CandidateReferrelDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="CandidateReferrelDetailsRowChangeEventHandler" msprop:Generator_TableClassName="CandidateReferrelDetailsDataTable" msprop:Generator_TableVarName="tableCandidateReferrelDetails" msprop:Generator_RowDeletingName="CandidateReferrelDetailsRowDeleting" msprop:Generator_TablePropName="CandidateReferrelDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeName" msdata:Caption="ConsultantName" msprop:Generator_UserColumnName="EmployeeName" msprop:Generator_ColumnVarNameInTable="columnEmployeeName" msprop:Generator_ColumnPropNameInRow="EmployeeName" msprop:Generator_ColumnPropNameInTable="EmployeeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CandidateName" msprop:Generator_UserColumnName="CandidateName" msprop:Generator_ColumnVarNameInTable="columnCandidateName" msprop:Generator_ColumnPropNameInRow="CandidateName" msprop:Generator_ColumnPropNameInTable="CandidateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ManagerName" msprop:Generator_UserColumnName="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamName" msprop:Generator_UserColumnName="TeamName" msprop:Generator_ColumnVarNameInTable="columnTeamName" msprop:Generator_ColumnPropNameInRow="TeamName" msprop:Generator_ColumnPropNameInTable="TeamNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReferredDate" msprop:Generator_UserColumnName="ReferredDate" msprop:Generator_ColumnVarNameInTable="columnReferredDate" msprop:Generator_ColumnPropNameInRow="ReferredDate" msprop:Generator_ColumnPropNameInTable="ReferredDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CandidateIssueOfferLetter" msprop:Generator_UserTableName="CandidateIssueOfferLetter" msprop:Generator_RowDeletedName="CandidateIssueOfferLetterRowDeleted" msprop:Generator_RowChangedName="CandidateIssueOfferLetterRowChanged" msprop:Generator_RowClassName="CandidateIssueOfferLetterRow" msprop:Generator_RowChangingName="CandidateIssueOfferLetterRowChanging" msprop:Generator_RowEvArgName="CandidateIssueOfferLetterRowChangeEvent" msprop:Generator_RowEvHandlerName="CandidateIssueOfferLetterRowChangeEventHandler" msprop:Generator_TableClassName="CandidateIssueOfferLetterDataTable" msprop:Generator_TableVarName="tableCandidateIssueOfferLetter" msprop:Generator_RowDeletingName="CandidateIssueOfferLetterRowDeleting" msprop:Generator_TablePropName="CandidateIssueOfferLetter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CandidateName" msprop:Generator_UserColumnName="CandidateName" msprop:Generator_ColumnVarNameInTable="columnCandidateName" msprop:Generator_ColumnPropNameInRow="CandidateName" msprop:Generator_ColumnPropNameInTable="CandidateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Source" msdata:Caption="ManagerName" msprop:Generator_UserColumnName="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnPropNameInTable="SourceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InterviewDate" msdata:Caption="TeamName" msprop:Generator_UserColumnName="InterviewDate" msprop:Generator_ColumnVarNameInTable="columnInterviewDate" msprop:Generator_ColumnPropNameInRow="InterviewDate" msprop:Generator_ColumnPropNameInTable="InterviewDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JoiningDate" msdata:Caption="Type" msprop:Generator_UserColumnName="JoiningDate" msprop:Generator_ColumnVarNameInTable="columnJoiningDate" msprop:Generator_ColumnPropNameInRow="JoiningDate" msprop:Generator_ColumnPropNameInTable="JoiningDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ShortlistedCandidate" msprop:Generator_UserTableName="ShortlistedCandidate" msprop:Generator_RowDeletedName="ShortlistedCandidateRowDeleted" msprop:Generator_RowChangedName="ShortlistedCandidateRowChanged" msprop:Generator_RowClassName="ShortlistedCandidateRow" msprop:Generator_RowChangingName="ShortlistedCandidateRowChanging" msprop:Generator_RowEvArgName="ShortlistedCandidateRowChangeEvent" msprop:Generator_RowEvHandlerName="ShortlistedCandidateRowChangeEventHandler" msprop:Generator_TableClassName="ShortlistedCandidateDataTable" msprop:Generator_TableVarName="tableShortlistedCandidate" msprop:Generator_RowDeletingName="ShortlistedCandidateRowDeleting" msprop:Generator_TablePropName="ShortlistedCandidate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Source" msdata:Caption="ConsultantName" msprop:Generator_UserColumnName="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnPropNameInTable="SourceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CandidateName" msprop:Generator_UserColumnName="CandidateName" msprop:Generator_ColumnVarNameInTable="columnCandidateName" msprop:Generator_ColumnPropNameInRow="CandidateName" msprop:Generator_ColumnPropNameInTable="CandidateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AppliedDate" msdata:Caption="ManagerName" msprop:Generator_UserColumnName="AppliedDate" msprop:Generator_ColumnVarNameInTable="columnAppliedDate" msprop:Generator_ColumnPropNameInRow="AppliedDate" msprop:Generator_ColumnPropNameInTable="AppliedDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledDate1" msdata:Caption="TeamName" msprop:Generator_UserColumnName="ScheduledDate1" msprop:Generator_ColumnVarNameInTable="columnScheduledDate1" msprop:Generator_ColumnPropNameInRow="ScheduledDate1" msprop:Generator_ColumnPropNameInTable="ScheduledDate1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="InterviewType" msdata:Caption="Type" msprop:Generator_UserColumnName="InterviewType" msprop:Generator_ColumnVarNameInTable="columnInterviewType" msprop:Generator_ColumnPropNameInRow="InterviewType" msprop:Generator_ColumnPropNameInTable="InterviewTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msdata:Caption="ReferredDate" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledDate2" msprop:Generator_UserColumnName="ScheduledDate2" msprop:Generator_ColumnPropNameInRow="ScheduledDate2" msprop:Generator_ColumnVarNameInTable="columnScheduledDate2" msprop:Generator_ColumnPropNameInTable="ScheduledDate2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledTime1" msprop:Generator_UserColumnName="ScheduledTime1" msprop:Generator_ColumnPropNameInRow="ScheduledTime1" msprop:Generator_ColumnVarNameInTable="columnScheduledTime1" msprop:Generator_ColumnPropNameInTable="ScheduledTime1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledTime2" msprop:Generator_UserColumnName="ScheduledTime2" msprop:Generator_ColumnPropNameInRow="ScheduledTime2" msprop:Generator_ColumnVarNameInTable="columnScheduledTime2" msprop:Generator_ColumnPropNameInTable="ScheduledTime2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

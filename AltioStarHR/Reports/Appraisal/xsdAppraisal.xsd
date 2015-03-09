@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="xsdAppraisal" targetNamespace="http://tempuri.org/xsdAppraisal.xsd" xmlns:mstns="http://tempuri.org/xsdAppraisal.xsd" xmlns="http://tempuri.org/xsdAppraisal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="xsdAppraisal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="xsdAppraisal" msprop:Generator_DataSetName="xsdAppraisal" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Promotion" msprop:Generator_UserTableName="Promotion" msprop:Generator_RowDeletedName="PromotionRowDeleted" msprop:Generator_RowChangedName="PromotionRowChanged" msprop:Generator_RowClassName="PromotionRow" msprop:Generator_RowChangingName="PromotionRowChanging" msprop:Generator_RowEvArgName="PromotionRowChangeEvent" msprop:Generator_RowEvHandlerName="PromotionRowChangeEventHandler" msprop:Generator_TableClassName="PromotionDataTable" msprop:Generator_TableVarName="tablePromotion" msprop:Generator_RowDeletingName="PromotionRowDeleting" msprop:Generator_TablePropName="Promotion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Employeecode" msprop:Generator_UserColumnName="Employeecode" msprop:Generator_ColumnVarNameInTable="columnEmployeecode" msprop:Generator_ColumnPropNameInRow="Employeecode" msprop:Generator_ColumnPropNameInTable="EmployeecodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Employeename" msprop:Generator_UserColumnName="Employeename" msprop:Generator_ColumnVarNameInTable="columnEmployeename" msprop:Generator_ColumnPropNameInRow="Employeename" msprop:Generator_ColumnPropNameInTable="EmployeenameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Employmenttype" msprop:Generator_UserColumnName="Employmenttype" msprop:Generator_ColumnVarNameInTable="columnEmploymenttype" msprop:Generator_ColumnPropNameInRow="Employmenttype" msprop:Generator_ColumnPropNameInTable="EmploymenttypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Olddesignation" msprop:Generator_UserColumnName="Olddesignation" msprop:Generator_ColumnVarNameInTable="columnOlddesignation" msprop:Generator_ColumnPropNameInRow="Olddesignation" msprop:Generator_ColumnPropNameInTable="OlddesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Newdesignation" msprop:Generator_UserColumnName="Newdesignation" msprop:Generator_ColumnVarNameInTable="columnNewdesignation" msprop:Generator_ColumnPropNameInRow="Newdesignation" msprop:Generator_ColumnPropNameInTable="NewdesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Promotioneffectivedate" msprop:Generator_UserColumnName="Promotioneffectivedate" msprop:Generator_ColumnVarNameInTable="columnPromotioneffectivedate" msprop:Generator_ColumnPropNameInRow="Promotioneffectivedate" msprop:Generator_ColumnPropNameInTable="PromotioneffectivedateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hike" msprop:Generator_UserTableName="Hike" msprop:Generator_RowDeletedName="HikeRowDeleted" msprop:Generator_RowChangedName="HikeRowChanged" msprop:Generator_RowClassName="HikeRow" msprop:Generator_RowChangingName="HikeRowChanging" msprop:Generator_RowEvArgName="HikeRowChangeEvent" msprop:Generator_RowEvHandlerName="HikeRowChangeEventHandler" msprop:Generator_TableClassName="HikeDataTable" msprop:Generator_TableVarName="tableHike" msprop:Generator_RowDeletingName="HikeRowDeleting" msprop:Generator_TablePropName="Hike">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Employeecode" msprop:Generator_UserColumnName="Employeecode" msprop:Generator_ColumnVarNameInTable="columnEmployeecode" msprop:Generator_ColumnPropNameInRow="Employeecode" msprop:Generator_ColumnPropNameInTable="EmployeecodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Employeename" msprop:Generator_UserColumnName="Employeename" msprop:Generator_ColumnVarNameInTable="columnEmployeename" msprop:Generator_ColumnPropNameInRow="Employeename" msprop:Generator_ColumnPropNameInTable="EmployeenameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Designation" msprop:Generator_UserColumnName="Designation" msprop:Generator_ColumnVarNameInTable="columnDesignation" msprop:Generator_ColumnPropNameInRow="Designation" msprop:Generator_ColumnPropNameInTable="DesignationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OldCTC" msprop:Generator_UserColumnName="OldCTC" msprop:Generator_ColumnVarNameInTable="columnOldCTC" msprop:Generator_ColumnPropNameInRow="OldCTC" msprop:Generator_ColumnPropNameInTable="OldCTCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NewCTC" msprop:Generator_UserColumnName="NewCTC" msprop:Generator_ColumnVarNameInTable="columnNewCTC" msprop:Generator_ColumnPropNameInRow="NewCTC" msprop:Generator_ColumnPropNameInTable="NewCTCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Hikepercentage" msprop:Generator_UserColumnName="Hikepercentage" msprop:Generator_ColumnVarNameInTable="columnHikepercentage" msprop:Generator_ColumnPropNameInRow="Hikepercentage" msprop:Generator_ColumnPropNameInTable="HikepercentageColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

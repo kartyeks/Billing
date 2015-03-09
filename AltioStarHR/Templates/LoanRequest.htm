@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Loan Notification</title>
+</head>
+<body style="background-color: transparent">
+<div id="divPolicyRequest">
+    <table style="table-layout: fixed; width: 100%; height: 100%">
+     <tr>
+            <td >
+              
+                Hello {Prm!EmpName},<br/><br/>                          
+                </td>
+        </tr>
+        <tr>    
+            <td>
+            You requested for a Loan. Loan Details given below -
+            </td>
+        </tr>
+        <tr><td>
+            Loan Name : <label id="lLoanName">{Prm!LoanName}</label> <br />
+        </td></tr>
+        <tr><td>
+            Loan Amount : <label id="lLoanAmount">{Prm!LoanAmount}</label> <br /> 
+        </td></tr>       
+      <tr><td>
+            Loan Reason : <label id="lLoanReason">{Prm!lLoanReason}</label> <br /> 
+        </td></tr>    
+        <tr><td>
+            <br />
+            Please do not reply to this mail. Auto-email sent by HRMS.<br/><br/>
+        </td></tr>        
+        
+<tr><td><br /><br /></td></tr>
+             
+    </table>
+</div>
+</body>
+</html>
+
+

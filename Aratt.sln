@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aratt", "AltioStarHR\Aratt.csproj", "{EC614AFC-88C2-4986-8108-3DA530EB76E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12} = {6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244} = {AEFD0F4F-524F-480C-9B80-F895DEAC1244}
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30} = {EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949} = {2022ABFA-8CD5-49F2-ACEF-8098937E5949}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationManager", "ApplicationManager\ApplicationManager.csproj", "{AEFD0F4F-524F-480C-9B80-F895DEAC1244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRCAKernel", "IRCAKernel\IRCAKernel.csproj", "{2022ABFA-8CD5-49F2-ACEF-8098937E5949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonManager", "CommonManager\CommonManager.csproj", "{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManager", "HRManager\HRManager.csproj", "{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ApplicationManager\\ApplicationManager.csproj
+		SccProjectName1 = \u0022$/ARATTHR/ApplicationManager\u0022,\u0020NOQJAAAA
+		SccLocalPath1 = ApplicationManager
+		SccProjectUniqueName2 = IRCAKernel\\IRCAKernel.csproj
+		SccProjectName2 = \u0022$/ARATTHR/IRCAKernel\u0022,\u0020BNRJAAAA
+		SccLocalPath2 = IRCAKernel
+		SccProjectUniqueName3 = CommonManager\\CommonManager.csproj
+		SccProjectName3 = \u0022$/ARATTHR/CommonManager\u0022,\u0020BQQJAAAA
+		SccLocalPath3 = CommonManager
+		SccProjectUniqueName4 = HRManager\\HRManager.csproj
+		SccProjectName4 = \u0022$/ARATTHR/HRManager\u0022,\u0020YRQJAAAA
+		SccLocalPath4 = HRManager
+		SccProjectUniqueName5 = Authentication\\Authentication.csproj
+		SccProjectName5 = \u0022$/ARATTHR/Authentication\u0022,\u0020GPQJAAAA
+		SccLocalPath5 = Authentication
+		SccProjectUniqueName6 = AltioStarHR\\Aratt.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = AltioStarHR\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug1|Any CPU = Debug1|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Debug1|Any CPU.ActiveCfg = Debug1|Any CPU
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Debug1|Any CPU.Build.0 = Debug1|Any CPU
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC614AFC-88C2-4986-8108-3DA530EB76E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Debug1|Any CPU.ActiveCfg = Debug1|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Debug1|Any CPU.Build.0 = Debug1|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFD0F4F-524F-480C-9B80-F895DEAC1244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Debug1|Any CPU.ActiveCfg = Debug1|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Debug1|Any CPU.Build.0 = Debug1|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2022ABFA-8CD5-49F2-ACEF-8098937E5949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Debug1|Any CPU.ActiveCfg = Debug1|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Debug1|Any CPU.Build.0 = Debug1|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C83E728-C3A6-46E5-A3AB-ECE122DE4C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Debug1|Any CPU.ActiveCfg = Debug1|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Debug1|Any CPU.Build.0 = Debug1|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0D569E-7E4D-4D38-AE1D-D0C10FB2FA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Debug1|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Debug1|Any CPU.Build.0 = Debug|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AE16C0-1682-4CE4-92AE-B29A38A9E1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

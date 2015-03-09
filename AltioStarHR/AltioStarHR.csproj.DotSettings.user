@@ -1,0 +1,5 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=EXITMANAGEMENT_005CRESOURCES/@EntryIndexedValue">ExitManagement\Resources</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=RESOURCES_005CJS_005CJQUERY_002DUI_002D1_002E8_002E17_002ECUSTOM_002EMIN_002EJS/@EntryIndexedValue">Resources\js\jquery-ui-1.8.17.custom.min.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=EXITMANAGEMENT_005CRESOURCES/@EntryIndexedValue">ExitManagement\Resources</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=RESOURCES_005CJS_005CJQUERY_002DUI_002D1_002E8_002E17_002ECUSTOM_002EMIN_002EJS/@EntryIndexedValue">Resources\js\jquery-ui-1.8.17.custom.min.js</s:String></wpf:ResourceDictionary>

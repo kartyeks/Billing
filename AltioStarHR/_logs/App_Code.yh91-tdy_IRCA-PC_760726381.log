@@ -1,0 +1,171 @@
+﻿05 February 2014
+System : IRCA-PC/fe80::9cd3:8627:fa64:418%12
+System OS : Microsoft Windows NT 6.1.7601 Service Pack 1/32bitOS-Win7
+isServer OS : False
+NetFW2SP : 2
+User : IRCASERVER91\ravindra
+IS91.Services : 9.1.1.1 ( 9.3.1.92 )
+DomainID : e3104546-2-130360552300653441
+System Windows installer : 5.0.7601.17807
+Application is Web : True
+Application : AltioStarHR
+Application ID : ALTIOSTARHR
+Application Version : 1.0.0.32
+Application Assembly : App_Code.yh91-tdy, Version=1.0.0.32, Culture=neutral, PublicKeyToken=null
+Application updated on : 05/02/2014
+Application path : f:\project\altiostar\altiostarhr\bin\
+Application Executing Env Path : C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\a56f5b5f\14ce49a\App_Code.yh91-tdy.dll
+Host : 
+isWebServerEnvironment : False
+mscorlib : 2.0.0.0
+System.Web : 2.0.0.0
+System : 2.0.0.0
+System.Configuration : 2.0.0.0
+System.Xml : 2.0.0.0
+System.Web.RegularExpressions : 2.0.0.0
+Microsoft.JScript : 8.0.0.0
+CppCodeProvider : 8.0.0.0
+System.Data : 2.0.0.0
+System.Web.Services : 2.0.0.0
+System.Drawing : 2.0.0.0
+System.EnterpriseServices : 2.0.0.0
+System.Web.Mobile : 2.0.0.0
+AltioStarHR : 1.0.0.32
+ApplicationManager : 1.0.0.32
+Authentication : 1.0.0.32
+CommonManager : 1.0.0.32
+CostingManager : 1.0.0.27
+HRManager : 1.0.0.32
+ICSharpCode.SharpZipLib : 0.86.0.518
+Ionic.Zip : 1.9.1.5
+IRCAKernel : 1.0.0.32
+IS91.Services : 9.1.1.1
+Jayrock.Json : 0.9.8316.0
+NPOI : 2.0.0.0
+NPOI.OOXML : 2.0.0.0
+NPOI.OpenXml4Net : 2.0.0.0
+NPOI.OpenXmlFormats : 2.0.0.0
+ProjectCosting : 1.0.0.27
+System.Windows.Controls.DataVisualization.Toolkit.Design.4.0 : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.Expression.Design : 3.5.40128.1
+System.Windows.Controls.DataVisualization.Toolkit.VisualStudio.Design : 3.5.40128.1
+WPFToolkit : 3.5.40128.1
+System.Runtime.Serialization : 3.0.0.0
+System.IdentityModel : 3.0.0.0
+System.ServiceModel : 3.0.0.0
+System.ServiceModel.Web : 3.5.0.0
+System.WorkflowServices : 3.5.0.0
+System.Windows.Forms : 2.0.0.0
+System.Core : 3.5.0.0
+System.Data.DataSetExtensions : 3.5.0.0
+System.Web.Extensions : 3.5.0.0
+System.Web.Abstractions : 3.5.0.0
+System.Xml.Linq : 3.5.0.0
+Microsoft.ReportViewer.Common : 10.0.0.0
+Microsoft.ReportViewer.WebForms : 10.0.0.0
+App_Code.yh91-tdy : 1.0.0.32
+App_global.asax.1fk4oumi : 0.0.0.0
+WebDev.WebHost : 9.0.0.0
+Microsoft.VisualBasic : 8.0.0.0
+IS91Zip : 9.1.1.1
+SMDiagnostics : 3.0.0.0
+A_f8808a2e_c872_448f_b467_2e3e00b7d867 : 0.0.0.0
+App_Web_vvlnvbgd : 0.0.0.0
+
+
+05 February 2014	11:57:13	ThreadID-8
+System.Web.HttpParseException: The type '_Default' is ambiguous: it could come from assembly 'F:\Project\AltioStar\AltioStarHR\bin\ProjectCosting.DLL' or from assembly 'F:\Project\AltioStar\AltioStarHR\bin\AltioStarHR.DLL'. Please specify the assembly explicitly in the type name. ---> System.Web.HttpParseException: The type '_Default' is ambiguous: it could come from assembly 'F:\Project\AltioStar\AltioStarHR\bin\ProjectCosting.DLL' or from assembly 'F:\Project\AltioStar\AltioStarHR\bin\AltioStarHR.DLL'. Please specify the assembly explicitly in the type name. ---> System.Web.HttpException: The type '_Default' is ambiguous: it could come from assembly 'F:\Project\AltioStar\AltioStarHR\bin\ProjectCosting.DLL' or from assembly 'F:\Project\AltioStar\AltioStarHR\bin\AltioStarHR.DLL'. Please specify the assembly explicitly in the type name.
+   at System.Web.UI.Util.GetTypeFromAssemblies(ICollection assemblies, String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseReader(StreamReader reader, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.UI.TemplateParser.Parse(ICollection referencedAssemblies, VirtualPath virtualPath)
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseReader(StreamReader reader, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.UI.TemplateParser.Parse(ICollection referencedAssemblies, VirtualPath virtualPath)
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+System.Web.HttpParseException: The type '_Default' is ambiguous: it could come from assembly 'F:\Project\AltioStar\AltioStarHR\bin\ProjectCosting.DLL' or from assembly 'F:\Project\AltioStar\AltioStarHR\bin\AltioStarHR.DLL'. Please specify the assembly explicitly in the type name. ---> System.Web.HttpException: The type '_Default' is ambiguous: it could come from assembly 'F:\Project\AltioStar\AltioStarHR\bin\ProjectCosting.DLL' or from assembly 'F:\Project\AltioStar\AltioStarHR\bin\AltioStarHR.DLL'. Please specify the assembly explicitly in the type name.
+   at System.Web.UI.Util.GetTypeFromAssemblies(ICollection assemblies, String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+05 February 2014	11:57:13	ThreadID-8
+GET - http://localhost:53968/Default.aspx
+no UrlReferrer
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko - 127.0.0.1 - 127.0.0.1
+F:\Project\AltioStar\AltioStarHR\Default.aspx
+/Default.aspx
+/Default.aspx
+~/Default.aspx
+/Default.aspx
+
+Params - Start
+ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:en-US
+HTTP_HOST:localhost:53968
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&ALL_RAW=Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Host: localhost:53968
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+&APPL_MD_PATH=&APPL_PHYSICAL_PATH=F:\Project\AltioStar\AltioStarHR\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=IRCASERVER91\ravindra&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=&HTTPS=&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=&INSTANCE_META_PATH=&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Default.aspx&PATH_TRANSLATED=F:\Project\AltioStar\AltioStarHR\Default.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=&REQUEST_METHOD=GET&SCRIPT_NAME=/Default.aspx&SERVER_NAME=localhost&SERVER_PORT=53968&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=&URL=/Default.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_ACCEPT=text/html, application/xhtml+xml, */*&HTTP_ACCEPT_ENCODING=gzip, deflate&HTTP_ACCEPT_LANGUAGE=en-US&HTTP_HOST=localhost:53968&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+Params - End
+
+at IS91.Services.Web.ApplicationModule.Application_Error(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+
+

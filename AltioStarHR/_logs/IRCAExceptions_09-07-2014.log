@@ -1,0 +1,324 @@
+
+09-Jul-14 10:46:01 AM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 11:26:11 AM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 11:32:52 AM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 11:39:56 AM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:02:10 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:06:10 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:14:47 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:17:01 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:18:14 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:21:39 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:29:17 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:38:39 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:47:42 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:55:27 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:55:33 PM
+Invalid Leave
+   at HRManager.Entity.Leave..ctor(Int32 ID) in F:\Project\AltioStar\HRManager\Entity\Leave.cs:line 128
+   at HRManager.Entity.EmployeeLeave.LeaveRequest.GetGridData() in F:\Project\AltioStar\HRManager\Entity\EmployeeLeave\LeaveRequest.cs:line 387
+   at IRCA.Communication.JGridObjectBuilder.GetGridObject() in F:\Project\AltioStar\IRCAKernel\Communication\JGridObject.cs:line 351
+   at HRManager.HRRequestHandler.GetLeaveRequestDetails(CommunicationObject RequestDataObject) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 3175
+   at HRManager.HRRequestHandler.ProcessRequest(String RequestCommand, String RequestData) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 398
+
+09-Jul-14 12:57:17 PM
+Invalid Leave
+   at HRManager.Entity.Leave..ctor(Int32 ID) in F:\Project\AltioStar\HRManager\Entity\Leave.cs:line 128
+   at HRManager.Entity.EmployeeLeave.LeaveRequest.GetGridData() in F:\Project\AltioStar\HRManager\Entity\EmployeeLeave\LeaveRequest.cs:line 387
+   at IRCA.Communication.JGridObjectBuilder.GetGridObject() in F:\Project\AltioStar\IRCAKernel\Communication\JGridObject.cs:line 351
+   at HRManager.HRRequestHandler.GetLeaveRequestDetails(CommunicationObject RequestDataObject) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 3175
+   at HRManager.HRRequestHandler.ProcessRequest(String RequestCommand, String RequestData) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 398
+
+09-Jul-14 12:58:23 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 12:58:32 PM
+Invalid Leave
+   at HRManager.Entity.Leave..ctor(Int32 ID) in F:\Project\AltioStar\HRManager\Entity\Leave.cs:line 128
+   at HRManager.Entity.EmployeeLeave.LeaveRequest.GetGridData() in F:\Project\AltioStar\HRManager\Entity\EmployeeLeave\LeaveRequest.cs:line 387
+   at IRCA.Communication.JGridObjectBuilder.GetGridObject() in F:\Project\AltioStar\IRCAKernel\Communication\JGridObject.cs:line 351
+   at HRManager.HRRequestHandler.GetLeaveRequestDetails(CommunicationObject RequestDataObject) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 3175
+   at HRManager.HRRequestHandler.ProcessRequest(String RequestCommand, String RequestData) in F:\Project\AltioStar\HRManager\HRRequestHandler\HRRequestHandler.cs:line 398
+
+09-Jul-14 12:59:55 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 1:06:12 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 1:11:42 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 1:49:08 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 1:58:09 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:21:06 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:23:59 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:26:29 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:27:32 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:31:29 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:36:03 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:39:03 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:45:43 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:48:24 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:54:52 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 2:59:13 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:01:32 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:02:51 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:04:29 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:06:19 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:09:55 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:12:04 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:22:35 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:25:49 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:27:21 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:33:53 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:34:48 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:37:11 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:38:03 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:39:05 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:39:25 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:50:29 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:51:33 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:53:38 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:53:38 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:57:17 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 3:57:17 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 4:23:11 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 4:23:11 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:15:56 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:15:56 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:17:31 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:17:31 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:20:20 PM
+Specified cast is not valid.
+Message
+
+
+09-Jul-14 5:20:20 PM
+Specified cast is not valid.
+Message
+

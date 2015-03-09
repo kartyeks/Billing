@@ -1,0 +1,15 @@
+F:\Project\AltioStar\Libs\HRManager.dll
+F:\Project\AltioStar\Libs\HRManager.pdb
+F:\Project\AltioStar\HRManager\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\AltioStar\HRManager\obj\Debug\HRManager.dll
+F:\Project\AltioStar\HRManager\obj\Debug\HRManager.pdb
+D:\Projects\AltioStar\HRManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AltioStar\Libs\HRManager.dll
+D:\Projects\AltioStar\Libs\HRManager.pdb
+D:\Projects\AltioStar\HRManager\obj\Debug\HRManager.dll
+D:\Projects\AltioStar\HRManager\obj\Debug\HRManager.pdb
+D:\kk\Projects\AltioStar\Libs\HRManager.dll
+D:\kk\Projects\AltioStar\Libs\HRManager.pdb
+D:\kk\Projects\AltioStar\HRManager\obj\Debug\ResolveAssemblyReference.cache
+D:\kk\Projects\AltioStar\HRManager\obj\Debug\HRManager.dll
+D:\kk\Projects\AltioStar\HRManager\obj\Debug\HRManager.pdb
